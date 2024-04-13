@@ -1,0 +1,79 @@
+<configs>
+
+
+
+
+	<!-- <backgrounds>
+		<tex file="Mods/Khelldon-CustomMenu/UIAtlases/ItemIconAtlas/Testing" />
+	</backgrounds> -->
+
+<!-- <remove xpath="/doc/backgrounds//tex[@file='GUI/loading_screen_1']"/> -->
+<!-- <remove xpath="/doc/backgrounds//tex[@file='GUI/loading_screen_2']"/>
+<remove xpath="/doc/backgrounds//tex[@file='GUI/loading_screen_3']"/>
+<remove xpath="/doc/backgrounds//tex[@file='GUI/loading_screen_4']"/> -->
+
+<!-- <set xpath="doc/backgrounds">
+	<tex file="@modfolder:/Config/backgrounds/RELoading1.jpg"/>
+	<tex file="@modfolder:/Config/backgrounds/RELoading2.jpg"/>
+	<tex file="@modfolder:/Config/backgrounds/RELoading3.jpg"/>	
+</set>
+
+
+<set xpath="/doc/tips//tip[1]/@key">loadingTipRE1</set>
+<set xpath="/doc/tips//tip[2]/@key">loadingTipRE2</set>
+<set xpath="/doc/tips//tip[3]/@key">loadingTipRE3</set>
+<set xpath="/doc/tips//tip[4]/@key">loadingTipRE4</set>
+<set xpath="/doc/tips//tip[5]/@key">loadingTipRE5</set>
+<set xpath="/doc/tips//tip[6]/@key">loadingTipRE6</set>
+<set xpath="/doc/tips//tip[7]/@key">loadingTipRE7</set>
+<set xpath="/doc/tips//tip[8]/@key">loadingTipRE8</set> -->
+
+<!-- <remove xpath="/doc/tips//tip[@key='loadingTipMainHUD']"/>
+<remove xpath="/doc/tips//tip[@key='loadingStoneAxe']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipHarvestingResources']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipDistraction']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipStealth']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipEncumbrance']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipArmor']"/> -->
+<!-- <remove xpath="/doc/tips//tip[@key='loadingTipBandages']"/> -->
+<!-- <remove xpath="/doc/tips//tip[@key='loadingTipJournalEntries']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipQuestSharing']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipWhatIsItGoodFor']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipWorkstations']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipUnlockingRecipes']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipCraftingBetterQL']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipMagazines']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipPerkLootBoost']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipBaseUpgrading']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipRadials']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipHarvestingCorpses']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipGlue']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipProperTools']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipItemStats']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipExtCharStats']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipBladedWeapons']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipPickaxes']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipAxes']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipSteelKnuckles']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipWrenches']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipSledgehammers']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipUsingIronTools']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipScrapping']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipBuffs']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipKnownSchematics']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipTwitchIntegration']"/> -->
+
+	<!-- <tips>
+		<tip key="loadingTipRE1" />
+		<tip key="loadingTipRE2" />
+		<tip key="loadingTipRE3" />
+		<tip key="loadingTipRE4" />
+		<tip key="loadingTipRE5" />
+		<tip key="loadingTipRE6" />
+		<tip key="loadingTipRE7" />
+	</tips> -->
+
+
+
+
+</configs>
