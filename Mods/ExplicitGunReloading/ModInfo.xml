@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml>
+	<Name value="ExplicitGunReloading"/>
+	<DisplayName value="Explicit Gun Reloading"/>
+	<Description value="For making you reload only when you say reload!!!11" />
+	<Author value="redbeardt" />
+	<Version value="1.0.0.0" />
+	<Website value="https://www.nexusmods.com/users/102102433" />
+</xml>
