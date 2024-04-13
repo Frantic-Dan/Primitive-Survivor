@@ -1,0 +1,406 @@
+<configs>
+
+	<!-- newbie coat -->
+	<set xpath="/buffs/buff[@name='buffNearDeathTraumaTrigger']/effect_group//triggered_effect[1]/@buff">buffDeathPenaltyWeakened</set>
+	<remove xpath="/buffs/buff[@name='buffNearDeathTraumaTrigger']/effect_group//triggered_effect[2]"/>
+	<!-- Increase Consumable buff duration -->
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[16]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[17]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[18]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[19]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[20]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[21]/requirement[@name='ProgressionLevel']/@progression_name">perkSlowAbsorption</set>
+	
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[17]/@value">.8</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[18]/@value">.6666</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[19]/@value">.5714</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[20]/@value">.5</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[21]/@value">.5</set>
+	
+	<!-- Sickness resistance -->
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[8]/@value">-2</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[9]/@value">-4</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[10]/@value">-6</set>
+	
+	<!-- Medical Healing rate -->
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[22]/@value">4</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[23]/@value">5</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[24]/@value">6</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[25]/@value">7</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[26]/@value">8</set>
+	<set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group//triggered_effect[27]/@value">8</set>
+	
+	<!-- Critical Treated Healing Rate -->
+	<set xpath="/buffs/buff[@name='buffStatusCheck02']/effect_group[18]//triggered_effect[2]/@value">1.25</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck02']/effect_group[18]//triggered_effect[3]/@value">1.5</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck02']/effect_group[18]//triggered_effect[4]/@value">1.75</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck02']/effect_group[18]//triggered_effect[5]/@value">2</set>
+	<!-- <set xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group/triggered_effect[23]/requirement[@name='ProgressionLevel']/@progression_name">perkMedicalKnowledge</set> -->
+	<set xpath="/buffs/buff[@name='buffHealHealth']/effect_group[2]//triggered_effect[2]/@value">4</set>
+	<set xpath="/buffs/buff[@name='buffHealHealth']/effect_group[3]//triggered_effect[2]/@value">4</set>
+	<set xpath="/buffs/buff[@name='buffHealHealth']/effect_group[3]//triggered_effect[6]/@value">4</set>
+	<!--Yucca Juice Smoothie cools instead of warms-->
+	<set xpath="/buffs/buff[@name='buffYuccaJuiceSmoothie']/effect_group[3]/passive_effect/@name">HyperthermalResist</set>
+	
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[23]/@value">0</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[24]/@value">1</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[25]/@value">2</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[26]/@value">3</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[27]/@value">4</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[28]/@value">5</set>
+	
+	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group//triggered_effect[3]/@value">0.015</set>
+	
+	<!--additional perks for top tier foods-->
+	<insertAfter xpath="/buffs/buff[@name='buffShamChowder']">
+		<buff name="buffGumboStew" name_key="foodGumboStew" description_key="foodGumboStewDesc" icon="ui_game_symbol_fork">
+			<stack_type value="replace"/><duration value="0"/>
+			<display_value value=".buffGumboStewDisplay"/><display_value_format value="time"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffGumboStewDuration" operation="subtract" value="@$MetabolismDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGumboStewDisplay" operation="set" value="@$buffGumboStewDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGumboStewDisplay" operation="divide" value="@$MetabolismDuration"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffGumboStew">
+					<requirement name="CVarCompare" cvar="$buffGumboStewDuration" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffGumboStewDisplay" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffGumboStewDuration" operation="set" value="0"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffShepardsPie" name_key="foodShepardsPie" description_key="foodShepardsPieDesc" icon="ui_game_symbol_fork">
+			<stack_type value="replace"/><duration value="0"/>
+			<display_value value=".buffShepardsPieDisplay"/><display_value_format value="time"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffShepardsPieDuration" operation="subtract" value="@$MetabolismDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffShepardsPieDisplay" operation="set" value="@$buffShepardsPieDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffShepardsPieDisplay" operation="divide" value="@$MetabolismDuration"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffShepardsPie">
+					<requirement name="CVarCompare" cvar="$buffShepardsPieDuration" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffShepardsPieDisplay" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffShepardsPieDuration" operation="set" value="0"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffSpaghetti" name_key="foodSpaghetti" description_key="foodSpaghettiDesc" icon="ui_game_symbol_fork">
+			<stack_type value="replace"/><duration value="0"/>
+			<display_value value=".buffSpaghettiDisplay"/><display_value_format value="time"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSpaghettiDuration" operation="subtract" value="@$MetabolismDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSpaghettiDisplay" operation="set" value="@$buffSpaghettiDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSpaghettiDisplay" operation="divide" value="@$MetabolismDuration"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffSpaghetti">
+					<requirement name="CVarCompare" cvar="$buffSpaghettiDuration" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffSpaghettiDisplay" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffSpaghettiDuration" operation="set" value="0"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffTunaFishGravyToast" name_key="foodTunaFishGravyToast" description_key="foodTunaFishGravyToastDesc" icon="ui_game_symbol_fork">
+			<stack_type value="replace"/><duration value="0"/>
+			<display_value value=".buffTunaFishGravyToastDisplay"/><display_value_format value="time"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffTunaFishGravyToastDuration" operation="subtract" value="@$MetabolismDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffTunaFishGravyToastDisplay" operation="set" value="@$buffTunaFishGravyToastDuration"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffTunaFishGravyToastDisplay" operation="divide" value="@$MetabolismDuration"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffTunaFishGravyToast">
+					<requirement name="CVarCompare" cvar="$buffTunaFishGravyToastDuration" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffTunaFishGravyToastDisplay" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffTunaFishGravyToastDuration" operation="set" value="0"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			</effect_group>
+		</buff>	
+	</insertAfter>
+	
+	
+		<!--reduce stamina regen pause duration on power attack-->	
+	<set xpath="/buffs/buff[@name='buffPowerAttackStaminaStunt']/duration/@value">2</set>
+
+	<!--injuries persist after death -->
+	 
+	<setattribute xpath="/buffs/buff[@name='buffInjuryAbrasion']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInjuryAbrasionTreated']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegSplinted']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegCast']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmSplinted']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmCast']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffFatigued']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLaceration']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInjuryConcussion']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01Untreated']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfectionMain']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection01Untreated']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection02Untreated']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection02GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection03Untreated']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection03GetBetter']" name="remove_on_death">false</setattribute>
+	
+	<!--stage 2 infection starts at 35%-->
+	<set xpath="/buffs/buff[@name='buffInfectionMain']/effect_group[1]//triggered_effect[2]/@value">35</set>
+	<set xpath="/buffs/buff[@name='buffInfectionMain']/effect_group[1]//triggered_effect[3]/@value">70</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group//triggered_effect[2]/@value">28800</set>
+	
+	<insertbefore xpath="/buffs/buff[@name='buffOnAnyCrit']/effect_group[3]/requirement[@name='CVarCompare'][@cvar='noTeethNoInfection']">
+		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+	</insertbefore>
+	<remove xpath="/buffs/buff[@name='buffOnAnyCrit']/effect_group[3]/passive_effect[@name='BuffResistance']"/>
+	<!--makes infection incurable-->
+	<remove xpath="/buffs/buff[@name='buffInfectionMain']//effect_group[@name='shut down']"/>
+	
+	<!--death from infection cures infection-->
+	
+	<insertAfter xpath="/buffs/buff[@name='buffInfection04']/effect_group/triggered_effect [@trigger='onSelfBuffStart']">
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection01Untreated"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection01GetBetter"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection02Untreated"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection02GetBetter"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection03Untreated"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfection04"/>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInfectionMain"/>
+		<triggered_effect trigger="onSelfBuffStart" target="self" action="ModifyCVar" cvar="infectionCounter" operation="set" value="64"/>
+	</insertAfter>
+
+
+	<remove xpath="/buffs/buff[@name='buffJournalUnlocks']"/>
+
+
+	<set xpath="/buffs/buff[@name='buffShocked']/duration[@value='4']/@value">6</set>
+	<set xpath="/buffs/buff[@name='buffShocked']/effect_group[1]//passive_effect[2]/@value">-8</set>
+	
+	<set xpath="/buffs/buff[@name='buffDrugSkullCrushers']/effect_group[3]/passive_effect[@name='EntityDamage']/@value">1</set>
+	
+	<set xpath="/buffs/buff[@name='buffLegSprained']/effect_group[5]//triggered_effect[2]/@value">30</set>
+	<set xpath="/buffs/buff[@name='buffLegSprained']/effect_group[5]//triggered_effect[4]/@value">30</set>
+	
+	<insertafter xpath="//buff[@name='buffLegSprained']/effect_group[3]/requirement[@name='!HasBuff'][@buff='buffDrugSteroids']">
+	<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLanding" operation="Equals" value="0"/>
+	</insertafter>
+	
+<insertafter xpath="//buff[@name='buffLegSprained']/effect_group[3]">
+	<effect_group name="activity makes damaged legs worse">
+			<!-- If not consuming steroids... -->
+			<requirement name="!HasBuff" buff="buffDrugSteroids"/>
+			<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLanding" operation="Equals" value="1"/>
+				<!-- Jumping makes it worse -->
+				<triggered_effect trigger="onSelfJump" action="ModifyCVar" cvar="$legHurtCounter" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="buffLegGetsWorse"/>
+				<!-- Falling makes it worse -->
+				<triggered_effect trigger="onSelfFallImpact" action="ModifyCVar" cvar="$legHurtCounter" operation="add" value="20">
+					<requirement name="CVarCompare" cvar="_fallSpeed" operation="GTE" value=".07"/></triggered_effect>
+				<triggered_effect trigger="onSelfFallImpact" action="AddBuff" buff="buffLegGetsWorse">
+					<requirement name="CVarCompare" cvar="_fallSpeed" operation="GTE" value=".07"/></triggered_effect>
+				<!-- If running, make it worse -->
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$legHurtCounter" operation="add" value="2">
+					<requirement name="EntityHasMovementTag" tags="running"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffLegGetsWorse">
+					<requirement name="EntityHasMovementTag" tags="running"/></triggered_effect>
+				<!-- Clamp counter -->
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$legHurtCounter" operation="set" value="605">
+					<requirement name="CVarCompare" cvar="$legHurtCounter" operation="GT" value="605"/>
+				</triggered_effect>
+		</effect_group>
+</insertafter>
+	
+	<set xpath="/buffs/buff[@name='buffArmSprained']/effect_group[5]//triggered_effect[2]/@value">30</set>
+	<set xpath="/buffs/buff[@name='buffArmSprained']/effect_group[5]//triggered_effect[4]/@value">30</set>
+	
+<insertafter xpath="//buff[@name='buffArmSprained']/effect_group[3]/requirement[@name='!HasBuff'][@buff='buffDrugSteroids']">
+	<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLanding" operation="Equals" value="0"/>
+</insertafter>
+	
+<insertafter xpath="//buff[@name='buffArmSprained']/effect_group[3]">
+	<effect_group name="activity makes damaged arms worse">
+			<!-- If not consuming steroids... -->
+			<requirement name="!HasBuff" buff="buffDrugSteroids"/>
+			<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLanding" operation="Equals" value="1"/>
+				<!-- Using ranged makes it worse -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$armHurtCounter" operation="add" value="4">
+					<requirement name="HoldingItemHasTags" tags="ranged"/></triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffArmGetsWorse">
+					<requirement name="HoldingItemHasTags" tags="ranged"/></triggered_effect>
+				<!-- Using melee makes it worse -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="$armHurtCounter" operation="add" value="4">
+					<requirement name="HoldingItemHasTags" tags="melee"/>
+					<requirement name="!HoldingItemHasTags" tags="repairTool"/></triggered_effect>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" buff="buffArmGetsWorse">
+					<requirement name="HoldingItemHasTags" tags="melee"/>
+					<requirement name="!HoldingItemHasTags" tags="repairTool"/></triggered_effect>
+				<!-- Clamp counter -->
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$armHurtCounter" operation="set" value="605">
+					<requirement name="CVarCompare" cvar="$armHurtCounter" operation="GT" value="605"/>
+				</triggered_effect>
+		</effect_group>
+</insertafter>
+
+	<remove xpath="/buffs/buff[@name='buffDrugVitamins']/effect_group[2]//triggered_effect[4]"/>
+	<remove xpath="/buffs/buff[@name='buffDrugPainkillers']/effect_group[2]//triggered_effect[4]"/>
+	
+<append xpath="/buffs">
+
+	<buff name="twitch_buffNoTimeRE" hidden="true">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<display_value value="duration"/>
+
+		<effect_group>
+			<!-- Blinks the display -->
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="twitch_buffNoTime"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="twitch_buffNoTime"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="twitch_bad_buff_ended" play_in_head="true" />
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="NoTimeDisplay" operation="base_set" value="1"/>
+		</effect_group>
+	</buff>	
+	
+	<buff name="buffInfectionProtection" name_key="InfectionProtection" description_key="buffInfectionProtectionDesc" icon="ui_game_symbol_pills" icon_color="155,255,155" hidden="false">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<display_value value=".buffInfectionProtectionDisplay"/>
+		<display_value_format value="time"/>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffInfectionProtectionDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInfectionProtectionDisplay" operation="set" value="@$buffInfectionProtectionDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInfectionProtectionDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffInfectionProtection">
+				<requirement name="CVarCompare" cvar=".buffInfectionProtectionDisplay" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffInfectionProtection">
+				<requirement name="CVarCompare" cvar="$buffInfectionProtectionDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffInfectionProtectionDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffInfectionProtectionDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="BuffResistance" operation="base_add" value="100" tags="buffInfectionCatch,buffInfectionMain"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffDeathPenaltyWeakened" name_key="buffDeathPenaltyWeakenedName" description_key="buffDeathPenaltyWeakenedDesc" tooltip_key="buffDeathTooltip" icon="ui_game_symbol_near_death_trauma" remove_on_death="false" icon_color="255,64,0" hidden="false">
+		<damage_type value="bloodloss"/>
+		<damage_source value="Internal"/>
+		<stack_type value="replace"/>
+		<duration value="3600"/>
+		<display_value value="duration"/><display_value_format value="time"/>
+
+		<effect_group>
+
+		<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="-2"/>
+        <passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="-2"/>
+        <passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="-2"/>
+        <passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="-2"/>
+        <passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="-2"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="-.3"/>
+		<passive_effect name="StaminaMax" operation="perc_add" value="-.3"/>
+
+
+	<!-- onSelfDied -->
+		</effect_group>
+
+	</buff>	
+	
+	<buff name="buffBurningMolotov" hidden="true">
+		<damage_type value="heat"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<!-- If duration is LT 16, set or stack the duration -->
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="16"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="16"/>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="16"/>
+		</effect_group>
+
+		<!-- If duration LT 0, remove the buff and clear duration -->
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov">
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="0"/>
+		</effect_group>
+		
+		<effect_group>
+			<!-- Start the burning cycle -->
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire"/>
+
+			<!-- If tag = player, reduce health based on a time curve -->
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="1,5,11,13">
+				<requirement name="EntityTagCompare" tags="player"/>
+			</passive_effect>
+			<!-- Reduce water and adjust thermal resistance stats  -->
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="35"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="-15"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="!EntityTagCompare" tags="player"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="0"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/></passive_effect>
+
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/></passive_effect>
+
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,6,12,18" value="30,30,30,30">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/></passive_effect>
+		</effect_group>
+	</buff>
+
+</append>
+</configs>
