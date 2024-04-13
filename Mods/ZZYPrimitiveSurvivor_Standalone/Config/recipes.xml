@@ -1,0 +1,2067 @@
+<FranticDan>
+
+
+
+<remove xpath="/recipes/recipe[@name='ammo9mmBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammo9mmBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammo9mmBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammo762mmBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']"/>
+<remove xpath="/recipes/recipe[@name='ammo762mmBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']"/>
+<remove xpath="/recipes/recipe[@name='ammo762mmBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoShotgunShell']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleShotgunShell']"/>
+<remove xpath="/recipes/recipe[@name='ammoShotgunSlug']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']"/>
+<remove xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']"/>
+<remove xpath="/recipes/recipe[@name='ammoJunkTurretRegular']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']"/>
+<remove xpath="/recipes/recipe[@name='ammoJunkTurretShell']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']"/>
+<remove xpath="/recipes/recipe[@name='ammoJunkTurretAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoArrowFlaming']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']"/>
+<remove xpath="/recipes/recipe[@name='ammoArrowExploding']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleArrowExploding']"/>
+<remove xpath="/recipes/recipe[@name='ammoArrowIron']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleArrowIron']"/>
+<remove xpath="/recipes/recipe[@name='ammoArrowSteelAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoArrowStone']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleArrowStone']"/>
+<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']"/>
+<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']"/>
+<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltIron']"/>
+<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']"/>
+<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']"/>
+<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltStone']"/>
+<remove xpath="/recipes/recipe[@name='ammoDartIron']"/>
+<remove xpath="/recipes/recipe[@name='ammoRocketFrag']"/>
+<remove xpath="/recipes/recipe[@name='ammoRocketHE']"/>
+<remove xpath="/recipes/recipe[@name='armorClothBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorClothGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorClothHat']"/>
+<remove xpath="/recipes/recipe[@name='armorClothJacket']"/>
+<remove xpath="/recipes/recipe[@name='armorClothPants']"/>
+<remove xpath="/recipes/recipe[@name='armorIronBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorIronChest']"/>
+<remove xpath="/recipes/recipe[@name='armorIronGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorIronHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorIronLegs']"/>
+<remove xpath="/recipes/recipe[@name='armorLeatherBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorLeatherChest']"/>
+<remove xpath="/recipes/recipe[@name='armorLeatherGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorLeatherHood']"/>
+<remove xpath="/recipes/recipe[@name='armorLeatherPants']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryStealthBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryLegs']"/>
+<remove xpath="/recipes/recipe[@name='armorMilitaryVest']"/>
+<remove xpath="/recipes/recipe[@name='armorFirefightersHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorMiningHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorScrapBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorScrapChest']"/>
+<remove xpath="/recipes/recipe[@name='armorScrapGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorScrapHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorScrapLegs']"/>
+<remove xpath="/recipes/recipe[@name='armorSteelBoots']"/>
+<remove xpath="/recipes/recipe[@name='armorSteelChest']"/>
+<remove xpath="/recipes/recipe[@name='armorSteelGloves']"/>
+<remove xpath="/recipes/recipe[@name='armorSteelHelmet']"/>
+<remove xpath="/recipes/recipe[@name='armorSteelLegs']"/>
+<remove xpath="/recipes/recipe[@name='autoTurret']"/>
+<remove xpath="/recipes/recipe[@name='carBattery']"/>
+<remove xpath="/recipes/recipe[@name='batterybank']"/>
+<remove xpath="/recipes/recipe[@name='bladeTrap']"/>
+<remove xpath="/recipes/recipe[@name='bucketEmpty']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleWood']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleIron']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleSteel']"/>
+<remove xpath="/recipes/recipe[@name='shuttersWoodBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='shuttersIronBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='shuttersSteelBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='ceilingLight01_player']"/>
+<remove xpath="/recipes/recipe[@name='ceilingLight07_player']"/>
+<remove xpath="/recipes/recipe[@name='industrialLight01_player']"/>
+<remove xpath="/recipes/recipe[@name='industrialLight02_player']"/>
+<remove xpath="/recipes/recipe[@name='cementMixer']"/>
+<remove xpath="/recipes/recipe[@name='chemistryStation']"/>
+<remove xpath="/recipes/recipe[@name='cntGunSafeVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='cntSteelWallCabinetSecure']"/>
+<remove xpath="/recipes/recipe[@name='cntSecureStorageChest']"/>
+<remove xpath="/recipes/recipe[@name='cntStorageGenericSigned']"/>
+<remove xpath="/recipes/recipe[@name='cntStorageGeneric']"/>
+<remove xpath="/recipes/recipe[@name='cntWoodFurnitureBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='cntWoodFurnitureBlockVariantHelper2']"/>
+<remove xpath="/recipes/recipe[@name='sinksToiletsBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='dartTrap']"/>
+<remove xpath="/recipes/recipe[@name='cntDewCollector']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarGrandpasMoonshine']"/>
+<remove xpath="/recipes/recipe[@name='drugFortBites']"/>
+<remove xpath="/recipes/recipe[@name='drugRecog']"/>
+<remove xpath="/recipes/recipe[@name='electricfencepost']"/>
+<remove xpath="/recipes/recipe[@name='electrictimerrelay']"/>
+<remove xpath="/recipes/recipe[@name='electricwirerelay']"/>
+<remove xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='foodBaconAndEggs']"/>
+<remove xpath="/recipes/recipe[@name='foodBlueberryPie']"/>
+<remove xpath="/recipes/recipe[@name='foodPumpkinBread']"/>
+<remove xpath="/recipes/recipe[@name='foodBoiledMeat']"/>
+<remove xpath="/recipes/recipe[@name='foodCanSham']"/>
+<remove xpath="/recipes/recipe[@name='foodCharredMeat']"/>
+<remove xpath="/recipes/recipe[@name='foodChiliDog']"/>
+<remove xpath="/recipes/recipe[@name='foodCornBread']"/>
+<remove xpath="/recipes/recipe[@name='foodEggBoiled']"/>
+<remove xpath="/recipes/recipe[@name='foodGrilledMeat']"/>
+<remove xpath="/recipes/recipe[@name='foodHoboStew']"/>
+<remove xpath="/recipes/recipe[@name='foodMeatStew']"/>
+<remove xpath="/recipes/recipe[@name='foodGumboStew']"/>
+<remove xpath="/recipes/recipe[@name='foodShepardsPie']"/>
+<remove xpath="/recipes/recipe[@name='foodSpaghetti']"/>
+<remove xpath="/recipes/recipe[@name='foodTunaFishGravyToast']"/>
+<remove xpath="/recipes/recipe[@name='foodSteakAndPotato']"/>
+<remove xpath="/recipes/recipe[@name='forge']"/>
+<remove xpath="/recipes/recipe[@name='ironGarageDoor_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='woodenGarageDoor3x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='woodenGarageDoor4x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='woodenGarageDoor5x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='steelGarageDoor3x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='steelGarageDoor4x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='steelGarageDoor5x3_PoweredBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='metalReinforcedWoodDrawBridgePowered']"/>
+<remove xpath="/recipes/recipe[@name='generatorbank']"/>
+<remove xpath="/recipes/recipe[@name='gunHandgunT0PipePistol']"/>
+<remove xpath="/recipes/recipe[@name='gunHandgunT1Pistol']"/>
+<remove xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']"/>
+<remove xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']"/>
+<remove xpath="/recipes/recipe[@name='gunHandgunT3SMG5']"/>
+<remove xpath="/recipes/recipe[@name='gunShotgunT0PipeShotgun']"/>
+<remove xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']"/>
+<remove xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']"/>
+<remove xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']"/>
+<remove xpath="/recipes/recipe[@name='gunRifleT0PipeRifle']"/>
+<remove xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']"/>
+<remove xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']"/>
+<remove xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']"/>
+<remove xpath="/recipes/recipe[@name='gunMGT0PipeMachineGun']"/>
+<remove xpath="/recipes/recipe[@name='gunMGT1AK47']"/>
+<remove xpath="/recipes/recipe[@name='gunMGT2TacticalAR']"/>
+<remove xpath="/recipes/recipe[@name='gunMGT3M60']"/>
+<remove xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']"/>
+<remove xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']"/>
+<remove xpath="/recipes/recipe[@name='gunBowT1WoodenBow']"/>
+<remove xpath="/recipes/recipe[@name='gunBowT3CompoundBow']"/>
+<remove xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']"/>
+<remove xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']"/>
+<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']"/>
+<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']"/>
+<remove xpath="/recipes/recipe[@name='gunBotT3JunkDrone']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolRepairT3Nailgun']"/>
+<remove xpath="/recipes/recipe[@name='keystoneBlock']"/>
+<remove xpath="/recipes/recipe[@name='ladderWood']"/>
+<remove xpath="/recipes/recipe[@name='apparelCoatLeatherPoncho']"/>
+<remove xpath="/recipes/recipe[@name='medicalAloeCream']"/>
+<remove xpath="/recipes/recipe[@name='medicalFirstAidBandage']"/>
+<remove xpath="/recipes/recipe[@name='medicalFirstAidKit']"/>
+<remove xpath="/recipes/recipe[@name='medicalPlasterCast']"/>
+<remove xpath="/recipes/recipe[@name='medicalSplint']"/>
+
+<remove xpath="/recipes/recipe[@name='meleeWpnBladeT0BoneKnife']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnClubT1BaseballBat']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnClubT0WoodenClub']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnClubT3SteelClub']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolPickT3Auger']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolAxeT3Chainsaw']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolAxeT2SteelAxe']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSpearT0StoneSpear']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSpearT3SteelSpear']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolFlashlight02']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnBladeT3Machete']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolPickT2SteelPickaxe']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolShovelT2SteelShovel']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT3SteelSledgehammer']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnBatonT0PipeBaton']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnBatonT2StunBaton']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolTorch']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolWireTool']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolSalvageT2Ratchet']"/>
+<remove xpath="/recipes/recipe[@name='meleeToolSalvageT3ImpactDriver']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT0LeatherKnuckles']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']"/>
+<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT3SteelKnuckles']"/>
+<remove xpath="/recipes/recipe[@name='mineCandyTin']"/>
+<remove xpath="/recipes/recipe[@name='mineHubcap']"/>
+<remove xpath="/recipes/recipe[@name='mineAirFilter']"/>
+<remove xpath="/recipes/recipe[@name='mineCookingPot']"/>
+<remove xpath="/recipes/recipe[@name='modArmorStoragePocket']"/>
+<remove xpath="/recipes/recipe[@name='modArmorDoubleStoragePocket']"/>
+<remove xpath="/recipes/recipe[@name='modArmorHelmetLight']"/>
+<remove xpath="/recipes/recipe[@name='modArmorWaterPurifier']"/>
+<remove xpath="/recipes/recipe[@name='modFuelTankSmall']"/>
+<remove xpath="/recipes/recipe[@name='modFuelTankLarge']"/>
+<remove xpath="/recipes/recipe[@name='modGunShotgunTubeExtenderMagazine']"/>
+<remove xpath="/recipes/recipe[@name='modArmorTripleStoragePocket']"/>
+<remove xpath="/recipes/recipe[@name='modGunDrumMagazineExtender']"/>
+<remove xpath="/recipes/recipe[@name='modGunFlashlight']"/>
+<remove xpath="/recipes/recipe[@name='modGunLaserSight']"/>
+<remove xpath="/recipes/recipe[@name='modMeleeStunBatonRepulsor']"/>
+<remove xpath="/recipes/recipe[@name='modRoboticDroneArmorPlatingMod']"/>
+<remove xpath="/recipes/recipe[@name='modRoboticDroneCargoMod']"/>
+
+<remove xpath="/recipes/recipe[@name='modRoboticDroneMedicMod']"/>
+<remove xpath="/recipes/recipe[@name='modRoboticDroneHeadlampMod']"/>
+<remove xpath="/recipes/recipe[@name='modRoboticDroneMoraleBoosterMod']"/>
+<remove xpath="/recipes/recipe[@name='modVehicleOffRoadHeadlights']"/>
+<remove xpath="/recipes/recipe[@name='motionsensor']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberGloves']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberHat']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberHood']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberPants']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberShirt']"/>
+<remove xpath="/recipes/recipe[@name='apparelPlantFiberShoes']"/>
+<remove xpath="/recipes/recipe[@name='apparelArmyPants']"/>
+<remove xpath="/recipes/recipe[@name='apparelArmyShirt']"/>
+<!-- <remove xpath="/recipes/recipe[@name='apparelGhillieSuitHood']"/>
+<remove xpath="/recipes/recipe[@name='apparelGhillieSuitJacket']"/>
+<remove xpath="/recipes/recipe[@name='apparelGhillieSuitPants']"/> -->
+<remove xpath="/recipes/recipe[@name='modClothingCargoStoragePocket']"/>
+<remove xpath="/recipes/recipe[@name='pressureplate']"/>
+<remove xpath="/recipes/recipe[@name='pressureplateLong']"/>
+<remove xpath="/recipes/recipe[@name='resourceArrowHeadIron']"/>
+<remove xpath="/recipes/recipe[@name='resourceArrowHeadSteelAP']"/>
+<remove xpath="/recipes/recipe[@name='resourceBulletCasing']"/>
+<remove xpath="/recipes/recipe[@name='resourceBuckshot']"/>
+<remove xpath="/recipes/recipe[@name='resourceBulletTip']"/>
+<remove xpath="/recipes/recipe[@name='resourceCement']"/>
+<remove xpath="/recipes/recipe[@name='resourceCobblestones']"/>
+<remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
+<remove xpath="/recipes/recipe[@name='resourceCrushedSand']"/>
+<remove xpath="/recipes/recipe[@name='terrAsphalt']"/>
+<remove xpath="/recipes/recipe[@name='terrGravel']"/>
+<remove xpath="/recipes/recipe[@name='terrStone']"/>
+<remove xpath="/recipes/recipe[@name='resourceForgedIron']"/>
+<remove xpath="/recipes/recipe[@name='resourceForgedSteel']"/>
+<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
+<remove xpath="/recipes/recipe[@name='resourceGunPowder']"/>
+<remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
+<remove xpath="/recipes/recipe[@name='resourceMilitaryFiber']"/>
+<remove xpath="/recipes/recipe[@name='resourceOil']"/>
+<remove xpath="/recipes/recipe[@name='resourcePaint']"/>
+<remove xpath="/recipes/recipe[@name='resourcePaper']"/>
+<remove xpath="/recipes/recipe[@name='resourceRepairKit']"/>
+<remove xpath="/recipes/recipe[@name='resourceRocketCasing']"/>
+<remove xpath="/recipes/recipe[@name='resourceRocketTip']"/>
+<remove xpath="/recipes/recipe[@name='ironHatchBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='sectionalLeatherCouchSofaBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='sectionalPlaidCouchSofaBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='couchModernBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='couchUglySingleBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='couchUglySmallBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='couchUglyLargeBlockVariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='oldWoodDoor']"/>
+<remove xpath="/recipes/recipe[@name='oldWoodDoorDouble']"/>
+<remove xpath="/recipes/recipe[@name='shotgunTurret']"/>
+<remove xpath="/recipes/recipe[@name='speaker']"/>
+<remove xpath="/recipes/recipe[@name='spotlightPlayer']"/>
+<remove xpath="/recipes/recipe[@name='switch']"/>
+<remove xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']"/>
+<remove xpath="/recipes/recipe[@name='thrownAmmoPipeBomb']"/>
+<remove xpath="/recipes/recipe[@name='thrownGrenade']"/>
+<remove xpath="/recipes/recipe[@name='thrownGrenadeContact']"/>
+<remove xpath="/recipes/recipe[@name='thrownTimedCharge']"/>
+<remove xpath="/recipes/recipe[@name='thrownDynamite']"/>
+<remove xpath="/recipes/recipe[@name='toolAnvil']"/>
+<remove xpath="/recipes/recipe[@name='toolForgeCrucible']"/>
+<remove xpath="/recipes/recipe[@name='toolBellows']"/>
+<remove xpath="/recipes/recipe[@name='toolCookingGrill']"/>
+<remove xpath="/recipes/recipe[@name='toolCookingPot']"/>
+
+<remove xpath="/recipes/recipe[@name='trapSpikesIronDmg0']"/>
+<remove xpath="/recipes/recipe[@name='tripwirepost']"/>
+<remove xpath="/recipes/recipe[@name='vaultHatch01_Powered']"/>
+<remove xpath="/recipes/recipe[@name='vaultDoor01_Powered']"/>
+<remove xpath="/recipes/recipe[@name='vaultDoor01Double_Powered']"/>
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckAccessories']"/>
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckPlaceable']"/>
+<remove xpath="/recipes/recipe[@name='vehicleBicycleChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicleBicycleHandlebars']"/>
+<remove xpath="/recipes/recipe[@name='vehicleGyroCopterAccessories']"/>
+<remove xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicleGyrocopterPlaceable']"/>
+<remove xpath="/recipes/recipe[@name='vehicleMinibikeChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicleMinibikeHandlebars']"/>
+<remove xpath="/recipes/recipe[@name='vehicleMotorcycleChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicleMotorcycleHandlebars']"/>
+<remove xpath="/recipes/recipe[@name='vehicleMotorcyclePlaceable']"/>
+<remove xpath="/recipes/recipe[@name='vehicleWheels']"/>
+<remove xpath="/recipes/recipe[@name='woodHatch']"/>
+<remove xpath="/recipes/recipe[@name='workbench']"/>
+<remove xpath="/recipes/recipe[@name='frameShapes:VariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='woodShapes:VariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='cobblestoneShapes:VariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='concreteShapes:VariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='steelShapes:VariantHelper']"/>
+<remove xpath="/recipes/recipe[@name='plantedAloe1']"/>
+<remove xpath="/recipes/recipe[@name='plantedBlueberry1']"/>
+<remove xpath="/recipes/recipe[@name='plantedChrysanthemum1']"/>
+<remove xpath="/recipes/recipe[@name='plantedCoffee1']"/>
+<remove xpath="/recipes/recipe[@name='plantedCorn1']"/>
+<remove xpath="/recipes/recipe[@name='plantedCotton1']"/>
+<remove xpath="/recipes/recipe[@name='plantedGoldenrod1']"/>
+<remove xpath="/recipes/recipe[@name='plantedGraceCorn1']"/>
+<remove xpath="/recipes/recipe[@name='plantedHop1']"/>
+<remove xpath="/recipes/recipe[@name='plantedMushroom1']"/>
+<remove xpath="/recipes/recipe[@name='plantedPotato1']"/>
+<remove xpath="/recipes/recipe[@name='plantedYucca1']"/>
+<remove xpath="/recipes/recipe[@name='plantedPumpkin1']"/>
+<remove xpath="/recipes/recipe[@name='plantedtreeGrassSeed1']"/>
+
+<append xpath="/recipes">
+
+<recipe name="ammo9mmBulletBall" count="1" craft_area="workbench" tags="perkAdvancedEngineering,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="30"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>	
+</recipe>
+
+<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="2400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>	
+</recipe>
+
+<recipe name="ammo9mmBulletHP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="40"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>	
+</recipe>
+
+<recipe name="ammoBundle9mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="3200"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo9mmBulletAP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="30"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="2400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo556mmBulletBall" count="1" craft_area="workbench" tags="perkAdvancedEngineering,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="30"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle556mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="2400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo556mmBulletHP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="40"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle556mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="3200"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo556mmBulletAP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="30"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle556mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="2400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo762mmBulletBall" count="1" craft_area="workbench" tags="perkAdvancedEngineering,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="4000"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo762mmBulletHP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="67"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="5360"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo762mmBulletAP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="240"/>
+	<ingredient name="resourceGunPowder" count="4000"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoShotgunShell" count="1" craft_area="workbench" tags="perkAdvancedEngineering,workbenchCrafting">
+	<ingredient name="resourceBuckshot" count="1"/>
+	<ingredient name="resourceGunPowder" count="100"/>
+	<ingredient name="resourcePaper" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundleShotgunShell" count="1" craft_time="240" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBuckshot" count="80"/>
+	<ingredient name="resourceGunPowder" count="8000"/>
+	<ingredient name="resourcePaper" count="160"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoShotgunSlug" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="100"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundleShotgunSlug" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="8000"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoShotgunBreachingSlug" count="1" craft_time="9" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceClayLump" count="2"/>
+	<ingredient name="resourceGunPowder" count="100"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundleShotgunBreachingSlug" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="240"/>
+	<ingredient name="resourceClayLump" count="160"/>
+	<ingredient name="resourceGunPowder" count="8000"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoArrowStone" count="1">
+	<ingredient name="resourceRockSmall" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceFeather" count="3"/>
+</recipe>
+
+<recipe name="ammoBundleArrowStone" count="1" craft_time="240" tags="learnable">
+	<ingredient name="resourceRockSmall" count="80"/>
+	<ingredient name="resourceWood" count="80"/>
+	<ingredient name="resourceYuccaFibers" count="80"/>
+	<ingredient name="resourceFeather" count="240"/>
+</recipe>
+
+<recipe name="ammoArrowIron" count="1">
+	<ingredient name="resourceArrowHeadIron" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceFeather" count="3"/>
+</recipe>
+
+<recipe name="ammoBundleArrowIron" count="1" craft_time="240" tags="learnable">
+	<ingredient name="resourceArrowHeadIron" count="80"/>
+	<ingredient name="resourceWood" count="80"/>
+	<ingredient name="resourceYuccaFibers" count="80"/>
+	<ingredient name="resourceFeather" count="240"/>
+</recipe>
+
+<recipe name="ammoArrowSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceResin" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
+<recipe name="ammoBundleArrowSteelAP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="80"/>
+	<ingredient name="resourceResin" count="80"/>
+	<ingredient name="resourceScrapPolymers" count="160"/>
+</recipe>
+
+<recipe name="ammoArrowFlaming" count="4" craft_time="48" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundleArrowFlaming" count="2" craft_time="720" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="160"/>
+	<ingredient name="resourceScrapPolymers" count="320"/>
+	<ingredient name="resourceGunPowder" count="3200"/>
+	<ingredient name="resourceCloth" count="800"/>
+	<ingredient name="resourceAnimalFat" count="40"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoArrowExploding" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceResin" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceGunPowder" count="60"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoBundleArrowExploding" count="1" craft_time="360" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="60"/>
+	<ingredient name="resourceResin" count="60"/>
+	<ingredient name="resourceScrapPolymers" count="120"/>
+	<ingredient name="resourceGunPowder" count="3600"/>
+	<ingredient name="resourceDuctTape" count="60"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammoArrowShock" count="1" craft_time="20" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceResin" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceElectricParts" count="3"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="3" operation="perc_add" value="-.35" tags="resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorClothBoots" count="1" tags="learnable,perkLightArmor">
+	<ingredient name="resourceCloth" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceCloth,resourcePaper,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorClothGloves" count="1" tags="learnable,perkLightArmor">
+	<ingredient name="resourceCloth" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceCloth,resourcePaper,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorClothHat" count="1" tags="learnable,perkLightArmor">
+	<ingredient name="resourceCloth" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceCloth,resourcePaper,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorClothJacket" count="1" tags="learnable,perkLightArmor">
+	<ingredient name="resourceCloth" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceCloth,resourcePaper,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorClothPants" count="1" tags="learnable,perkLightArmor">
+	<ingredient name="resourceCloth" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceCloth,resourcePaper,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorScrapBoots" count="1" tags="learnable,perkHeavyArmor">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorScrapChest" count="1" tags="learnable,perkHeavyArmor">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorScrapGloves" count="1" tags="learnable,perkHeavyArmor">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorScrapHelmet" count="1" tags="learnable,perkHeavyArmor">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="armorScrapLegs" count="1" tags="learnable,perkHeavyArmor">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+<recipe name="bucketEmpty" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="7"/>
+</recipe>
+
+<recipe name="cellarDoorDoubleWood" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="cellarDoorDoubleIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+</recipe>
+
+<recipe name="shuttersWoodBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="shuttersIronBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+</recipe>
+
+<!-- <recipe name="cementMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="125"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceElectricParts" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+</recipe> -->
+
+<recipe name="chemistryStation" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="toolBeaker" count="2"/>
+	<ingredient name="resourceForgedIron" count="300"/>
+	<ingredient name="toolCookingPot" count="3"/>
+	<ingredient name="resourceMetalPipe" count="100"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="cntSecureStorageChest" count="1">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="cntStorageGenericSigned" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="75"/>
+	<ingredient name="resourceNail" count="20"/>
+</recipe>
+
+<recipe name="cntStorageGeneric" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="75"/>
+	<ingredient name="resourceNail" count="20"/>
+</recipe>
+
+<recipe name="cntWoodFurnitureBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="cntWoodFurnitureBlockVariantHelper2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="sinksToiletsBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="bucketRiverWater" count="1"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceWood" count="4"/>
+</recipe>
+
+<recipe name="cntDewCollector" count="1" tags="learnable">
+	<ingredient name="resourceWaterFilter" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="200"/>
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="drinkJarEmpty" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" is_trackable="false" tags="learnable,perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="100"/>
+	<ingredient name="unit_clay" count="25"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_glass"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceCropCoffeeBeans" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="foodHoney" count="5"/>
+	<ingredient name="foodCropMushrooms" count="5"/>
+	<ingredient name="drugVitamins" count="2"/>
+	<ingredient name="foodCropGraceCorn" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodHoney,foodCropMushrooms,foodCropGraceCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drinkJarGrandpasLearningElixir" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanDogfood" count="2"/>
+	<ingredient name="drinkJarRedTea" count="2"/>
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="drinkJarBeer" count="2"/>
+	<ingredient name="foodCropGraceCorn" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="base_add" value="-1,-2" tags="foodCropGraceCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCornMeal" count="5"/>
+	<ingredient name="drinkJarBeer" count="2"/>
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="foodCropGraceCorn" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="base_add" value="-1,-2" tags="foodCornMeal,foodCropBlueberries,foodCropGraceCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drugFortBites" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkPhysician">
+	<ingredient name="medicalBloodBag" count="5"/>
+	<ingredient name="drinkJarBeer" count="1"/>
+	<ingredient name="foodRottingFlesh" count="20"/>
+	<ingredient name="drugVitamins" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,4" operation="perc_add" value="-.2,-.4" tags="medicalBloodBag,foodRottingFlesh"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drugRecog" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="drinkJarBeer" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="drugVitamins" count="1"/>
+</recipe>
+
+<!-- <recipe name="drinkJarGrandpasForgettingElixir" count="1" craft_time="3600" craft_area="campfire" craft_tool="toolCookingPot" >
+	<ingredient name="drinkJarGrandpasLearningElixir" count="2"/>
+	<ingredient name="drinkJarGrandpasMoonshine" count="2"/>
+	<ingredient name="drugRecog" count="2"/>
+	<ingredient name="drugSteroids" count="2"/>
+	<ingredient name="drugFortBites" count="2"/>
+</recipe> -->
+
+<recipe name="farmPlotBlockVariantHelper" count="1" tags="perkLivingOffTheLandCrafting" craft_time="20">
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceNail" count="20"/>
+	<ingredient name="foodRottingFlesh" count="20"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="40"/>
+	<ingredient name="resourceClayLump" count="80"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3" operation="perc_add" value="0,-.15,-.30,-.45" tags="resourceWood,resourceNail,foodRottingFlesh,resourcePotassiumNitratePowder,resourceClayLump"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="15"/>
+	<ingredient name="foodEgg" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodBlueberryPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodCropBlueberries"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodPumpkinBread" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCropPumpkin" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodBoiledMeat" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="30"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodCanSham" count="1" craft_time="90" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="15"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat,resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodCharredMeat" count="1" craft_area="campfire" tags="perkMasterChef">
+	<ingredient name="foodRawMeat" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodChiliDog" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="foodRawMeat" count="15"/>
+	<ingredient name="foodCornBread" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodCornBread" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodEggBoiled" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+	<ingredient name="foodEgg" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodGrilledMeat" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodHoboStew" count="1"  craft_time="65" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRottingFlesh" count="15"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRottingFlesh"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="15"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodGumboStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanBeef" count="1"/>
+	<ingredient name="foodCanPeas" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodShepardsPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanLamb" count="1"/>
+	<ingredient name="foodCanPeas" count="1"/>
+	<ingredient name="foodCropCorn" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="foodCropPotato" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodSpaghetti" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanBeef" count="1"/>
+	<ingredient name="foodCanPasta" count="1"/>
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodTunaFishGravyToast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanTuna" count="1"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="foodCornBread" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="foodCanPeas" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodSteakAndPotato" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="15"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.2,-.4" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drinkCanBoiledWater" count="1" craft_time="19" craft_area="campfire" tags="perkMasterChef">
+	<ingredient name="drinkCanRiverWater" count="1"/>
+</recipe>
+
+<recipe name="forge" count="1" tags="learnable">
+	<ingredient name="resourceCobblestones" count="250"/>
+	<ingredient name="woodLogPillar100" count="1"/>
+	<ingredient name="resourceLeather" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceMetalPipe" count="5"/>
+</recipe>
+
+<recipe name="glassBulletproofBlockVariantHelper" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="110"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="40"/>
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_stone,unit_glass,unit_iron,unit_lead"/>
+	</effect_group>
+</recipe>
+
+<recipe name="gunHandgunT0PipePistol" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkGunslinger">
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceMetalPipe,resourceGlue,resourceSpring,resourceMechanicalParts,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="gunShotgunT0PipeShotgun" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkBoomstick">
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceMetalPipe,resourceGlue,resourceSpring,resourceMechanicalParts,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="gunRifleT0PipeRifle" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkDeadEye">
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceMetalPipe,resourceGlue,resourceSpring,resourceMechanicalParts,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="gunMGT0PipeMachineGun" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkMachineGunner">
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceMetalPipe,resourceGlue,resourceSpring,resourceMechanicalParts,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="gunBowT0PrimitiveBow" count="1" tags="learnable,perkArchery,craftingBows">
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="50"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceNail" count="4"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceWood,resourceYuccaFibers,resourceResin,resourceCloth,resourceNail"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ironBars" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_clay" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ironBarsCentered" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_clay" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ironBarsCNR" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_clay" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ironDoorBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+</recipe>
+
+<recipe name="ironDoorDoubleBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+</recipe>
+
+<recipe name="keystoneBlock" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting" >
+	<ingredient name="resourceCobblestones" count="50"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+</recipe>
+
+<recipe name="apparelCoatLeatherPoncho" count="1" >
+	<ingredient name="resourceLeather" count="20"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="medicalAloeCream" count="1" tags="perkPhysician">
+	<ingredient name="resourceCropAloeLeaf" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,4" operation="perc_add" value="-.2,-.4" tags="resourceCropAloeLeaf"/>
+	</effect_group>
+</recipe>
+
+<recipe name="medicalFirstAidBandage" count="1" tags="learnable">
+	<ingredient name="medicalAloeCream" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceResin" count="1"/>
+</recipe>
+
+<recipe name="medicalFirstAidKit" count="1" craft_time="30" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkPhysician" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drinkJarBeer" count="1"/>
+	<ingredient name="medicalBandage" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,4" operation="perc_add" value="-.2,-.4" tags="medicalBandage"/>
+	</effect_group>
+</recipe>
+
+<recipe name="medicalPlasterCast" count="1" craft_time="30" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkPhysician">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="foodCornMeal" count="5"/>
+	<ingredient name="resourceCrushedSand" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,4" operation="perc_add" value="-.2,-.4" tags="resourceCloth,foodCornMeal,resourceCrushedSand"/>
+	</effect_group>
+</recipe>
+
+<recipe name="medicalSplint" count="1" tags="learnable" >
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceYuccaFibers" count="10"/>
+	<ingredient name="resourceWood" count="2"/>
+	<ingredient name="resourceResin" count="2"/>
+</recipe>
+
+<recipe name="meleeWpnBladeT0BoneKnife" count="1" tags="learnable,perkDeepCuts,craftingBlades">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceBone,resourceYuccaFibers,resourceResin,resourceCloth"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeWpnClubT0WoodenClub" count="1" tags="learnable,perkPummelPete,craftingClubs"> 
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceWood,resourceYuccaFibers,resourceResin,resourceCloth"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeWpnSpearT0StoneSpear" count="1" tags="learnable,perkJavelinMaster,craftingSpears">
+	<ingredient name="resourceRockSmall" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceWood" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceRockSmall,resourceYuccaFibers,resourceResin,resourceCloth,resourceWood"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeToolShovelT0StoneShovel" count="1" tags="learnable,perkMiner69r,craftingHarvestingTools"><!-- perkMiner69r -->
+	<ingredient name="resourceRockSmall" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceWood" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceRockSmall,resourceYuccaFibers,resourceResin,resourceCloth,resourceWood"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeWpnSledgeT0StoneSledgehammer" count="1" tags="learnable,perkSkullCrusher,craftingSledgehammers">
+	<ingredient name="resourceRockSmall" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceWood" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceRockSmall,resourceYuccaFibers,resourceResin,resourceCloth,resourceWood"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeToolRepairT0StoneAxe" count="1" tags="learnable,perkMiner69r,craftingHarvestingTools">
+	<ingredient name="resourceRockSmall" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceWood" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceRockSmall,resourceYuccaFibers,resourceResin,resourceCloth,resourceWood"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeToolRepairT0TazasStoneAxe" count="1" tags="perkMiner69r,craftingHarvestingTools">
+	<ingredient name="resourceRockSmall" count="100"/>
+	<ingredient name="resourceYuccaFibers" count="40"/>
+	<ingredient name="resourceResin" count="20"/>
+	<ingredient name="resourceCloth" count="50"/>
+	<ingredient name="resourceWood" count="60"/>
+</recipe>
+
+<recipe name="meleeWpnBatonT0PipeBaton" count="1" tags="learnable,perkElectrocutioner,craftingRobotics">
+	<ingredient name="resourceMetalPipe" count="12"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceOil" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceMetalPipe,resourceResin,resourceLeather,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeToolTorch" count="1">
+	<ingredient name="resourceResin" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="10"/>
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceWood" count="5"/>
+</recipe>
+
+<recipe name="meleeToolTorchWeapon" count="1">
+	<ingredient name="meleeToolTorch" count="1"/>
+</recipe>
+
+<recipe name="meleeToolSmallStoneMelee" count="1">
+	<ingredient name="resourceRockSmall" count="1"/>
+</recipe>
+
+<recipe name="meleeToolSalvageT1Wrench" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkSalvageOperations">
+	<ingredient name="resourceForgedIron" count="15"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceOil,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="meleeWpnKnucklesT0LeatherKnuckles" count="1" tags="learnable,perkBrawler,craftingKnuckles">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceLeather" count="6"/>
+	<ingredient name="resourceResin" count="10"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5,500" operation="perc_add" value="0,.03,3" tags="resourceScrapIron,resourceLeather,resourceResin,resourceCloth"/>
+	</effect_group>
+</recipe>
+
+<recipe name="metalTrussingIBeamBlockVariantHelper" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="mineCandyTin" count="1" tags="perkAdvancedEngineering"> <!-- trap size 1 -->
+	<ingredient name="resourceScrapIron" count="4"/>
+	<ingredient name="resourceGunPowder" count="40"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceResin" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="mineHubcap" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering"> <!-- trap size 2 -->
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceResin" count="4"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="mineAirFilter" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering"> <!-- trap size 3 -->
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="120"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceResin" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="mineCookingPot" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering"> <!-- trap size 1.1 -->
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceResin" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="modArmorDoubleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceLeather" count="8"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+
+<recipe name="modArmorStoragePocket" count="1" >
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="modArmorDoubleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="modArmorStoragePocket" count="2"/>
+</recipe>
+
+<recipe name="modArmorTripleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceLeather" count="12"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+
+<recipe name="modArmorTripleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="modArmorStoragePocket" count="1"/>
+	<ingredient name="modArmorDoubleStoragePocket" count="1"/>
+</recipe>
+
+<recipe name="apparelPlantFiberGloves" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelPlantFiberHat" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelPlantFiberHood" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelPlantFiberPants" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelPlantFiberShirt" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelPlantFiberShoes" count="1">
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceResin" count="2"/>
+	<ingredient name="resourceCloth" count="7"/>
+</recipe>
+
+<recipe name="apparelArmyPants" count="1" tags="learnable">
+	<ingredient name="resourceCloth" count="50"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelArmyShirt" count="1" tags="learnable">
+	<ingredient name="resourceCloth" count="50"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="modClothingCargoStoragePocket" count="1" tags="learnable">
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceCloth" count="200"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+
+<recipe name="modClothingCargoStoragePocket" count="1" tags="learnable">
+	<ingredient name="modClothingStoragePocket" count="2"/>
+</recipe>
+
+<recipe name="resourceArrowHeadIron" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolAnvil" tags="perkAdvancedEngineering" >
+	<ingredient name="unit_iron" count="8"/>
+	<ingredient name="unit_clay" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceArrowHeadSteelAP" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2" operation="perc_add" value=".56,.56,.56" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceBuckshot" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_lead" count="8"/>
+	<ingredient name="unit_clay" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_lead"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceBulletCasing" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_brass" count="12"/>
+	<ingredient name="unit_clay" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_brass"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceBulletTip" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_lead" count="4"/>
+	<ingredient name="unit_clay" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_lead"/>
+	</effect_group>
+</recipe>
+
+<!-- <recipe name="resourceCement" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_stone" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_stone"/>
+	</effect_group>
+</recipe> -->
+
+<recipe name="resourceBrick" count="1" material_based="true" craft_area="forge" craft_tool="toolBellows" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_clay" count="16"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceCobblestones" count="1" craft_area="workbench">
+	<ingredient name="resourceClayLump" count="1"/>
+	<ingredient name="resourceRockSmall" count="1"/>
+</recipe>
+
+<!-- <recipe name="resourceConcreteMix" count="250" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceCrushedSand" count="250"/>
+	<ingredient name="resourceRockSmall" count="250"/>
+	<ingredient name="resourceCement" count="250"/>
+	<ingredient name="bucketRiverWater" count="1"/>
+</recipe> -->
+
+<recipe name="resourceForgedIron" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="12"/>
+	<ingredient name="unit_clay" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceForgedSteel" count="1" material_based="false" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_brass" count="10"/>
+	<ingredient name="unit_clay" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2" operation="perc_add" value=".56,.56,.56" tags="unit_clay,unit_brass,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering">
+	<ingredient name="resourceBone" count="15"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="perc_add" value="-.2" tags="resourceBone"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="perc_add" value="-.2" tags="resourceBone"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="foodCropGraceCorn" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="foodCropGraceCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_time="148" craft_area="campfire"  tags="perkAdvancedEngineering">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="drinkCanRiverWater" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="perc_add" value="-.2" tags="resourceBone"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGunPowder" count="50" craft_area="chemistryStation" tags="chemStationCrafting,perkAdvancedEngineering">
+	<ingredient name="resourceCoal" count="10"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceCoal,resourcePotassiumNitratePowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceGunPowder" count="50" tags="perkAdvancedEngineering">
+	<ingredient name="resourceCoal" count="20"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceCoal,resourcePotassiumNitratePowder"/>
+	</effect_group>	
+</recipe>
+
+<recipe name="resourceGunPowderBundle" count="5" craft_time="1800" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
+	<ingredient name="resourceCoal" count="800"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3" operation="perc_add" value="-.1,-.2" tags="resourceCoal,resourcePotassiumNitratePowder"/>
+	</effect_group>	
+</recipe>
+
+<recipe name="resourceMetalPipe" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="12"/>
+	<ingredient name="unit_clay" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="resourceOil" count="1" craft_area="chemistryStation" tags="perkGreaseMonkey,learnable,chemStationCrafting">
+	<ingredient name="resourceOilShale" count="60"/>
+</recipe>
+
+<recipe name="resourcePaint" count="500" craft_area="chemistryStation" tags="chemStationCrafting">
+	<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+	<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+	<ingredient name="foodCropBlueberries" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="resourcePaint" count="250" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+	<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+	<ingredient name="foodCropBlueberries" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="resourcePaper" count="30" craft_area="chemistryStation" tags="chemStationCrafting">
+	<ingredient name="resourceWood" count="60"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="resourcePrimitiveRepairKit" count="1">
+	<ingredient name="resourceWood" count="25"/>
+	<ingredient name="resourceRockSmall" count="15"/>
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceYuccaFibers" count="10"/>
+	<ingredient name="resourceResin" count="5"/>
+</recipe>
+
+<recipe name="ironHatchBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+</recipe>
+
+<recipe name="sectionalLeatherCouchSofaBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="sectionalPlaidCouchSofaBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="couchModernBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="couchUglySingleBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="couchUglySmallBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="couchUglyLargeBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="oldWoodDoor" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="oldWoodDoorDouble" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="30"/>
+	<ingredient name="resourceNail" count="15"/>
+</recipe>
+
+<recipe name="terrGravel" count="1">
+	<ingredient name="resourceCrushedSand" count="11"/>
+	<ingredient name="resourceRockSmall" count="11"/>
+</recipe>
+
+<recipe name="thrownAmmoMolotovCocktail" count="1" craft_time="12" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="ammoGasCan" count="200"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="thrownAmmoPipeBomb" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering">
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="resourceResin" count="1"/>
+	<ingredient name="resourceGunPowder" count="300"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="2,3" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="thrownDynamite" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering">
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceResin" count="1"/>
+	<ingredient name="resourceGunPowder" count="500"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="2,3" value="-.1,-.2" tags="resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="toolAnvil" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="unit_iron" count="1000"/>
+	<ingredient name="unit_clay" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="toolForgeCrucible" count="1" craft_time="900" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceRockSmall" count="2000"/>
+	<ingredient name="resourceOil" count="50"/>
+	<ingredient name="resourceClayLump" count="1500"/>
+</recipe>
+
+<recipe name="toolBellows" count="1" tags="learnable">
+	<ingredient name="resourceWood" count="30"/>
+	<ingredient name="resourceLeather" count="20"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceNail" count="20"/>
+</recipe>
+
+<recipe name="toolCookingGrill" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="125"/>
+	<ingredient name="unit_clay" count="25"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="toolCookingPot" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="250"/>
+	<ingredient name="unit_clay" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="trapGlassBusinessCTRSheet1x1" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering"> <!-- trap -->
+	<ingredient name="unit_glass" count="20"/>
+	<ingredient name="unit_stone" count="5"/>
+	<ingredient name="unit_lead" count="5"/>
+	<ingredient name="unit_clay" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_stone,unit_glass,unit_lead"/>
+	</effect_group>
+</recipe>
+
+<recipe name="trapGlassBusinessSheet1x1" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering"> <!-- trap -->
+	<ingredient name="unit_glass" count="20"/>
+	<ingredient name="unit_stone" count="5"/>
+	<ingredient name="unit_lead" count="5"/>
+	<ingredient name="unit_clay" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_stone,unit_glass,unit_lead"/>
+	</effect_group>
+</recipe>
+
+<recipe name="trapSpikesIronDmg0" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="4"/>
+</recipe>
+
+<recipe name="vehicleBicycleChassis" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="12"/>
+	<ingredient name="resourceDuctTape" count="12"/>
+	<ingredient name="resourceLeather" count="12"/>
+	<ingredient name="resourceSpring" count="12"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="vehicleBicycleHandlebars" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceDuctTape" count="12"/>
+	<ingredient name="resourceLeather" count="12"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceMetalPipe" count="24"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceDuctTape,resourceLeather,resourceMechanicalParts,resourceSpring,resourceMetalPipe"/>
+	</effect_group>
+</recipe>
+
+<recipe name="vehicleMinibikeChassis" count="1" craft_time="180" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="24"/>
+	<ingredient name="resourceDuctTape" count="24"/>
+	<ingredient name="resourceLeather" count="24"/>
+	<ingredient name="resourceElectricParts" count="12"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="vehicleMinibikeHandlebars" count="1" craft_time="180" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceMechanicalParts" count="24"/>
+	<ingredient name="resourceSpring" count="12"/>
+	<ingredient name="resourceHeadlight" count="2"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceMetalPipe" count="36"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricParts,resourceMetalPipe"/>
+	</effect_group>
+</recipe>
+
+<recipe name="vehicleWheels" count="1" craft_area="workbench" tags="workbenchCrafting,perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceCoal" count="50"/>
+	<ingredient name="resourceAcid" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceScrapPolymers,resourceForgedIron,resourceCoal,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="woodHatch" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="15"/>
+	<ingredient name="resourceNail" count="7"/>
+</recipe>
+
+<recipe name="workbench" count="1" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceNail" count="100"/>
+	<ingredient name="resourceWood" count="100"/>
+</recipe>
+
+<recipe name="frameShapes:VariantHelper" count="1">
+	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceNail" count="2"/>
+</recipe>
+
+<!-- <recipe name="woodShapes:VariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="2"/>
+</recipe>
+
+<recipe name="cobblestoneShapes:VariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceCobblestones" count="15"/>
+</recipe>
+
+<recipe name="brickShapes:VariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceBrick" count="10"/>
+</recipe>
+
+<recipe name="concreteShapes:VariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="steelShapes:VariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="10"/>
+</recipe> -->
+
+<recipe name="Dismantle9mmAmmo" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="10"/>
+</recipe>
+
+
+<recipe name="Dismantle5.56Ammo" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="workbenchCrafting">
+	<ingredient name="ammo556mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Dismantle7.62Ammo" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="workbenchCrafting">
+	<ingredient name="ammo762mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="DismantleShotgunShells" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="workbenchCrafting">
+	<ingredient name="ammoShotgunShell" count="10"/>
+</recipe>
+
+<recipe name="DismantleStoneArrow" count="1" craft_time="10" craft_exp_gain="0" >
+	<ingredient name="ammoArrowStone" count="10"/>
+</recipe>
+
+<recipe name="ammoBundleArrowStone" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+	<ingredient name="ammoArrowStone" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleArrowIron" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+	<ingredient name="ammoArrowIron" count="100"/>
+</recipe>
+
+<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="100"/>
+</recipe>
+
+<recipe name="ammoBundle556mmBulletBall" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo556mmBulletBall" count="100"/>
+</recipe>
+<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo762mmBulletBall" count="100"/>
+</recipe>
+<recipe name="ammoBundleShotgunShell" count="1" craft_time="10" craft_area="workbench" craft_exp_gain="0" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoShotgunShell" count="100"/>
+</recipe>
+
+<recipe name="plantedAloe1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropAloeLeaf" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropAloeLeaf"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedBlueberry1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropBlueberries" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropBlueberries"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedChrysanthemum1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropChrysanthemumPlant" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropChrysanthemumPlant"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedCoffee1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropCoffeeBeans" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropCoffeeBeans"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedCorn1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropCorn" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedCotton1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropCottonPlant" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropCottonPlant"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedGoldenrod1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropGoldenrodPlant" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropGoldenrodPlant"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedGraceCorn1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropGraceCorn" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropGraceCorn"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedHop1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="resourceCropHopsFlower" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="resourceCropHopsFlower"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedMushroom1" count="1" craft_time="2" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropMushrooms" count="10"/>
+	<ingredient name="resourceClayLump" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropMushrooms"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedPotato1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropPotato" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropPotato"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedYucca1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropYuccaFruit" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropYuccaFruit"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedPumpkin1" count="1" craft_time="1" tags="learnable,perkLivingOffTheLandCrafting">
+	<ingredient name="foodCropPumpkin" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="1,2,3" value="-.2,-.3,-.4" tags="foodCropPumpkin"/>
+	</effect_group>
+</recipe>
+
+<recipe name="plantedtreeGrassSeed1" count="5" craft_exp_gain="0">
+	<ingredient name="resourceYuccaFibers" count="2"/>
+</recipe>
+
+
+
+</append>
+
+</FranticDan>
