@@ -1,0 +1,7 @@
+<configs>
+
+<set xpath="/worldglobal/environment//property[@name='ambientInsideSpeed']/@value">0</set>
+<set xpath="/worldglobal/environment//property[@name='ambientInsideThreshold']/@value">0</set>
+<set xpath="/worldglobal/environment//property[@name='ambientInsideEquatorScale']/@value">1, 1</set>
+
+</configs>
