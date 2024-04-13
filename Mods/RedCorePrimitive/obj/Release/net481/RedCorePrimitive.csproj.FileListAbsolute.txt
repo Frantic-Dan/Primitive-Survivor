@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\obj\Release\net481\RedCorePrimitive.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\obj\Release\net481\RedCorePrimitive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\obj\Release\net481\RedCorePrimitive.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\obj\Release\net481\RedCorePrimitive.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\obj\Release\net481\RedCorePrimitive.pdb
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\RedCorePrimitive.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\RedCorePrimitive\RedCorePrimitive.pdb
