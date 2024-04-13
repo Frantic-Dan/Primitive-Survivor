@@ -1,0 +1,34 @@
+<FranticDan>
+<append xpath="/quests">
+
+	<!-- Automatically completed quest -->
+	<quest id="PrimitiveSurvivorQuest">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="Primitive Survivor"/>
+		<property name="subtitle_key" value="Craft a Harvest Tool"/>
+		<property name="description_key" value="questStartup_desc"/>
+		<property name="icon" value="ui_game_symbol_map_bed"/>
+		<property name="category_key" value="Stone Tool"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="questStartup_offer"/>
+		<property name="shareable" value="false"/>
+
+
+		<action type="TrackQuest"/>
+
+		<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="meleeToolSmallStoneMelee"/>
+			<property name="count" value="1"/>
+		</objective>
+
+		
+
+		<reward type="SkillPoints" value="11" chainreward="true"/>
+		
+	</quest>
+	
+
+	</append>
+</FranticDan>
