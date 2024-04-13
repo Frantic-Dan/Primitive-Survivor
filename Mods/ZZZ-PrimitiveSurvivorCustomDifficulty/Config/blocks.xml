@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/blocks">
+  		<block name="DMConfig">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="terrDesertGround"/>
+			<property class="DMConfigLoad">
+				<!-- Multipliers -->
+				<!-- Unedited vanilla values -->
+				<!-- Damage dealt -->
+				<property name="playerDamage_0" value="1.0"/> <!-- Scavenger -->
+				<property name="playerDamage_1" value="1.0"/>
+				<property name="playerDamage_2" value="1.0"/>
+				<property name="playerDamage_3" value="1.0"/>
+				<property name="playerDamage_4" value="1.0"/>
+				<property name="playerDamage_5" value="1.0"/> <!-- Insane -->
+				<!-- Damage received/enemy damage -->
+				<property name="enemyDamage_0" value="0.8"/>
+				<property name="enemyDamage_1" value="1.0"/>
+				<property name="enemyDamage_2" value="1.5"/>
+				<property name="enemyDamage_3" value="2.0"/>
+				<property name="enemyDamage_4" value="2.5"/>
+				<property name="enemyDamage_5" value="3.0"/>
+			</property>
+		</block>
+	</append>
+</configs>
