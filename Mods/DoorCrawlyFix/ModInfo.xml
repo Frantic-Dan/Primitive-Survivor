@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml>
+	<Name value="DoorCrawlyFix" />
+	<DisplayName value="DoorCrawlyFix"/>
+	<Description value="yes" />
+	<Author value="redbeardt" />
+	<Version value="1.0.0.0" />
+	<Website value="" />
+</xml>
