@@ -1,0 +1,46 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+LearnByUse,progression,Attribute,,,"Learn By Use"
+LearnByUseDesc,progression,Attribute,,,"Increase Mining, Scavenging and Weapons stats (eg. Damage and Stamina) by using tools and weapons. Gain an extra Skill Point at level 100 for each Perk."
+LearnByUseName,progression,Attribute,,,"Learn By Use"
+
+lbu_SpearMasterName,progression,Perk,,,"Spearmaster Skills"
+lbu_SpearMasterDesc,progression,Perk,,,"Learn by Use: [Strength] Use a Spear to upgrade the Spearmaster skill points. Increases are applied cumulatively per Level."
+lbu_PummelPeteName,progression,Perk,,,"Pummel Pete Skills"
+lbu_PummelPeteDesc,progression,Perk,,,"Learn by Use: [Strength] Use a Club to upgrade the Pummel Pete skill points. Increases are applied cumulatively per Level."
+lbu_SkullCrusherName,progression,Perk,,,"Skull Crusher Skills"
+lbu_SkullCrusherDesc,progression,Perk,,,"Learn by Use: [Strength] Use a Sledgehammer to upgrade the Skull Crusher skill points. Increases are applied cumulatively per Level."
+lbu_Miner69erName,progression,Perk,,,"Miner69r & MotherLode Skills"
+lbu_Miner69erDesc,progression,Perk,,,"Learn by Use: [Strength] Use an axe or shovel to upgrade the Miner69er/MotherLode skill points. Increases are applied cumulatively per Level."
+lbu_BrawlerName,progression,Perk,,,"Brawler Skills"
+lbu_BrawlerDesc,progression,Perk,,,"Learn by Use: [Strength] Use your Fists to upgrade the Brawler skill points. Increases are applied cumulatively per Level."
+lbu_DeepCutsName,progression,Perk,,,"Deep Cuts Skills"
+lbu_DeepCutsDesc,progression,Perk,,,"Learn by Use: [Strength] Use a Knife to upgrade the Deep Cuts skill points. Increases are applied cumulatively per Level."
+lbu_ElectrocutionerName,progression,Perk,,,"Baton Skills"
+lbu_ElectrocutionerDesc,progression,Perk,,,"Learn by Use: [Strength] Use a Baton to upgrade the Baton skill points. Increases are applied cumulatively per Level."
+
+lbu_DeadEyeName,progression,Perk,,,"Dead Eye Skills"
+lbu_DeadEyeDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Rifle to upgrade the Dead Eye skill points. Increases are applied cumulatively per Level."
+lbu_BoomstickName,progression,Perk,,,"Boomstick Skills"
+lbu_BoomstickDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Shotgun to upgrade the Boom Stick skill points. Increases are applied cumulatively per Level."
+lbu_MachineGunnerName,progression,Perk,,,"Machine Gunner Skills"
+lbu_MachineGunnerDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Machinegun to upgrade the Machinegunner skill points. Increases are applied cumulatively per Level."
+lbu_ArcheryName,progression,Perk,,,"Archery Skills"
+lbu_ArcheryDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Bow to upgrade the Archery skill points. Increases are applied cumulatively per Level."
+lbu_GunslingerName,progression,Perk,,,"Gunslinger Skills"
+lbu_GunslingerDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Handgun to upgrade the Gunslinger skill points. Increases are applied cumulatively per Level."
+
+lbu_SalvageName,progression,Perk,,,"Salvage Operation Skills"
+lbu_SalvageDesc,progression,Perk,,,"Learn by Use: [Fortitude] Use the Wrench to upgrade the Salvage skill points. Increases are applied cumulatively per Level."
+
+lbu_DemolitionsExpertName,progression,Perk,,,"Demolitions Expert Skills"
+lbu_DemolitionsExpertDesc,progression,Perk,,,"Learn by Use: [Intellect] Use explosives to upgrade Demolitions Expert skill points. Increases are applied cumulatively per Level.\n\nIncreases explosion radius by 0.5% at each level."
+
+
+
+
+
+
+
+
+
+
