@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SpencerMansion_Standalone>
+
+	<ModInfo>
+		<Name value="PrimitiveSurvivor_Standalone"/>
+		<Description value="The main files for Primitive Survivor"/>
+		<Author value="FranticDan"/>
+		<Version value="1.0"/>
+	</ModInfo>
+	
+</SpencerMansion_Standalone>
