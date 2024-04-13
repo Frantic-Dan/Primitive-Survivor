@@ -1,0 +1,72 @@
+<FranticDan>
+
+<!-- Random Max Health -->
+<set xpath="/entity_classes/entity_class//passive_effect[@name='HealthMax'][@operation='perc_add']/@value">0</set>
+<insertafter xpath="/entity_classes/entity_class//passive_effect[@name='HealthMax'][@operation='perc_add']">
+		<passive_effect name="HealthMax" operation="perc_add" value="-.2">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="0"/></passive_effect>
+		<!-- <passive_effect name="HealthMax" operation="perc_add" value="0">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/></passive_effect> -->
+		<passive_effect name="HealthMax" operation="perc_add" value=".35">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="HealthMax" operation="perc_add" value=".7">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="HealthMax" operation="perc_add" value="1.05">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/></passive_effect>
+		<passive_effect name="HealthMax" operation="perc_add" value="1.4">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/></passive_effect>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffEntitySpawnHeal"/>
+</insertafter>
+
+
+
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']//property[@name='LootDropProb']/@value">0.03</set>
+
+
+
+<insertafter xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='Class']">
+		<property name="EntityType" value="Zombie"/>
+</insertafter>
+
+	
+<set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']//property[@name='TimeStayAfterDeath']/@value">600</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']//property[@name='TimeStayAfterDeath']/@value">3600</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']//property[@name='TimeStayAfterDeath']/@value">3600</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']//property[@name='TimeStayAfterDeath']/@value">3600</set>
+
+
+<!-- Player -->
+
+	<remove xpath="entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']"/>
+	<remove xpath="entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']"/>
+	<remove xpath="entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']"/>
+
+	<append xpath="entity_classes/entity_class[@name='playerMale']">
+	<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeToolTorchWeapon,drinkJarRedTea=3,foodPumpkinBread=3,medicalFirstAidBandage=2,meleeToolTorch=3"/>
+	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeToolTorchWeapon,drinkJarRedTea=3,foodPumpkinBread=3,medicalFirstAidBandage=2,meleeToolTorch=3"/>
+	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeToolTorchWeapon,drinkJarRedTea=3,foodPumpkinBread=3,medicalFirstAidBandage=2,meleeToolTorch=3"/>
+	</append>
+
+
+
+
+
+
+
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[1]//passive_effect[7]/@value">.1</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[4]//passive_effect[@name='CraftingTier']/@value">5</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[4]//passive_effect[@name='CarryCapacity']/@value">15</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[4]//passive_effect[@name='BagSize']/@value">45</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[4]//triggered_effect[4]/@buff">buffStatusCheck01,buffStatusCheck02,buffHealthStatusCheck,twitch_buffNoTimeRE</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[5]//requirement[@name='PlayerLevel']/@value">100</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[6]//requirement[@name='PlayerLevel']/@value">100</set>
+
+
+<set xpath="/entity_classes/entity_class[@name='animalBear']//property[35]/@value">1500</set>
+<set xpath="/entity_classes/entity_class[@name='animalZombieBear']//property[21]/@value">1500</set>
+<set xpath="/entity_classes/entity_class[@name='animalDireWolf']//drop[2]/@name">foodRottingFlesh</set>
+<set xpath="/entity_classes/entity_class[@name='animalBossGrace']//drop[2]/@name">foodRottingFlesh</set>
+
+
+
+</FranticDan>
