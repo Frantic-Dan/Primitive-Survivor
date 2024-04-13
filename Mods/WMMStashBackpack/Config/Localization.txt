@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+lblDumpInventory,,UI,Tooltip,New,Stash All Items To Storage,,,,,
+lblDumpMatchingInventory,,UI,Tooltip,New,Stash Matching Items To Storage,,,,,
+lblDumpInfo,,UI,Tooltip,New,Hover over a slot and press X to lock or unlock a slot.,,,,,
+lblAutoDump,,UI,Tooltip,New,Auto dump all backpack items to player made storage containers within 40 blocks.,,,,,
+lblTakeMatching,,UI,Tooltip,New,Take Matching Items Only,,,,,
