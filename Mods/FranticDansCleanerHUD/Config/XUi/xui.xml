@@ -1,0 +1,7 @@
+<configs>
+
+<!-- 	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='windowToolbelt']/@anchor">LeftBottom</set>
+	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@anchor">CenterBottom</set> -->
+	
+</configs>
+
