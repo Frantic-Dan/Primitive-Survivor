@@ -1,0 +1,3 @@
+<xml>
+	<set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/texture[@depth='2']/@material">Materials/Transparent Colored</set>
+</xml>
