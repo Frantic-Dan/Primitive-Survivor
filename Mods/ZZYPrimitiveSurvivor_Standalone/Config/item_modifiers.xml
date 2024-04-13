@@ -1,0 +1,365 @@
+<FranticDan>
+
+<remove xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']"/>
+<!-- <remove xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']"/> -->
+<remove xpath="/item_modifiers/item_modifier[@name='modGunBipod']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunForegrip']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modGunMeleeTheHunter']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeStructuralBrace']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeErgonomicGrip']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeGraveDigger']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeBunkerBuster']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeIronBreaker']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeWoodSplitter']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']"/>
+<!-- <remove xpath="/item_modifiers/item_modifier[@name='modMeleeStunBatonRepulsor']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modFuelTankSmall']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modFuelTankLarge']"/> -->
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLiner']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorCoolingMesh']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']"/>
+<!-- <remove xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']"/> -->
+<!-- <remove xpath="/item_modifiers/item_modifier[@name='modArmorWaterPurifier']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorHelmetLight']"/> -->
+
+<append xpath="/item_modifiers">
+
+	<item_modifier name="modGunBarrelExtender" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunBarrelExtenderSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunBarrelExtender"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<!--DamageFalloffRange increased by x meters-->
+		<effect_group name="modGunBarrelExtender">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".12,.24" tier="1,600"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".12,.24" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".06,.12" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.03,-.06" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.03,-.06" tier="1,600">
+				<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/></passive_effect>
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value=".06,.12" tier="1,600"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value=".06,.12" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value=".03,.06" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value=".03,.06" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.048,-.096" tier="1,600">
+				<requirement name="NotHasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="modGunMuzzleBrake" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods,shotgun" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunMuzzleBrakeSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMuzzleBrake"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<!-- Muzzle brake: Directs some of the gases upwards to reduce recoil. Typically increases visibility of the gun/shooter as a result. -->
+		<effect_group name="modGunMuzzleBrake">
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.15,-.3" tier="1,600"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.15,-.3" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".048,.096" tier="1,600"/>
+		</effect_group>
+			<!-- <passive_effect name="DamageFalloffRange" operation="base_add" value="-5"/> -->
+	</item_modifier>
+
+	<item_modifier name="modGunBipod" installable_tags="bottomAttachments" modifier_tags="accuracy" blocked_tags="noMods,revolver" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunBipodSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunBipod"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<effect_group name="modGunBipod">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.048,-.096" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.054,-.108" tier="1,600">
+				<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/></passive_effect>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".03,.06" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".03,.06" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.03,-.06" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".21,.42" tier="1,600">
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunForegrip" installable_tags="bottomAttachments,turretRanged" modifier_tags="grips" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunForegripSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<effect_group name="modGunForegrip">
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".078,.156" tier="1,600"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.048,-.096" tier="1,600">
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.3,-.6" tier="1,600"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.3,-.6" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.3,-.6" tier="1,600"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.3,-.6" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunRetractingStock" installable_tags="stock" modifier_tags="stocks" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunRetractingStockSchematic"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+
+		<effect_group name="modGunRetractingStock">
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.09,-.18" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunMagazineExtender" installable_tags="magazine,turretRanged" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunMagazineExtenderSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMagazineExtender"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<effect_group name="modGunMagazineExtender">
+			<passive_effect name="MagazineSize" operation="perc_add" value=".25,.78" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunBowPolymerString" installable_tags="perkArchery" modifier_tags="velocity" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunBowPolymerStringSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunBowPolymerString"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="Material" value="Mplastics"/>
+		
+		<effect_group name="modGunBowPolymerString">
+			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".09,.18" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunBowArrowRest" installable_tags="bow" modifier_tags="accuracy" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunBowArrowRestSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunBowArrowRest"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group name="modGunBowArrowRest">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.06,-.12" tier="1,600"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.06,-.12" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGunMeleeTheHunter" installable_tags="weapon,tool" modifier_tags="specialDamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunMeleeTheHunterSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMeleeTheHunter"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<!--Do double damage to living enemies-->
+		<effect_group name="modGunMeleeTheHunter">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeTemperedBlade" installable_tags="perkDeepCuts,axe,shovel,perkBrawler,perkJavelinMaster" modifier_tags="damage" blocked_tags="noMods,noBlades" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeTemperedBladeSchematic"/>
+		<!-- <property name="DisplayType" value="modifierMeleeTemperedBlade"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		
+		<!-- reduce DR of armor by x, blade weapons -->
+		<effect_group name="modMeleeTemperedBlade">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".06,.12" tier="1,600" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.09,-.18" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeStructuralBrace" installable_tags="melee,perkArchery" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeStructuralBraceSchematic"/>
+		<!-- <property name="DisplayType" value="modifierMeleeStructuralBrace"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+
+		<!-- Increases durability, increases block efficiency, all melee -->
+		<effect_group name="modMeleeStructuralBrace">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.15,-.3" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeErgonomicGrip" installable_tags="melee,bow" modifier_tags="health" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeErgonomicGripSchematic"/>
+		<!-- <property name="DisplayType" value="modifierMeleeErgonomicGrip"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+
+		<!-- Reduces Stamina usage on all attacks, all melee -->
+		<effect_group name="modMeleeErgonomicGrip">
+			<requirement name="!HoldingItemHasTags" tags="perkArchery"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.06,-.12" tags="primary,secondary" tier="1,600"/>
+		</effect_group>
+		<effect_group name="modMeleeErgonomicGrip">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".06,.12" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeFiremansAxeMod" installable_tags="axe" modifier_tags="damageDirt,damageStone,damageIron" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="perkFiremansAlmanacAxes"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group name="modMeleeFiremansAxeMod">
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.15,-.3,-.3" tier="1,500,600" tags="entity"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.15,-.3,-.3" tier="1,500,600" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3,.3" tier="1,500,600" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeGraveDigger" installable_tags="melee" modifier_tags="damageDirt" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeGraveDiggerSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMeleeTheHunter"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<effect_group name="modMeleeGraveDigger">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3" tags="earth" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeBunkerBuster" installable_tags="melee" modifier_tags="damageStone" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeBunkerBusterSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMeleeTheHunter"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group name="modMeleeBunkerBuster">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3" tags="stone" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeIronBreaker" installable_tags="melee" modifier_tags="damageIron" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeIronBreakerSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMeleeTheHunter"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		
+		<effect_group name="modMeleeIronBreaker">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3" tags="metal" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeWoodSplitter" installable_tags="melee" modifier_tags="damageWood" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeWoodSplitterSchematic"/>
+		<!-- <property name="DisplayType" value="modifierGunMeleeTheHunter"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		
+		<effect_group name="modMeleeWoodSplitter">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".15,.3" tags="wood" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modMeleeDiamondTip" installable_tags="tool,perkBrawler,perkJavelinMaster,perkDeepCuts" modifier_tags="durability" blocked_tags="noMods,noBlades" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="perkArtOfMiningDiamondTools"/>
+		<!-- <property name="DisplayType" value="modifierMeleeStructuralBrace"/> -->
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		
+		<effect_group name="modMeleeDiamondTip">
+				<passive_effect name="DegradationPerUse" operation="perc_add" value="-.22,-.44,-.44" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" tier="1,500,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modArmorInsulatedLiner" installable_tags="armor" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DisplayType" value="modTempResist"/>
+		<property name="Material" value="Mcloth"/>
+
+		<effect_group name="modArmorInsulatedLiner">
+			<passive_effect name="HypothermalResist" operation="base_add" value="3,6" tier="1,600" />
+			<passive_effect name="ElementalDamageResist" operation="base_add" value=".6,1.2" tags="heat,electrical" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modArmorCoolingMesh" installable_tags="armor" modifier_tags="temperature" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modArmorCoolingMeshSchematic"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DisplayType" value="modTempResist"/>
+		<property name="Material" value="Mplastics"/>
+
+		<effect_group name="modArmorCoolingMesh">
+			<passive_effect name="HyperthermalResist" operation="base_add" value="3,6" tier="1,600"/>
+			<passive_effect name="ElementalDamageResist" operation="base_add" value=".6,1.2" tags="heat,electrical" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modArmorPlatingBasic" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modArmorPlatingBasicSchematic"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Material" value="Mleather"/>
+
+		<effect_group name="modArmorPlatingBasic">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value=".6,1.2" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modArmorPlatingReinforced" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modArmorPlatingReinforcedSchematic"/>
+		<property name="ShowQuality" value="true"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		
+		<effect_group name="modArmorPlatingReinforced">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1.2,2.4" tier="1,600"/>
+		</effect_group>
+	</item_modifier>
+
+
+
+
+
+	</append>
+	
+	<!-- <set xpath="/item_modifiers/item_modifier[@name]/property[@name='CreativeMode']/@value">None</set>
+	<insertafter xpath="/item_modifiers/item_modifier[@name]/property[1]">
+	<property name="CreativeMode" value="None"/>
+	</insertafter> -->
+	
+</FranticDan>
