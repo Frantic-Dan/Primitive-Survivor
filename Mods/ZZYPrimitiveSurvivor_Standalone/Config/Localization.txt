@@ -1,0 +1,230 @@
+Key,english
+goDifficultyPS,[4FC3F7]Difficulty![-]
+goDifficultyPSDesc,"[4FC3F7]Casual[-] - Enemy HP: 80%.\nPlayer Damage Taken: 80%.\n\n[4FC3F7]Nomad[-] - Enemy HP: 100%.\nPlayer Damage Taken: 100%.\n\n[4FC3F7]Warrior[-] - Enemy HP: 135%.\nPlayer Damage Taken: 150%.\n\n[4FC3F7]Survivalist[-] - Enemy HP: 170%.\nPlayer Damage Taken: 200%.\n\n[4FC3F7]Insane[-] - Enemy HP: 205%.\nPlayer Damage Taken: 250%.\n\n[4FC3F7]Masochist[-] - Enemy HP: 240%.\nPlayer Damage Taken: 300%."
+goDifficulty1PS,Casual
+goDifficulty2PS,Nomad
+goDifficulty3PS,Warrior
+goDifficulty4PS,Survivalist
+goDifficulty5PS,Insane
+goDifficulty6PS,Masochist
+
+ttLevelUp,"[4FC3F7]OOGA BOOGA, ME FEEL STRONGER![-]\nLevel {0} with {1} skill points to spend."
+reqLevel10,"Requires Player Level 10"
+reqLevel15,"Requires Player Level 15"
+reqLevel20,"Requires Player Level 20"
+reqLevel25,"Requires Player Level 25"
+reqLevel30,"Requires Player Level 30"
+reqLevel40,"Requires Player Level 40"
+reqLevel50,"Requires Player Level 50"
+reqPainToleranceLevel05,"Requires Pain Tolerance Level 5"
+attPerceptionDescPS,"Starting Headshot Damage: 200%.\nStarting Dismember Chance: 10%.\nStarting Effective Range: 100%."
+attPerceptionRank01LongDescPS,"Each level in Perception gives:\nHeadshot Damage with all weapons/tools +10%.\nDismember Chance with all weapons/tools +4%.\nEffective Range with ranged weapons +5%."
+attStrengthDescPS,"Starting Encumberance: 15.\nStarting Melee Entity/Block Damage: 100%."
+attStrengthRank01LongDescPS,"Each level in Strength gives:\nEncumberance +1.\nMelee Entity/Block Damage +5%."
+attFortitudeDescPS,"Starting Max Health: 100.\nStarting Damage Mitigation: 0%.\nStarting Stamina Regeneration (Running/Swimming): 100%."
+attFortitudeRank01LongDescPS,"Each level in Fortitude gives:\nMax Health +5.\nDamage Mitigation +1%.\nStamina Regeneration (Running/Swimming): +1%."
+attAgilityDescPS,"Starting Max Stamina: 100.\nStarting Attack Speed: 100%.\nStarting Reload Speed: 100%."
+attAgilityRank01LongDescPS,"Each level in Agility gives:\nMax Stamina +5.\nAttack Speed +1%.\nReload Speed +2%."
+attIntellectDescPS,"Starting EXP Gain: 100%. Starting Crafting Quality: 5."
+attIntellectRank1LongDescPS,"Each level in Intellect gives:\nEXP Gain +3%.\nCrafting Quality +10."
+perkLuckyLooterNamePS,"Lucky Looter + Treasure Hunter"
+perkLuckyLooterDescPS,"Two-In-One: As well as finding better loot in general, you will also gain treasure chest bonus with this perk.\nEach level will also add +10% Loot Quantity in treasure chests and 1 less block dug up to shrink treasure radius."
+perkLuckyLooterRank1LongDescPS,"Adds 5% to loot bonus for containers that you open personally. Looting is 15% faster.\n\nFor every 9 blocks dug up the treasure search radius is reduced by 1m. Without the perk you have to dig up 10 blocks each.\nFind 10% more items in buried treasure."
+perkLuckyLooterRank2LongDescPS,"Adds 10% to loot bonus. Looting is 30% faster.\n\nFor every 8 blocks dug up the treasure search radius is reduced by 1m.\nFind 20% more items in buried treasure."
+perkLuckyLooterRank3LongDescPS,"Adds 15% to loot bonus. Looting is 45% faster.\n\nFor every 7 blocks dug up the treasure search radius is reduced by 1m.\nFind 30% more items in buried treasure."
+perkLuckyLooterRank4LongDescPS,"Adds 20% to loot bonus. Looting is 60% faster.\n\nFor every 6 blocks dug up the treasure search radius is reduced by 1m.\nFind 40% more items in buried treasure."
+perkLuckyLooterRank5LongDescPS,"Adds 25% to loot bonus. Looting is 80% faster.\n\nFor every 5 blocks dug up the treasure search radius is reduced by 1m.\nFind 50% more items in buried treasure."
+perkJavelinMasterRank1LongDescPS,"Spears inflict 10% more base damage and power attacks have a 20% chance to slow enemies. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more spears in loot."
+perkJavelinMasterRank2LongDescPS,"Spears inflict 20% more base damage and power attacks have a 40% chance to slow enemies. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more spears in loot."
+perkJavelinMasterRank3LongDescPS,"Spears inflict 30% more base damage and power attacks have a 60% chance to slow enemies. Stamina costs are reduced by 15% and 22.5% for power attacks. Killing blows grant 10 stamina. Lowers Quality Loss on Repair by 30%. Find more spears in loot."
+perkJavelinMasterRank4LongDescPS,"Spears inflict 40% more base damage and power attacks have a 80% chance to slow enemies. Stamina costs are reduced by 20% and 30% for power attacks. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Find more spears in loot."
+perkJavelinMasterRank5LongDescPS,"Spears inflict 50% more base damage and power attacks have a 100% chance to slow enemies. Stamina costs are reduced by 25% and 37.5% for power attacks. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Find more spears in loot."
+perkPummelPeteRank1LongDescPS,"Clubs inflict 10% more base damage, attacks do 20% more base damage to stunned enemies, and power attacks have a 30% chance to knock foes down. Stamina reduced by 5% and power attacks by 7.5%. Lowers Quality Loss on Repair by 10%. Find more clubs in loot."
+perkPummelPeteRank2LongDescPS,"Clubs inflict 20% more base damage, attacks do 40% more base damage to stunned enemies, and power attacks have a 40% chance to knock foes down. Stamina reduced by 10% and power attacks by 15%. Lowers Quality Loss on Repair by 20%. Find more clubs in loot."
+perkPummelPeteRank3LongDescPS,"Clubs inflict 30% more base damage, attacks do 60% more base damage to stunned enemies, and power attacks have a 50% chance to knock foes down. Stamina reduced by 15% and power attacks by 22.5%. Killing blows grant 10 stamina. Lowers Quality Loss on Repair by 30%. Landing 5 successive hits in a short time causes the last blow to do 100% extra damage. Find more clubs in loot."
+perkPummelPeteRank4LongDescPS,"Clubs inflict 40% more base damage, attacks do 80% more base damage to stunned enemies, and power attacks have a 60% chance to knock foes down. Stamina reduced by 20% and power attacks by 30%. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Landing 4 successive hits in a short time causes the last blow to do 100% extra damage. Find more clubs in loot."
+perkPummelPeteRank5LongDescPS,"Clubs inflict 50% more base damage, attacks do 100% more base damage to stunned enemies, and power attacks have a 70% chance to knock foes down. Stamina reduced by 25% and power attacks by 37.5%. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Landing 3 successive hits in a short time causes the last blow to do 100% extra damage. Find more clubs in loot."
+perkSkullCrusherRank1LongDescPS,"Sledgehammers inflict 10% more base damage. Power attacks have a 20% chance to knock down enemies. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more sledgehammers in loot."
+perkSkullCrusherRank2LongDescPS,"Sledgehammers inflict 20% more base damage. Power attacks have a 30% chance to knock down enemies. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more sledgehammers in loot."
+perkSkullCrusherRank3LongDescPS,"Sledgehammers inflict 30% more base damage. Power attacks have a 40% chance to knock down enemies and a 20% chance to knock down nearby foes. Stamina costs are reduced by 15% and 22.5% for power attacks. Killing blows grant 10 stamina. Lowers Quality Loss on Repair by 30%. Find more sledgehammers in loot."
+perkSkullCrusherRank4LongDescPS,"Sledgehammers inflict 40% more base damage. Power attacks have a 50% chance to knock down enemies and a 30% chance to knock down nearby foes. Stamina costs are reduced by 20% and 30% for power attacks. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Find more sledgehammers in loot."
+perkSkullCrusherRank5LongDescPS,"Sledgehammers inflict 50% more base damage. Power attacks have a 60% chance to knock down enemies and a 40% chance to knock down nearby foes. Stamina costs are reduced by 25% and 37.5% for power attacks. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Find more sledgehammers in loot."
+perkBrawlerRank1LongDescPS,"Knuckle weapons inflict 10% more base damage. Punches to the head negate infection ability. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more knuckle weapons in loot."
+perkBrawlerRank2LongDescPS,"Knuckle weapons inflict 20% more base damage and have a 30% chance to stagger opponents with power attacks. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more knuckle weapons in loot."
+perkBrawlerRank3LongDescPS,"Knuckle weapons inflict 30% more base damage. Power attacks to the head have a 20% chance to knock down your opponent. Stamina costs are reduced by 15% and 22.5% for power attacks. Killing blows grant 10 stamina. Lowers Quality Loss on Repair by 30%. Find more knuckle weapons in loot."
+perkBrawlerRank4LongDescPS,"Knuckle weapons inflict 40% more base damage. Power attacks to the head have a 30% chance to knock down your opponent. Stamina costs are reduced by 20% and 30% for power attacks. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Find more knuckle weapons in loot."
+perkBrawlerRank5LongDescPS,"Knuckle weapons inflict 50% more base damage. You have an extra 20% base chance to explode heads with punches. Stamina costs are reduced by 25% and 37.5% for power attacks. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Find more knuckle weapons in loot."
+perkDeepCutsRank1LongDescPS,"Knives inflict 10% more base damage. Inflict up to 1 Bleeding Wound on an enemy. A power attack inflicts 1 Bleeding Wound. Every attack refreshes the duration on bleeding. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more knives in loot."
+perkDeepCutsRank2LongDescPS,"Knives inflict 20% more base damage. Inflict up to 2 Bleeding Wounds on an enemy. A power attack inflicts 1 Bleeding Wound. Enemies run 5% slower while bleeding. Every attack refreshes the duration on bleeding. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more knives in loot."
+perkDeepCutsRank3LongDescPS,"Knives inflict 30% more base damage. Inflict up to 3 Bleeding Wounds on an enemy. A power attack inflicts 1 Bleeding Wound. Glancing power attacks have a 40% chance to inflict 1 Bleeding Wound. Enemies run 10% slower while bleeding. Killing blows grant 10 stamina. Every attack refreshes the duration on bleeding. Stamina costs are reduced by 15% and 22.5% for power attacks. Lowers Quality Loss on Repair by 30%. Find more knives in loot."
+perkDeepCutsRank4LongDescPS,"Knives inflict 40% more base damage. Inflict up to 4 Bleeding Wounds on an enemy. A power attack inflicts 1 Bleeding Wound. Glancing power attacks have a 70% chance to inflict 1 Bleeding Wound. Enemies run 15% slower while bleeding. Killing blows grant 20 stamina. Every attack refreshes the duration on bleeding. Stamina costs are reduced by 20% and 30% for power attacks. Lowers Quality Loss on Repair by 40%. Find more knives in loot."
+perkDeepCutsRank5LongDescPS,"Knives inflict 50% more base damage. Inflict up to 5 Bleeding Wounds on an enemy. A power attack inflicts 1 Bleeding Wound. All glancing power attacks inflict 1 Bleeding Wound. Enemies run 20% slower while bleeding. Killing blows grant 30 stamina. Every attack refreshes the duration on bleeding. Stamina costs are reduced by 25% and 37.5% for power attacks. Lowers Quality Loss on Repair by 50%. Find more knives in loot."
+perkElectrocutionerNamePS,Baton Basher
+perkElectrocutionerRank1LongDescPS,"Batons inflict 10% more base damage. Power attacks to the head have a 15% chance to stun targets for 6 seconds. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more batons in loot."
+perkElectrocutionerRank2LongDescPS,"Batons inflict 20% more base damage. Power attacks to the head have a 20% chance to stun targets for 6 seconds. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more batons in loot."
+perkElectrocutionerRank3LongDescPS,"Batons inflict 30% more base damage. Power attacks to the head have a 25% chance to stun targets for 6 seconds. Power attacks to the legs have a 40% chance to cripple targets for 5 minutes. Stamina costs are reduced by 15% and 22.5% for power attacks. Lowers Quality Loss on Repair by 30%. Killing blows grant 10 stamina. Find more batons in loot."
+perkElectrocutionerRank4LongDescPS,"Batons inflict 40% more base damage. Power attacks to the head have a 30% chance to stun targets for 6 seconds. Power attacks to the legs have a 50% chance to cripple targets for 5 minutes. Stamina costs are reduced by 20% and 30% for power attacks. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Find more batons in loot."
+perkElectrocutionerRank5LongDescPS,"Batons inflict 50% more base damage. Power attacks to the head have a 35% chance to stun targets for 6 seconds. Power attacks to the legs have a 60% chance to cripple targets for 5 minutes. Stamina costs are reduced by 25% and 37.5% for power attacks. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Find more batons in loot."
+perkPackMuleRank1LongDescPS,"Each level of Pack Mule provides 2 more carry capacity."
+perkMiner69rNamePS,Miner 69'er + Mother Lode
+perkMiner69rRank1LongDescPS,"Increase tool base entity damage by 10% and base block damage by 30% with axes and shovels. Harvest 10% more from ore, stone, terrain blocks and trees with axes and shovels. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more tools in loot."
+perkMiner69rRank2LongDescPS,"Increase tool base entity damage by 20% and base block damage by 60% with axes and shovels. Harvest 20% more from ore, stone, terrain blocks and trees with axes and shovels. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more tools in loot."
+perkMiner69rRank3LongDescPS,"Increase tool base entity damage by 30% and base block damage by 90% with axes and shovels. Harvest 30% more from ore, stone, terrain blocks and trees with axes and shovels. Stamina costs are reduced by 15% and 22.5% for power attacks. Killing blows grant 10 stamina. Lowers Quality Loss on Repair by 30%. Find more tools in loot."
+perkMiner69rRank4LongDescPS,"Increase tool base entity damage by 40% and base block damage by 120% with axes and shovels. Harvest 40% more from ore, stone, terrain blocks and trees with axes and shovels. Stamina costs are reduced by 20% and 30% for power attacks. Killing blows grant 20 stamina. Lowers Quality Loss on Repair by 40%. Find more tools in loot."
+perkMiner69rRank5LongDescPS,"Increase tool base entity damage by 50% and base block damage by 150% with axes and shovels. Harvest 50% more from ore, stone, terrain blocks and trees with axes and shovels. Stamina costs are reduced by 25% and 37.5% for power attacks. Killing blows grant 30 stamina. Lowers Quality Loss on Repair by 50%. Find more tools in loot."
+perkSalvageOperationsRank1LongDescPS,"Wrenches inflict 10% more base damage, 20% more base block damage, and gain up to 10% more resources. Stamina costs are reduced by 5% and 7.5% for power attacks. Lowers Quality Loss on Repair by 10%. Find more wrenches in loot."
+perkSalvageOperationsRank2LongDescPS,"Wrenches inflict 20% more base damage, 40% more base block damage, and gain up to 20% more resources. Stamina costs are reduced by 10% and 15% for power attacks. Lowers Quality Loss on Repair by 20%. Find more wrenches in loot."
+perkSalvageOperationsRank3LongDescPS,"Wrenches inflict 30% more base damage, 60% more base block damage, and gain up to 30% more resources. Stamina costs are reduced by 15% and 22.5% for power attacks. Lowers Quality Loss on Repair by 30%. Find more wrenches in loot."
+perkSalvageOperationsRank4LongDescPS,"Wrenches inflict 40% more base damage, 80% more base block damage, and gain up to 40% more resources. Stamina costs are reduced by 20% and 30% for power attacks. Lowers Quality Loss on Repair by 40%. Find more wrenches in loot."
+perkSalvageOperationsRank5LongDescPS,"Wrenches inflict 50% more base damage, 100% more base block damage, and gain up to 50% more resources. Stamina costs are reduced by 25% and 37.5% for power attacks. Lowers Quality Loss on Repair by 50%. Find more wrenches in loot."
+perkLivingOffTheLandRank1LongDescPS,"Seeds are 20% cheaper to craft and Farm Plots are 15% cheaper to craft. Find more seeds in loot."
+perkLivingOffTheLandRank2LongDescPS,"Seeds are 30% cheaper to craft and Farm Plots are 30% cheaper to craft. Gain a 60% chance for an extra harvest. Find more seeds in loot."
+perkLivingOffTheLandRank3LongDescPS,"Seeds are 40% cheaper to craft and Farm Plots are 45% cheaper to craft. Gain a 15% chance for a seed from domesticated crops. Find more seeds in loot."
+perkAdamantiumSkeletonName,Adamantium Skeleton
+perkAdamantiumSkeletonDesc,"Only those who can withstand large amounts of pain can ever hope of strengthening their skeleton."
+perkAdamantiumSkeletonRank1LongDesc,"Never succumb to a broken arm or leg ever again. You also gain a 60% resistance to sprains!"
+perkSlowMetabolismRank1LongDescPS,"Reduce food and water loss from physical exertion and passive healing by 10%.\nHold your breath for 84 seconds. Chance of Dysentery is reduced by 2%."
+perkSlowMetabolismRank2LongDescPS,"Reduce food and water loss from physical exertion and passive healing by 20%.\nHold your breath for 108 seconds. Chance of Dysentery is reduced by 4%."
+perkSlowMetabolismRank3LongDescPS,"Reduce food and water loss from physical exertion and passive healing by 30%.\nHold your breath for 132 seconds. Chance of Dysentery is reduced by 6%."
+perkRuleOneCardioNameRank1LongDescPS,"Increase stamina regeneration by 5% when sprinting."
+perkRuleOneCardioNameRank2LongDescPS,"Increase stamina regeneration by 10% when sprinting."
+perkRuleOneCardioNameRank3LongDescPS,"Increase stamina regeneration by 15% when sprinting."
+perkRuleOneCardioNameRank4LongDescPS,"Increase stamina regeneration by 20% when sprinting."
+perkRuleOneCardioNameRank5LongDescPS,"Increase stamina regeneration by 25% when sprinting."
+perkFlurryOfBlowsDescPS,"Attack faster using melee weapons."
+perkFlurryOfBlowsRank1LongDescPO,"Your melee attack speed is 10% faster. Applies to all melee options."
+perkFlurryOfBlowsRank2LongDescPO,"Your melee attack speed is 20% faster. Applies to all melee options."
+perkFlurryOfBlowsRank3LongDescPO,"Your melee attack speed is 30% faster. Applies to all melee options."
+perkLightArmorRank1LongDescPS,"Improve Light Armour durability by 75%. Lowers Quality Loss on Repair by 20%.\nFind more armour in loot."
+perkLightArmorRank2LongDescPS,"Improve Light Armour durability by 150%. Lowers Quality Loss on Repair by 40%.\nFind more armour in loot."
+perkLightArmorRank3LongDescPS,"Improve Light Armour durability by 225%. Lowers Quality Loss on Repair by 60%. \nFind more armour in loot."
+perkLightArmorRank4LongDescPS,"Improve Light Armour durability by 300%. Lowers Quality Loss on Repair by 80%.\nFind more armour in loot."
+perkMarathonRunnerName,Marathon Runner
+perkMarathonRunnerDesc,"Gotta go fast!"
+perkMarathonRunnerNameRank1Desc,Fast!
+perkMarathonRunnerNameRank2Desc,Faster!
+perkMarathonRunnerNameRank3Desc,Speedy!
+perkMarathonRunnerNameRank4Desc,Speed Demon!
+perkMarathonRunnerNameRank5Desc,Blue Hedgehog!
+perkMarathonRunnerNameRank1LongDesc,"Sprint 2% faster."
+perkMarathonRunnerNameRank2LongDesc,"Sprint 4% faster."
+perkMarathonRunnerNameRank3LongDesc,"Sprint 6% faster."
+perkMarathonRunnerNameRank4LongDesc,"Sprint 8% faster."
+perkMarathonRunnerNameRank5LongDesc,"Sprint 10% faster."
+perkQuickHandsName,Quick Hands
+perkQuickHandsDesc,"Reload all weapons faster."
+perkQuickHandsNameRank1Desc,Quick Hands
+perkQuickHandsNameRank2Desc,Lightning Hands
+perkQuickHandsNameRank3Desc,Neo would be proud
+perkQuickHandsNameRank4Desc,Super Human
+perkQuickHandsNameRank5Desc,Super Saiyan
+perkQuickHandsNameRank1LongDesc,"Reload all weapons 10% faster."
+perkQuickHandsNameRank2LongDesc,"Reload all weapons 20% faster."
+perkQuickHandsNameRank3LongDesc,"Reload all weapons 30% faster."
+perkQuickHandsNameRank4LongDesc,"Reload all weapons 40% faster."
+perkQuickHandsNameRank5LongDesc,"Reload all weapons 50% faster."
+perkDemolitionsExpertRank1LongDescPS,"Explosives inflict 10% more base damage, have a 50% chance to stun enemies and a 5% greater chance to dismember."
+perkDemolitionsExpertRank2LongDescPS,"Explosives inflict 20% more base damage, have a 100% chance to stun enemies, and a 10% greater chance to dismember."
+perkDemolitionsExpertRank3LongDescPS,"Explosives inflict 30% more base damage, have a 33% chance to cripple enemies and a 20% greater chance to dismember."
+perkDemolitionsExpertRank4LongDescPS,"Explosives inflict 40% more base damage, have a 66% chance to cripple enemies and a 30% greater chance to dismember."
+perkDemolitionsExpertRank5LongDescPS,"Explosives inflict 50% more base damage, have a 45% greater chance to dismember. Stun lasts longer on enemies."
+perkMasterChefRank1LongDescPS,"Cooking is not your thing, but you know some basics.\nReduces cook time by 40%.\nFind more cooking magazines in loot."
+perkMasterChefRank2LongDescPS,"Don’t let good food go to waste!\nUse 20% less of a recipe's main ingredients.\nAdds a chance to find salvageable food in dumpsters.\nReduces cook time by 60%."
+perkMasterChefRank3LongDescPS,"Cooking for an Army?\nUse 40% less of a recipe's main ingredients.\nReduces cook time by 80%."
+perkPhysicianRank1LongDescPS,"Treated Critical injuries heal 25% faster.\nMedical healing items heal 25% more health over time.\nGain 100% more XP using bandages, first aid bandages, first aid kits and splints.\nSplints and Casts cure sprains instantly."
+perkPhysicianRank2LongDescPS,"Treated Critical injuries heal 50% faster.\nMedical healing items heal 50% more health over time.\nGain 200% more XP using bandages, first aid bandages, first aid kits and splints. Craft items in the Chemistry Station 20% faster. Medical items are 20% cheaper to craft."
+perkPhysicianRank3LongDescPS,"Treated Critical injuries heal 75% faster.\nMedical healing items heal 75% more health over time.\nGain 300% more XP using bandages, first aid bandages, first aid kits and splints."
+perkPhysicianRank4LongDescPS,"Treated Critical injuries heal 100% faster.\nMedical healing items heal 100% more health over time.\nGain 500% more XP using bandages, first aid bandages, first aid kits and splints. Craft items in the Chemistry Station 40% faster. Medical items are 40% cheaper to craft."
+perkSlowAbsorptionName,Slow Absorption
+perkSlowAbsorptionDesc,"Buffs from consumables last longer."
+perkSlowAbsorptionRank1Desc,Slow Absorption 1
+perkSlowAbsorptionRank2Desc,Slow Absorption 2
+perkSlowAbsorptionRank3Desc,Slow Absorption 3
+perkSlowAbsorptionRank4Desc,Slow Absorption 4
+perkSlowAbsorptionRank1LongDesc,"Buffs from consumables last 25% longer."
+perkSlowAbsorptionRank2LongDesc,"Buffs from consumables last 50% longer."
+perkSlowAbsorptionRank3LongDesc,"Buffs from consumables last 75% longer."
+perkSlowAbsorptionRank4LongDesc,"Buffs from consumables last 100% longer."
+perkAdvancedEngineeringRank1LongDescPS,"Items craft 15% faster at forges, workbenches.\nCraft glue cheaper. Find more Forge Ahead magazines in loot."
+perkAdvancedEngineeringRank2LongDescPS,"Items craft 30% faster at forges, workbenches.\nGunpowder is 10% cheaper to craft and use 10% less gunpowder in recipes.\nFind more Forge Ahead magazines in loot."
+perkAdvancedEngineeringRank3LongDescPS,"All forge recipes cost 20% less, crafting steel and electrical devices costs 35% less.\nGunpowder is 20% cheaper to craft and use 20% less gunpowder in recipes.\nFind more Forge Ahead magazines in loot."
+perkGreaseMonkeyRank1LongDescPS,"Craft wheels and bicycle parts 33% cheaper.\nRepair kits are 10% more effective on vehicles. Find more Vehicle Adventures magazines in loot."
+perkGreaseMonkeyRank2LongDescPS,"Craft minibike parts 33% cheaper.\nRepair kits are 20% more effective on vehicles. Find more Vehicle Adventures magazines in loot."
+perkVillageIdiotName,Village Idiot
+perkVillageIdiotDesc,"You might be an idiot, but you're a fast learner!\n\nLevel 1 requires 0 - 2 Intellect.\nLevel 2 requires 0 - 1 Intellect.\nLevel 3 requires 0 Intellect."
+perkVillageIdiotRank1LongDesc,"Your low intelligence lets you learn 20% faster."
+perkVillageIdiotRank2LongDesc,"Your low intelligence lets you learn 40% faster."
+perkVillageIdiotRank3LongDesc,"Your low intelligence lets you learn 60% faster."
+reqLowIntellectLevel02,Requires 2 or less Intellect
+reqLowIntellectLevel01,Requires 1 or less Intellect
+reqLowIntellectLevel00,Requires 0 Intellect
+perkAutoWeaponsDrumMagDescPS,"Craft HiPower and AP 5.56mm ammunition."
+perkAutoWeaponsDrumMagLongDescPS,"HiPower Ammunition: Learn to craft HiPower 5.56mm ammunition.\nArmor Piercing Ammunition: Learn to craft armor piercing 7.62mm ammunition and do more damage against armored opponents."
+perkAutoWeaponsCompleteDescPS,"Each kill boosts your run speed by 20% for 20 seconds.\nBulk Craft 5.56 Ammunition."
+perkAutoWeaponsCompleteLongDescPS,"Offensive Strike: Use the fury of combat adrenaline to close the distance on your enemies. Each kill boosts your run speed by 20% for 20 seconds.\n\nBulk Craft 5.56 Ammunition."
+perkNeedleAndThreadCompleteDescPS,"Learn how to sew pocket mods."
+perkNeedleAndThreadCompleteLongDescPS,"Pockets: The working man or woman can never have enough pockets. Learn how to craft clothing double pocket mods."
+perkNeedleAndThreadPocketsDescPS,"You can craft military clothing."
+perkNeedleAndThreadPocketsLongDescPS,"Military Clothing: Learn to craft military grade battle dress uniforms which have the best protection against the elements."
+perkFiremansAlmanacEquipmentDescPS,"Extinguish and hydrate."
+perkFiremansAlmanacEquipmentLongDescPS,"Extinguish and hydrate: You now gain half the benefit value of a drink when extinguishing yourself.\n(Excludes buffs)"
+perkUrbanCombatLandingDescPS,"Sprains no longer hurt you."
+perkUrbanCombatLandingLongDescPS,"Fight through the sprain: Power attacks and jumping no longer hurt you when you have a sprained arm or leg."
+perkWasteTreasuresCompleteDescPS,"Harvest more Resin from trees."
+perkWasteTreasuresCompleteLongDescPS,"Nature's Glue: Harvest more Resin from Trees."
+perkShotgunMessiahMagazineDescPS,"Reload Shotguns 20% Faster."
+perkShotgunMessiahMagazineLongDescPS,"Quicker Reload: Reload shotguns 20% faster."
+perkRangersCompleteDescPS,"Bulk craft arrows and bolts.\nCraft Shock Arrows."
+perkRangersCompleteLongDescPS,"Bulk craft arrows and bolts.\nYou can now craft Shock Arrows, shocking victims for 6 seconds for 8 damage per second."
+
+explosivesT1-11,Tier 1: Molotov Cocktail
+workstationsT3-3,Tier 2: Anvil
+workstationsT3-4,Tier 2: Bellows
+workstationsT5-2,Tier 5: Empty Glass Jars
+vehiclesT3-1,Tier 3: Stack of Gas Cans
+medicalT1-0,Tier 1: Splint
+medicalT3-4,Tier 3: Fortbites
+questStartup_desc,"Ooga booga, me find stone and smash!"
+PrimitiveSurvivorSpawnText_title,Primitive Survivor!
+PrimitiveSurvivorSpawnText,"Can you survive this primitive world?\nYou have no compass, no watch to tell the time or even know what day it is, you don't even have a map.\n\nThe skill tree has been reworked, new perks added, some removed, and new requirements.\n\nThere is a severe death penalty, so be sure to keep your health above zero!\n\nINFECTION: You're not infected, yet, take precautions to avoid infection by using honey and other treaments to gain periodic immunity. Once infected, you can only treat it, there is no cure!"
+
+foodRawMeat,Raw Meat Scraps (20 grams)
+buffDrunkGrandpasAwesomeSauceDesc,"It tastes like brass or ass but you feel incredible.\n+2 to all attributes ... for a while."
+drinkJarGrandpasAwesomeSauceDesc,"Apocalypse getting you down?\nTake a shot of Grandpa's Awesome Sauce\nand get an instant pick-me-up!\n\n+2 to all attributes for the duration of the buff."
+InfectionProtection,Infection Protection
+buffInfectionProtectionDesc,"You're currently immune to catching an infection."
+meleeToolSmallStoneMelee,Small Stone (Harvest Tool)
+meleeToolSmallStoneDesc,"Me smash tree and stone with rock"
+resourcePrimitiveRepairKit,Primitive Repair Kit
+PrimitiveRepairKitDesc,"Repairs weapons, tools and armour made from natures materials.\n\nRepairs the following:\nStone Axe, Stone Shovel, Stone Spear, Stone Sledgehammer, Wooden Club, Knuckle Wraps, Primitive Bow, Bone Knife, Padded Armour."
+resourceBrick,Clay Brick
+BrickDesc,"The most advanced building material a cave man can make."
+resourceResin,Resin
+ResinDesc,"Natures glue, used in many recipes."
+ammoArrowShock,Shock Arrow (Ammo)
+ArrowShockDesc,"Your caveman brain doesn't understand how this works, but this arrow will leave your target shaking for no apparent reason."
+meleeToolTorchWeapon,Primitive Torch (Weapon)
+TorchWeaponDesc,"This primitive torch is used as a weapon with a power attack.\nYou can't place this one as a block."
+drinkCanRiverWater,Murky Canned Water
+drinkCanRiverWaterDesc,"A can filled with non-potable water. Drink at your own risk.\n\nCan be boiled or used to make glue."
+drinkCanBoiledWater,Boiled Canned Water
+drinkCanBoiledWaterDesc,"Even though this water is boiled, it isn't 100% safe, but won't make you sick."
+ammo556mmBulletBall,5.56mm Ammo
+ammo556mmBulletHP,HiPower 5.56mm Ammo
+ammo556mmBulletAP,AP 5.56mm Ammo
+ammoBundle556mmBulletBall,Box of 5.56mm Ammo (100)
+ammoBundle556mmBulletHP,Box of HiPower 5.56mm Ammo (100)
+ammoBundle556mmBulletAP,Box of AP 5.56mm Ammo (100)
+buffDeathPenaltyWeakenedName,Death Penalty
+buffDeathTooltip,Death weakens you!
+buffDeathPenaltyWeakenedDesc,"You are weakened due to dying.\n\nAll Attributes -2.\nMax Health and Stamina -30%."
+modGunMeleeTheHunterDesc,"Increases damage against all animals by 15%-30%."
+modMeleeStructuralBraceDesc,"This modification for melee weapons and tools lowers degradation by 15%-30%."
+modMeleeErgonomicGripDesc,"Decreases melee stamina usage by 6%-12%.\nIncreases weapon handling of bows by 6%-12%."
+modMeleeFiremansAxeModDesc,"Deal 15%-30% more damage to blocks.\nBut 15%-30% less damage to enemies."
+modMeleeGraveDiggerDesc,"Increases block damage against dirt by 15%-30%."
+modMeleeIronBreakerDesc,"Increases block damage against iron by 15%-30%."
+modMeleeWoodSplitterDesc,"Increases block damage against wood by 15%-30%."
+modMeleeBunkerBusterDesc,"Increases block damage against stone by 15%-30%."
+modMeleeDiamondTipDesc,"Any hand tool or bladed weapon degrades 22%-44% slower with this modification."
+modMeleeTemperedBladeDesc,"This blade modification increases block damage by 6%-12%.\nLowers degradation by 9%-18%."
