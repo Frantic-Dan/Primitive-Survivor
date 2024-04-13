@@ -1,0 +1,9 @@
+<configs>
+
+<append xpath="/blockplaceholders">
+	<placeholder name="decoCookingPot">
+		<block name="cntFoodPileLarge" prob="1.0" randomrotation="true"/>
+	</placeholder>	
+</append>
+
+</configs>
