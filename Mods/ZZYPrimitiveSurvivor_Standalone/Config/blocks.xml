@@ -1,0 +1,646 @@
+<FranticDan>
+
+<set xpath="/blocks/block[@name='keystoneBlock']//property[17]/@value">25000</set>
+<set xpath="/blocks/block[@name='keystoneBlock']//property[20]/@value">DMG0, 25000, DMG1, 1,</set>
+		
+<!-- Block upgrading -->		
+<set xpath="/blocks/block[@name='frameShapes']/property[11]//property[3]/@value">16</set>
+<insertafter xpath="/blocks/block[@name='frameShapes']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<set xpath="/blocks/block[@name='woodShapes']/property[10]//property[3]/@value">15</set>
+<set xpath="/blocks/block[@name='woodShapes']//property[@name='UpgradeSound']/@value">place_block_concrete</set>
+<set xpath="/blocks/block[@name='woodShapes']//drop[1]/@count">12</set>
+<insertafter xpath="/blocks/block[@name='woodShapes']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<set xpath="/blocks/block[@name='cobblestoneShapes']/property[9]//property[1]/@value">brickShapes</set>
+<set xpath="/blocks/block[@name='cobblestoneShapes']/property[9]//property[2]/@value">resourceBrick</set>
+
+<set xpath="/blocks/block[@name='brickShapes']/property[10]/property[1]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='brickShapes']/property[10]/property[1]/@value">8</set>
+<set xpath="/blocks/block[@name='brickShapes']//drop[1]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='brickShapes']//drop[1]/@count">6</set>
+<set xpath="/blocks/block[@name='brickShapes']/property[11]//property[1]/@value">concreteShapes</set>
+<set xpath="/blocks/block[@name='brickShapes']/property[11]//property[2]/@value">resourceConcreteMix</set>
+
+<set xpath="/blocks/block[@name='palletBricksBase']//drop[2]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='palletBricksBase']//drop[2]/@count">20</set>
+<set xpath="/blocks/block[@name='bricksStack']//drop[1]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='bricksStack']//drop[1]/@count">20</set>
+<set xpath="/blocks/block[@name='rubblePileBricks']//drop[2]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='rubblePileBricks']//drop[2]/@count">5</set>
+<set xpath="/blocks/block[@name='brickNoUpgradeMaster']//drop[1]/@name">resourceBrick</set>
+<set xpath="/blocks/block[@name='brickNoUpgradeMaster']//drop[1]/@count">6</set>
+
+<set xpath="/blocks/block[@name='cellarDoorDoubleWood']//drop[2]/@count">20</set>
+<insertafter xpath="/blocks/block[@name='cellarDoorDoubleWood']//drop[2]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='cntNightstandOpen']//property[4]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='cntNightstandWallOpen']//property[3]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='cntDeskWoodEmpty']//property[2]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='sectionalLeatherCouchSofaArm']//drop[4]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']//drop[4]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='couchUglySingleWhite']//drop[4]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='couchModernArm']//drop[4]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='decoPicnicTable']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='parkBenchA']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertbefore xpath="/blocks/block[@name='woodChair1']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="1" />
+</insertbefore>
+
+<insertbefore xpath="/blocks/block[@name='oldChair1']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="1" />
+</insertbefore>
+
+<insertbefore xpath="/blocks/block[@name='woodChair1Broken']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="1" />
+</insertbefore>
+
+<insertbefore xpath="/blocks/block[@name='oldChair1Broken']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="1" />
+</insertbefore>
+
+<insertbefore xpath="/blocks/block[@name='churchPewLeftWhite']//drop[1]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertbefore>
+
+
+
+<insertafter xpath="/blocks/block[@name='palletBrownBoxesBase']//property[1]">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="junkBox"/>
+</insertafter>
+
+<!-- remove military fiber -->
+<remove xpath="/blocks/block[@name='cntTrashPile01']//drop[3]"/>
+<remove xpath="/blocks/block[@name='garbage_decor1']//drop[2]"/>
+<remove xpath="/blocks/block[@name='garbage_decor2']//drop[2]"/>
+<remove xpath="/blocks/block[@name='chairCampingWhite']//drop[4]"/>
+<remove xpath="/blocks/block[@name='chairCampingWhite']//drop[5]"/>
+<remove xpath="/blocks/block[@name='cntArmyTruckOpen']//drop[12]"/>
+<remove xpath="/blocks/block[@name='cntArmyTruckClosed']//drop[1]"/>
+
+
+<!-- remove silver and gold -->
+<remove xpath="/blocks/block[@name]//drop[@name='resourceSilverNugget']"/>
+<remove xpath="/blocks/block[@name]//drop[@name='resourceGoldNugget']"/>
+<set xpath="/blocks/block[@name]//drop[@name='resourceRawDiamond']/@prob">0.01</set>
+<set xpath="/blocks/block[@name='cntCasketModernOffsetRandomHelper']//drop[3]/@prob">0.06</set>
+<set xpath="/blocks/block[@name='cntCoffinWildWestRandomHelper']//drop[3]/@prob">0.06</set>
+
+
+<!-- 75% honey from stumps -->
+<set xpath="/blocks/block[@name='treeStumpPOI']//drop[2]/@prob">.75</set>
+<set xpath="/blocks/block[@name='treeStump']//drop[2]/@prob">.75</set>
+
+<!-- Lower lockpick break chance slightly -->
+<set xpath="/blocks/block[@name]/property[@name='LockPickBreakChance']/@value">0.7</set>
+
+<set xpath="/blocks/block[@name='treeGrassMaster']//drop[1]/@count">2,4</set>
+<set xpath="/blocks/block[@name='treeGrassMaster']//drop[1]/@tag">oreWoodHarvest</set>
+<set xpath="/blocks/block[@name='hayBaleSquare']//drop[1]/@count">10,16</set>
+<set xpath="/blocks/block[@name='hayBaleSquare']//drop[1]/@tag">oreWoodHarvest</set>
+
+<insertafter xpath="/blocks/block[@name='plantedtreeGrassSeed1']//drop[1]">
+	<drop event="Harvest" name="resourceYuccaFibers" prob="0.6" count="1" tag="bonusCropHarvest"/>
+</insertafter>
+
+<set xpath="/blocks/block[@name='plantedCornDeadSmall']/drop[@event='Destroy']/@count">3,6</set>
+<set xpath="/blocks/block[@name='plantedCornDeadMedium']/drop[@event='Destroy']/@count">5,10</set>
+<set xpath="/blocks/block[@name='plantedCornDead']/drop[@event='Destroy']/@count">7,14</set>
+
+
+
+<insertafter xpath="/blocks/block[@name='treePlainsTree2']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPineDry21m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+
+<insertafter xpath="/blocks/block[@name='treeOakSml01']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeOakMed01']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeOakMed02']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeOakLrg01']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedOak08m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedOak16m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedOak27m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedOak41m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeJuniper4m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine12m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine19m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine27m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine31m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine41m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeMountainPine48m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeFirLrg01']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedMountainPine12m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedMountainPine19m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedMountainPine27m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedMountainPine41m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeWinterEverGreen']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeWinterPine13m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeWinterPine19m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treeWinterPine28m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedWinterPine6m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedWinterPine13m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedWinterPine19m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='treePlantedWinterPine28m']//drop[1]">
+	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
+</insertafter>
+
+<set xpath="/blocks/block[@name='farmPlotBlock']//drop[1]/@count">16</set>
+<set xpath="/blocks/block[@name='farmPlotBlock']//drop[2]/@count">8</set>
+<insertafter xpath="/blocks/block[@name='farmPlotBlock']//drop[2]">
+	<drop event="Harvest" name="resourceWood" count="20" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="4" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='farmPlotBlockRaised']//property[3]">
+	<drop event="Harvest" name="resourceWood" count="20" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="4" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='farmPlotBlockCornerRound']//property[3]">
+	<drop event="Harvest" name="resourceWood" count="20" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="4" tag="oreWoodHarvest"/>
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='farmPlotBlockPlayer']//property[@name='CanMobsSpawnOn']">
+	<property name="Material" value="MfertilizedFarmland"/>
+</insertafter>
+<insertafter xpath="/blocks/block[@name='farmPlotBlock']//drop[2]">
+	<drop event="Harvest" name="resourceWood" count="0" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="0" tag="oreWoodHarvest"/>
+</insertafter>
+
+<!-- <remove xpath="/blocks/block[@name='cntVendingMachine2']//property[@name='Class']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachine2']//property[@name='TraderID']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineEnergy']//property[@name='Class']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineEnergy']//property[@name='TraderID']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineWater']//property[@name='Class']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineWater']//property[@name='TraderID']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFull']//property[@name='Class']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFull']//property[@name='TraderID']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFullBroken']//property[@name='Class']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFullBroken']//property[@name='TraderID']"/> -->
+
+<remove xpath="/blocks/block[@name='cntVendingMachine2']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineEnergy']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineWater']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFull']"/>
+<remove xpath="/blocks/block[@name='cntVendingMachineSnacksFullBroken']"/>
+
+
+<remove xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedHop3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']"/>
+
+<set xpath="/blocks/block[@name='plantedMushroom3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedYucca3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedCotton3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedCoffee3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedGoldenrod3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedAloe3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedBlueberry3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedPotato3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedCorn3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedGraceCorn3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedHop3Harvest']//drop[2]/@prob">0.6</set>
+<set xpath="/blocks/block[@name='plantedPumpkin3Harvest']//drop[2]/@prob">0.6</set>
+
+<set xpath="/blocks/block[@name='cntDewCollector']//property[21]/@value">43200</set>
+<set xpath="/blocks/block[@name='cntDewCollector']//property[22]/@value">57600</set>
+<set xpath="/blocks/block[@name='cntDewCollector']//property[27]/@value">1000</set>
+
+<append xpath="/blocks">
+
+<block name="plantedMushroom3HarvestPlayer">
+	<property name="Extends" value="plantedMushroom3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="DescriptionKey" value="plantedMushroom3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedMushroom1"/>
+	<property name="SortOrder1" value="B951"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedYucca3HarvestPlayer">
+	<property name="Extends" value="plantedYucca3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedYucca1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedYucca1"/>
+	<property name="SortOrder1" value="B952"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedCotton3HarvestPlayer">
+	<property name="Extends" value="plantedCotton3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
+	<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedCotton1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedCotton1"/>
+	<property name="SortOrder1" value="B953"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedCoffee3HarvestPlayer">
+	<property name="Extends" value="plantedCoffee3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
+	<property name="DescriptionKey" value="plantedCoffee3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedCoffee1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedCoffee1"/>
+	<property name="SortOrder1" value="B954"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedGoldenrod3HarvestPlayer">
+	<property name="Extends" value="plantedGoldenrod3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1"/>
+	<property name="SortOrder1" value="B955"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedAloe3HarvestPlayer">
+	<property name="Extends" value="plantedAloe3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedAloe1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedAloe1"/>
+	<property name="SortOrder1" value="B956"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedBlueberry3HarvestPlayer">
+	<property name="Extends" value="plantedBlueberry3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1"/>
+	<property name="SortOrder1" value="B957"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedPotato3HarvestPlayer">
+	<property name="Extends" value="plantedPotato3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropPotato" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedPotato1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedPotato1"/>
+	<property name="SortOrder1" value="B958"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedChrysanthemum3HarvestPlayer">
+	<property name="Extends" value="plantedChrysanthemum3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
+	<property name="DescriptionKey" value="plantedChrysanthemum3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+	<property name="SortOrder1" value="B959"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedCorn3HarvestPlayer">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropCorn" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedCorn1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedCorn1"/>
+	<property name="SortOrder1" value="B960"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedGraceCorn3HarvestPlayer">
+	<property name="Extends" value="plantedGraceCorn3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedGraceCorn1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedGraceCorn1"/>
+	<property name="SortOrder1" value="B961"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedHop3HarvestPlayer">
+	<property name="Extends" value="plantedHop3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedHop1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedHop1"/>
+	<property name="SortOrder1" value="B962"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedPumpkin3HarvestPlayer">
+	<property name="Extends" value="plantedPumpkin3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
+	<property name="DescriptionKey" value="plantedPumpkin3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.6" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="plantedPumpkin1" count="1" prob="0.15" tag="bonusSeedHarvest"/>
+	<property name="DowngradeBlock" value="plantedPumpkin1"/>
+	<property name="SortOrder1" value="B964"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+
+<block name="cntVendingMachine2"> <!-- SODA -->
+	<property name="Extends" value="cntVendingMachine2Broken"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="softDrinkVending"/>
+	<property name="CustomIcon" value="cntVendingMachine2Broken"/>
+	<property name="Model" value="Entities/Crafting/sodaVendingMachinePrefab"/>
+	<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller"/>
+	<property name="DowngradeBlock" value="cntVendingMachine2Broken"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="cntVendingMachineEnergy">
+	<property name="Extends" value="cntVendingMachine2Broken"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="energyDrinkVending"/>
+	<property name="CustomIcon" value="cntVendingMachineEnergyBroken"/>
+	<property name="Model" value="Entities/Crafting/sodaVendingMachineEnergyPrefab"/>
+	<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller"/>
+	<property name="DowngradeBlock" value="cntVendingMachineEnergyBroken"/>
+	<property name="SortOrder2" value="0006"/>
+</block>
+
+<block name="cntVendingMachineWater">
+	<property name="Extends" value="cntVendingMachine2Broken"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="waterDrinkVending"/>
+	<property name="CustomIcon" value="cntVendingMachineWaterBroken"/>
+	<property name="Model" value="Entities/Crafting/sodaVendingMachineWaterPrefab"/>
+	<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller"/>
+	<property name="DowngradeBlock" value="cntVendingMachineWaterBroken"/>
+	<property name="SortOrder2" value="0007"/>
+</block>
+
+<block name="cntVendingMachineSnacksFull">
+	<property name="Extends" value="cntVendingMachine2Broken" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="candyVending"/>
+	<property name="Model" value="Entities/Commercial/vendingMachineSnacksFullPrefab"/>
+	<property name="ModelOffset" value="0,0,-0.5"/>
+	<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller"/>
+	<property name="DowngradeBlock" value="cntVendingMachineSnacksEmpty"/>
+	<property name="SortOrder2" value="0009"/>
+</block>
+
+<block name="cntVendingMachineSnacksFullBroken">
+	<property name="Extends" value="cntVendingMachine2Broken" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="candyVending"/>
+	<property name="Model" value="Entities/Commercial/vendingMachineSnacksFullBrokenPrefab"/>
+	<property name="ModelOffset" value="0,0,-0.5"/>
+	<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller"/>
+	<property name="DowngradeBlock" value="cntVendingMachineSnacksEmptyBroken"/>
+	<property name="SortOrder2" value="0011"/>
+</block>
+
+
+
+
+</append>
+
+
+<!-- <insertafter xpath="/blocks/block[@name]/property[1]">
+	<property name="CreativeMode" value="None"/>
+</insertafter>
+<set xpath="/blocks/block[@name]/property[@name='CreativeMode']/@value">None</set> -->
+
+</FranticDan>
