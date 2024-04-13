@@ -1,0 +1,8 @@
+<FranticDan>
+
+<set xpath="/gamestages/config/@difficultyBonus">1</set>
+
+<append xpath="/gamestages">
+
+</append>
+</FranticDan>
