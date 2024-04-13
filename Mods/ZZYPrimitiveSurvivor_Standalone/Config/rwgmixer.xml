@@ -1,0 +1,36 @@
+<configs>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='wilderness']//property[1]/@value">200</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='wilderness']//property[2]/@value">300</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='wilderness']//property[3]/@value">400</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[12]//property[4]/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[13]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[14]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[15]//property[4]/@value">10</set>
+	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='wilderness']//property[1]/@value">400</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='wilderness']//property[2]/@value">500</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='wilderness']//property[3]/@value">600</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[12]//property[4]/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[13]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[14]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[15]//property[4]/@value">18</set>
+	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='wilderness']//property[1]/@value">600</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='wilderness']//property[2]/@value">700</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='wilderness']//property[3]/@value">800</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[12]//property[4]/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[12]//property[5]/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[13]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[14]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[15]//property[4]/@value">18</set>
+	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='wilderness']//property[1]/@value">800</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='wilderness']//property[2]/@value">900</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='wilderness']//property[3]/@value">1000</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[12]//property[4]/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[13]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[14]//property[4]/@value">8</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[15]//property[4]/@value">18</set>
+	
+</configs>
