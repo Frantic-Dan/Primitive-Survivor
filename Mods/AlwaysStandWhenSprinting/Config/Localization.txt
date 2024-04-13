@@ -1,0 +1,3 @@
+Key,English
+xuiOptionsControlsStandWhenRunning,"[ffc070]Always Stand When Running[-]"
+xuiOptionsControlsStandWhenRunningTooltip,"[ffc070]When this setting is enabled, if the player starts running/sprinting while crouched, the player will automatically stand (i.e. stop crouching)."
