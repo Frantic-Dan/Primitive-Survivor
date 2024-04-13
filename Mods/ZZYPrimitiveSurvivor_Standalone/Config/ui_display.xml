@@ -1,0 +1,132 @@
+<Frantic_Dan>		
+	
+	<set xpath="//item_display_info[@display_type='waterGrandpasAwesomeSauce']">
+        <display_entry name="dIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+        <display_entry name="dStrength" title_key="statShowStrength" display_leading_plus="true"/>
+        <display_entry name="dAgility" title_key="statShowAgility" display_leading_plus="true"/>
+        <display_entry name="dPerception" title_key="statShowPerception" display_leading_plus="true"/>
+        <display_entry name="dFortitude" title_key="statShowFortitude" display_leading_plus="true"/>
+        <display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+    </set>
+	
+	<insertAfter xpath="/ui_display_info/item_display/item_display_info[@display_type='modArmorMobility']">
+	<!-- <item_display_info display_type="modifierGunBarrelExtender" display_group="groupRanged">
+        <display_entry name="MaxRange" title_key="statDamageFalloffRange" display_type="Decimal2" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+        <display_entry name="SpreadMultiplierHip" title_key="statSpreadMultiplierHip" display_type="Percent" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+        <display_entry name="SpreadMultiplierAiming" title_key="statSpreadMultiplierAiming" display_type="Percent" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+        <display_entry name="KickDegreesVerticalMax" title_key="statKickDegreesVerticalMax" display_type="Percent" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+        <display_entry name="KickDegreesHorizontalMax" title_key="statKickDegreesHorizontalMax" display_type="Percent" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+        <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+    </item_display_info> -->
+	
+	<item_display_info display_type="clothingArmour" display_group="groupAttire" >
+			<display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResist"/>
+			<display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" tags="heat,electrical"/>
+			<display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist"/>
+			<display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist"/>
+	</item_display_info>
+	
+	<!-- <item_display_info display_type="modifierGunMuzzleBrake" display_group="groupRanged" >
+			<display_entry name="KickDegreesVerticalMax" display_type="Decimal1" title_key="statKickDegreesVerticalMax"/>
+			<display_entry name="KickDegreesHorizontalMax" display_type="Decimal1" title_key="statKickDegreesHorizontalMax" tags="heat,electrical"/>
+			<display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunBipod" display_group="groupRanged" >
+			<display_entry name="SpreadMultiplierAiming" display_type="Decimal1" title_key="statSpreadMultiplierAiming"/>
+			<display_entry name="KickDegreesHorizontalMax" display_type="Decimal1" title_key="statKickDegreesHorizontalMax" tags="heat,electrical"/>
+			<display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunMagazineExtender" display_group="groupRanged" >
+			<display_entry name="MagazineSize" title_key="statMagazineSize" display_type="Percent" tags="perkMachineGunner"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunShotgunTubeExtenderMagazine" display_group="groupRanged" >
+			<display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkBoomstick"/>
+			<display_entry name="ReloadSpeedMultiplier" display_type="Decimal1" title_key="statReloadSpeedMultiplier" />
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunBowPolymerString" display_group="groupRanged" >
+			<display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunBowArrowRest" display_group="groupRanged" >
+			<display_entry name="SpreadMultiplierAiming" display_type="Decimal1" title_key="statSpreadMultiplierAiming"/>
+			<display_entry name="SpreadMultiplierHip" display_type="Decimal1" title_key="statSpreadMultiplierHip" />
+	</item_display_info>
+	
+	<item_display_info display_type="modifierGunMeleeTheHunter" display_group="groupRanged" >
+			<display_entry name="DamageModifier" display_type="Decimal1" title_key="statDamageModifier"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierMeleeTemperedBlade" display_group="groupRanged" >
+			<display_entry name="DamageModifier" display_type="Decimal1" title_key="statDamageModifier"/>
+			<display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkBrawler,perkDeepCuts,perkElectrocutioner,perkArchery,admin"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierMeleeStructuralBrace" display_group="groupRanged" >
+			<display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkBrawler,perkDeepCuts,perkElectrocutioner,perkArchery,admin"/>
+	</item_display_info>
+	
+	<item_display_info display_type="modifierMeleeErgonomicGrip" display_group="groupRanged" >
+			<display_entry name="StaminaLoss" display_type="Decimal2" title_key="statStaminaLoss" negative_preferred="true"/>
+			<display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/>
+	</item_display_info> -->
+	
+	
+	</insertAfter>
+	
+	
+	<insertAfter xpath="/ui_display_info/item_display/item_display_info[@display_type='foodShamChowder']">
+	<item_display_info display_type="foodGumboStew" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+			<display_entry name="dIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>	
+	
+	
+	<item_display_info display_type="foodShepardsPie" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+			<display_entry name="dStrength" title_key="statShowStrength" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>	
+	
+	
+	<item_display_info display_type="foodSpaghetti" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+			<display_entry name="dAgility" title_key="statShowAgility" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>	
+	
+	
+	<item_display_info display_type="foodTunaFishGravyToast" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+			<display_entry name="dPerception" title_key="statShowPerception" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>	
+	</insertAfter>	
+	
+	<remove xpath="/ui_display_info/item_display/item_display_info[@display_type='drinkYuccaSmoothie']"/>
+	
+	<insertAfter xpath="/ui_display_info/item_display/item_display_info[@display_type='foodPumpkinCheesecake']">
+	<item_display_info display_type="drinkYuccaSmoothie" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dHyperthermalResist" title_key="statHyperthermalResist" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+	
+	</insertAfter>
+	
+</Frantic_Dan>
