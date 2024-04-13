@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml>
+	<Name value="ProjectileCollisionFix" />
+	<DisplayName value="ProjectileCollisionFix"/>
+	<Description value="A little hack to make projectiles phase through enemies less often (maybe not at all)." />
+	<Author value="redbeardt" />
+	<Version value="3.0.0.0" />
+	<Website value="" />
+</xml>
