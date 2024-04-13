@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Servers>
+
+       <ServerGroup Name="Primitive Survivor A21.2" Logo="" Description="">
+
+               <Server Name="Primitive Survivor A21.2 v1.0" Logo="">
+
+                       <Description>
+"Have you got what it takes to survive in this primitive world?
+
+Key features:
+- Quality 600 is back from A16.
+- Learn By Doing is also back from A16.
+- All Tier 1, Tier 2 and Tier 3 items have been removed, except the wrench. You'll only find and craft Tier 0 items.
+- A19 farming is back, however, Living of the Land perk has also been nerfed.
+- Reworked skill tree, similar to how it was in A17.
+- Some perks have been removed, while new ones have been added.
+- Canned food gives an empty can when eaten, which provides a one time use water boiling that doesn't need a cooking pot.
+- You're less likely to get infected, infection treatment items give an infection immunity buff, however, once you get infected, it's permanent.
+- There is no day, time, compass or map. You'll have to think of other ways to keep track of these QoL features.
+- This mod turns 7 Days to Die back into a survival game again, early game you'll struggle with food and water.
+- Trader compounds have been destroyed but still have loot, including a guaranteed water filter.
+- Vending machines are lootable and always have appropriate and decent loot.
+
+
+
+
+                       </Description>
+
+                       <DownloadMode>Clone</DownloadMode>
+
+                       <SubscriptionLink></SubscriptionLink>
+
+                       <Version>A21.2</Version>
+
+                       <ReleaseNotes/>
+
+                       <Downloads>
+
+                       <Download>https://github.com/Frantic-Dan/Primitive-Survivor</Download>
+
+                 </Downloads>
+
+               </Server>
+
+       </ServerGroup>
+
+</Servers>
