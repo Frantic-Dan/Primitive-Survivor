@@ -1,0 +1,5 @@
+<xml>
+	<append xpath="//window[@name='optionsControls']//rect[@tab_key='xuiOptionsControlsGeneric']/grid">
+		<controloption name="StandWhenRunning" type="ComboBoxBool" localization_prefix="xuiComboYesNo"/>
+	</append>
+</xml>
