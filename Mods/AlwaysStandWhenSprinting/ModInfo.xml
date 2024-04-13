@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml>
+	<Name value="Sprint When Running" />
+	<DisplayName value="Sprint When Running"/>
+	<Description value="Adds a menu option so that if you sprint while crouching, you will automatically stop crouching." />
+	<Author value="Redbeardt" />
+	<Version value="1.0.0.0" />
+	<Website value="" />
+</xml>
