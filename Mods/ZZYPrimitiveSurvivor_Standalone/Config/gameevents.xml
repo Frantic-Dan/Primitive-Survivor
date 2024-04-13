@@ -1,0 +1,14 @@
+<FranticDan>
+
+
+
+<set xpath="/gameevents/action_sequence[@name='game_first_spawn']/action[@class='AddJournalTip']/property[@name='tip_name']/@value">PrimitiveSurvivorSpawnText</set>
+<set xpath="/gameevents/action_sequence[@name='game_first_spawn']/action[@class='AddQuest']/property[@name='quest']/@value">PrimitiveSurvivorQuest</set>
+
+<append xpath="/gameevents">
+
+
+
+
+	</append>
+</FranticDan>
