@@ -16,7 +16,13 @@
 
 		<action type="TrackQuest"/>
 
-		<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_stone"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="30"/>
+			</modifier>
+		</objective>
 		<objective type="Craft">
 			<property name="phase" value="2"/>
 			<property name="item" value="meleeToolSmallStoneMelee"/>
@@ -25,7 +31,7 @@
 
 		
 
-		<reward type="SkillPoints" value="24" chainreward="true"/>
+		<reward type="SkillPoints" value="22" chainreward="true"/>
 		
 	</quest>
 	
