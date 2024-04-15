@@ -12,6 +12,7 @@
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="60, 28, 60" />
   <property name="YOffset" value="-1" />
+  <property name="ThemeTags" value="trader" />
   <property name="ThemeRepeatDistance" value="500" />
   <property name="WallVolumeSize" value="1, 2, 10#2, 1, 1" />
   <property name="WallVolumeStart" value="36, 6, 16#37, 6, 16" />
