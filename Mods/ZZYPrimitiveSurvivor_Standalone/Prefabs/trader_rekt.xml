@@ -14,6 +14,7 @@
   <property name="PrefabSize" value="60, 21, 60" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="YOffset" value="-1" />
+  <property name="ThemeTags" value="trader" />
   <property name="ThemeRepeatDistance" value="500" />
   <property name="POIMarkerSize" value="3, 13, 7" />
   <property name="POIMarkerStart" value="-3, 0, 20" />
