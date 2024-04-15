@@ -2262,10 +2262,10 @@
 	</effect_group>
 	<effect_group tiered="false">
 				<requirement name="ProgressionLevel" progression_name="lbu_Boomstick" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="28">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="18">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="42"/>
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="26"/>
 	</effect_group>
 
 	<effect_group name="perkPenetrator" tiered="false">
