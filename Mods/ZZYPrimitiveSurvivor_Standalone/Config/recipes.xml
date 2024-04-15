@@ -716,8 +716,8 @@
 </recipe>
 
 <recipe name="armorScrapBoots" count="1" tags="learnable,perkHeavyArmor">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<effect_group>
@@ -726,8 +726,8 @@
 </recipe>
 
 <recipe name="armorScrapChest" count="1" tags="learnable,perkHeavyArmor">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<effect_group>
@@ -736,8 +736,8 @@
 </recipe>
 
 <recipe name="armorScrapGloves" count="1" tags="learnable,perkHeavyArmor">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<effect_group>
@@ -746,8 +746,8 @@
 </recipe>
 
 <recipe name="armorScrapHelmet" count="1" tags="learnable,perkHeavyArmor">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<effect_group>
@@ -756,8 +756,8 @@
 </recipe>
 
 <recipe name="armorScrapLegs" count="1" tags="learnable,perkHeavyArmor">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<effect_group>
@@ -1406,7 +1406,7 @@
 
 <recipe name="modArmorDoubleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceScrapPolymers" count="20"/>
-	<ingredient name="resourceLeather" count="8"/>
+	<ingredient name="resourceLeather" count="12"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceMechanicalParts" count="4"/>
 	<ingredient name="resourceSewingKit" count="2"/>
@@ -1414,25 +1414,25 @@
 
 <recipe name="modArmorStoragePocket" count="1" >
 	<ingredient name="resourceScrapPolymers" count="10"/>
-	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceLeather" count="6"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 </recipe>
 
-<recipe name="modArmorDoubleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+<recipe name="modArmorDoubleStoragePocket" count="1" craft_time="45" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="modArmorStoragePocket" count="2"/>
 </recipe>
 
 <recipe name="modArmorTripleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceScrapPolymers" count="30"/>
-	<ingredient name="resourceLeather" count="12"/>
+	<ingredient name="resourceLeather" count="18"/>
 	<ingredient name="resourceDuctTape" count="3"/>
 	<ingredient name="resourceMechanicalParts" count="6"/>
 	<ingredient name="resourceSewingKit" count="3"/>
 </recipe>
 
-<recipe name="modArmorTripleStoragePocket" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+<recipe name="modArmorTripleStoragePocket" count="1" craft_time="45" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="modArmorStoragePocket" count="1"/>
 	<ingredient name="modArmorDoubleStoragePocket" count="1"/>
 </recipe>
@@ -1484,13 +1484,13 @@
 </recipe>
 
 <recipe name="modClothingCargoStoragePocket" count="1" tags="learnable">
-	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceLeather" count="10"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceCloth" count="200"/>
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 
-<recipe name="modClothingCargoStoragePocket" count="1" tags="learnable">
+<recipe name="modClothingCargoStoragePocket" count="1" craft_time="45" tags="learnable">
 	<ingredient name="modClothingStoragePocket" count="2"/>
 </recipe>
 
@@ -1609,7 +1609,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="resourceGunPowder" count="50" craft_time="5" craft_area="chemistryStation" tags="chemStationCrafting,perkAdvancedEngineering">
+<recipe name="resourceGunPowder" count="50" craft_area="chemistryStation" tags="chemStationCrafting,perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="10"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="10"/>
 	<effect_group>
@@ -1617,7 +1617,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="resourceGunPowder" count="50" craft_time="10" tags="perkAdvancedEngineering">
+<recipe name="resourceGunPowder" count="50" tags="perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="20"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="20"/>
 	<effect_group>
@@ -1625,7 +1625,7 @@
 	</effect_group>	
 </recipe>
 
-<recipe name="resourceGunPowderBundle" count="5" craft_time="1200" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
+<recipe name="resourceGunPowderBundle" count="5" craft_time="1500" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="800"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
 	<effect_group>
