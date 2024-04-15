@@ -1,5 +1,6 @@
 <configs>
 
+<set xpath="/progression/level[@max_level='300']/@exp_to_level">11000</set>
 <set xpath="/progression/level[@max_level='300']/@skill_points_per_level">2</set>
 <set xpath="/progression/level[@max_level='300']/@max_level">100</set>
 
@@ -679,7 +680,7 @@
 <!-- *** PERCEPTION:COMBAT_PERKS -->
 		<!-- *** DEAD_EYE -->
 	<perk name="perkDeadEye" parent="skillPerceptionCombat" name_key="perkDeadEyeName" desc_key="perkDeadEyeDesc" icon="ui_game_symbol_map_cursor">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="reqPerceptionLevel06"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="reqPerceptionLevel08"/></level_requirements>
@@ -739,7 +740,7 @@
 
 			<!-- *** BOOMSTICK -->
 	<perk name="perkBoomstick" parent="skillPerceptionCombat" name_key="perkBoomstickName" desc_key="perkBoomstickDesc" icon="ui_game_symbol_shotgun">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="reqPerceptionLevel06"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="reqPerceptionLevel08"/></level_requirements>
@@ -805,7 +806,7 @@
 
 			<!-- *** MACHINE_GUNNER -->
 	<perk name="perkMachineGunner" parent="skillPerceptionCombat" name_key="perkMachineGunnerName" desc_key="perkMachineGunnerDesc" icon="ui_game_symbol_rifle">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="reqPerceptionLevel06"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="reqPerceptionLevel08"/></level_requirements>
@@ -924,7 +925,7 @@
 
 			<!-- *** GUNSLINGER -->
 	<perk name="perkGunslinger" parent="skillPerceptionCombat" max_level="5" name_key="perkGunslingerName" desc_key="perkGunslingerDesc" icon="ui_game_symbol_gunslinger">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="reqPerceptionLevel06"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="reqPerceptionLevel08"/></level_requirements>
@@ -2302,11 +2303,11 @@
 
 <!-- *** AGILITY:STEALTH_PERKS -->
 		<!-- *** HIDDEN_STRIKE -->
-	<perk name="perkHiddenStrike" base_skill_point_cost="2" parent="skillAgilityStealth" name_key="perkHiddenStrikeName" desc_key="perkHiddenStrikeDesc" icon="ui_game_symbol_sneak_attack">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="reqAgilityLevel02"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="reqAgilityLevel08"/></level_requirements>
+	<perk name="perkHiddenStrike" base_skill_point_cost="2" max_level="4" parent="skillAgilityStealth" name_key="perkHiddenStrikeName" desc_key="perkHiddenStrikeDesc" icon="ui_game_symbol_sneak_attack">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="reqAgilityLevel08"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 		<effect_group name="regular weapons, sledgehammer"> <!-- blades, bows have item bonuses -->
@@ -2512,7 +2513,7 @@
 	</perk>
 	
 	<perk name="perkSlowAbsorption" max_level="4" base_skill_point_cost="2" parent="skillIntellectCraftsmanship" name_key="perkSlowAbsorptionName" desc_key="perkSlowAbsorptionDesc" icon="ui_game_symbol_stomach">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
@@ -2543,24 +2544,12 @@
 			<passive_effect name="CraftingTime" operation="perc_add" level="1" value="-0.15" tags="perkAdvancedEngineering,workbenchCrafting,cementMixerCrafting"/>
 			<passive_effect name="CraftingTime" operation="perc_add" level="2,3" value="-0.3" tags="perkAdvancedEngineering,workbenchCrafting,cementMixerCrafting"/>
 
-			<!-- Increase the chance to find electrical items with each perk rank -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="electricianSkill"/>
 			<!-- Increase the chance to find workstations with each perk rank -->
 			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="3,15" tags="workstationSkill"/>
-
-			<!-- Increase the chance to find electrical crafting skill magazines with each perk rank up to crafting skill 100 -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="electricianCSM">
-				<requirement name="ProgressionLevel" progression_name="craftingElectrician" operation="LT" value="100"/>
-			</passive_effect>
 
 			<!-- Increase the chance to find workstation crafting skill magazines with each perk rank up to crafting skill 75 -->
 			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="3,15" tags="workstationCSM">
 				<requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="LT" value="100"/>
-			</passive_effect>
-
-			<!-- Once electrical crafting skill reaches 100, set the probability bonus of finding electrical crafting skill magazines to 0 -->
-			<passive_effect name="LootProb" operation="base_set" level="1,5" value="1,1" tags="electricianCSM">
-				<requirement name="ProgressionLevel" progression_name="craftingElectrician" operation="Equals" value="100"/>
 			</passive_effect>
 
 			<!-- Once workstation crafting skill reaches 75, set the probability bonus of finding workstation crafting skill magazines to 0 -->
