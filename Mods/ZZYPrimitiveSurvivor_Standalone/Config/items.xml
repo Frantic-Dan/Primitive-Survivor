@@ -530,8 +530,9 @@
 	<property name="HoldType" value="32"/>
 	<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/stone_axePrefab.prefab"/>
 	<property name="Material" value="Mstone"/>
-	<property name="TintColor" value="107, 107, 71"/>
+	<property name="TintColor" value="50, 255, 50"/>
 	<property name="RepairTools" value="resourcePrimitiveRepairKit"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="TraderStageTemplate" value="baseTier0"/>
@@ -545,7 +546,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
 	<property name="SoundHolster" value="weapon_holster"/>
-	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe"/> <property name="CustomIconTint" value="ffb0b0"/>
+	<property name="CustomIcon" value="meleeToolRepairT0StoneAxe"/> <property name="CustomIconTint" value="32ff32"/>
 	
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -575,7 +576,7 @@
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe" tiered="false" >
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="105" tags="perkMiner69r,axe"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="10" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="600" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
@@ -1479,8 +1480,8 @@
 		 <!--<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkGunslinger"/> 2s -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,1,2,3,4,5,5" tier="1,100,200,300,400,500,600"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkGunslinger"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkGunslinger"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkGunslinger"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkGunslinger"/> <!-- tier bonus -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5" tags="perkGunslinger"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5" tags="perkGunslinger"/>
@@ -1570,8 +1571,8 @@
 		 <!-- <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>2.3s -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,1,2,3,4,5,5" tier="1,100,200,300,400,500,600"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkBoomstick"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkBoomstick"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkBoomstick"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkBoomstick"/> <!-- tier bonus -->
 
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
@@ -1658,8 +1659,8 @@
 		 <!-- <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>2.66s -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,1,2,3,4,5,5" tier="1,100,200,300,400,500,600"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkDeadEye"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkDeadEye"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkDeadEye"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkDeadEye"/> <!-- tier bonus -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5.7" tags="perkDeadEye"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5.7" tags="perkDeadEye"/>
@@ -1736,8 +1737,8 @@
 	<effect_group name="gunMGT0PipeMachineGun">
 		<passive_effect name="MaxRange" operation="base_set" value="90" tags="perkMachineGunner"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="34" tags="perkMachineGunner"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkMachineGunner"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkMachineGunner"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkMachineGunner"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkMachineGunner"/> <!-- tier bonus -->
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="300" tags="perkMachineGunner"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMachineGunner"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="12" tags="perkMachineGunner"/>
@@ -1830,8 +1831,8 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="20" tags="perkArchery"/>
 		<passive_effect name="MaxRange" operation="base_set" value="100" tags="perkArchery"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="1" tags="perkArchery"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkArchery"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.6" tier="1,600" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".001,.5" tier="1,600" tags="perkArchery"/> <!-- tier bonus -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8" tags="perkArchery"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8" tags="perkArchery"/>
