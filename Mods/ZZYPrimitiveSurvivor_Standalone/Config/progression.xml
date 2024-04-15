@@ -1,5 +1,6 @@
 <configs>
 
+<set xpath="/progression/level[@max_level='300']/@skill_points_per_level">2</set>
 <set xpath="/progression/level[@max_level='300']/@max_level">100</set>
 
 
@@ -20,7 +21,7 @@
 <append xpath="/progression">
 
 
-<attributes min_level="0" max_level="10" base_skill_point_cost="1">
+<attributes min_level="0" max_level="10" base_skill_point_cost="2">
 
 	<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDescPS" icon="ui_game_symbol_stealth">
 		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -653,7 +654,7 @@
 	<crafting_skill name="craftingVehicles" min_level="0" max_level="50" parent="attCrafting" name_key="craftingVehiclesName" desc_key="craftingVehiclesDesc" long_desc_key="craftingVehiclesLongDesc" icon="ui_game_symbol_4x4">
 
 		<display_entry icon="vehicleBicyclePlaceable" name_key="vehiclesT1" has_quality="false" unlock_level="15" >
-			<unlock_entry item="vehicleBicycleChassis,vehicleBicycleHandlebars,vehicleWheels" unlock_tier="1" />
+			<unlock_entry item="vehicleBicycleChassis,vehicleBicycleHandlebars" unlock_tier="1" />
 		</display_entry>
 		<display_entry icon="vehicleMinibikePlaceable" name_key="vehiclesT2" has_quality="false" unlock_level="40" >
 			<unlock_entry item="vehicleMinibikeChassis,vehicleMinibikeHandlebars,resourceOil,ammoGasCan" unlock_tier="1" />
@@ -663,7 +664,7 @@
 		</display_entry>
 
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="vehicleBicycleChassis,vehicleBicycleHandlebars,vehicleWheels"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="vehicleBicycleChassis,vehicleBicycleHandlebars"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="vehicleMinibikeChassis,vehicleMinibikeHandlebars,carBattery,resourceOil,ammoGasCan"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="ammoGasCanBundle"/>
 
@@ -673,7 +674,7 @@
 
 </crafting_skills>
 
-<perks min_level="0" max_level="5" base_skill_point_cost="2" cost_multiplier_per_level="1" max_level_ratio_to_parent="5">
+<perks min_level="0" max_level="5" base_skill_point_cost="3" cost_multiplier_per_level="1" max_level_ratio_to_parent="5">
 
 <!-- *** PERCEPTION:COMBAT_PERKS -->
 		<!-- *** DEAD_EYE -->
@@ -997,7 +998,7 @@
 
 <!-- *** PERCEPTION:GENERAL_PERKS -->
 		<!-- *** INFILTRATOR -->
-	<perk name="perkInfiltrator" base_skill_point_cost="1" max_level="3" parent="skillPerceptionGeneral" name_key="perkInfiltratorName" desc_key="perkInfiltratorDesc" icon="ui_game_symbol_stealth">
+	<perk name="perkInfiltrator" base_skill_point_cost="2" max_level="3" parent="skillPerceptionGeneral" name_key="perkInfiltratorName" desc_key="perkInfiltratorDesc" icon="ui_game_symbol_stealth">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
@@ -1014,7 +1015,7 @@
 	</perk>
 
 		<!-- *** ANIMAL_TRACKER -->
-	<perk name="perkAnimalTracker" base_skill_point_cost="1" max_level="3" parent="skillPerceptionGeneral" name_key="perkAnimalTrackerName" desc_key="perkAnimalTrackerDesc" icon="ui_game_symbol_animal_tracker">
+	<perk name="perkAnimalTracker" base_skill_point_cost="2" max_level="3" parent="skillPerceptionGeneral" name_key="perkAnimalTrackerName" desc_key="perkAnimalTrackerDesc" icon="ui_game_symbol_animal_tracker">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
@@ -1045,7 +1046,7 @@
 	</perk>
 
 		<!-- *** PENETRATOR -->
-	<perk name="perkPenetrator" base_skill_point_cost="1" max_level="4" parent="skillPerceptionGeneral" name_key="perkPenetratorName" desc_key="perkPenetratorDesc" icon="ui_game_symbol_paint_copy_block">
+	<perk name="perkPenetrator" base_skill_point_cost="2" max_level="4" parent="skillPerceptionGeneral" name_key="perkPenetratorName" desc_key="perkPenetratorDesc" icon="ui_game_symbol_paint_copy_block">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="reqPerceptionLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="reqPerceptionLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="reqPerceptionLevel06"/></level_requirements>
@@ -1103,7 +1104,7 @@
 	</perk>
 
 		<!-- *** LOCK_PICKING -->
-	<perk name="perkLockPicking" base_skill_point_cost="1" max_level="3" parent="skillPerceptionScavenging" name_key="perkLockPickingName" desc_key="perkLockPickingDesc" icon="ui_game_symbol_unlock">
+	<perk name="perkLockPicking" base_skill_point_cost="2" max_level="3" parent="skillPerceptionScavenging" name_key="perkLockPickingName" desc_key="perkLockPickingDesc" icon="ui_game_symbol_unlock">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
@@ -1819,7 +1820,7 @@
 	</perk>
 
 		<!-- *** HEAVY_ARMOR -->
-	<perk name="perkHeavyArmor" base_skill_point_cost="1" max_level="4" parent="skillStrengthGeneral" name_key="perkHeavyArmorName" desc_key="perkHeavyArmorDesc" icon="ui_game_symbol_armor_iron">
+	<perk name="perkHeavyArmor" base_skill_point_cost="2" max_level="4" parent="skillStrengthGeneral" name_key="perkHeavyArmorName" desc_key="perkHeavyArmorDesc" icon="ui_game_symbol_armor_iron">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="4" desc_key="reqStrengthLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="6" desc_key="reqStrengthLevel06"/></level_requirements>
@@ -1879,7 +1880,7 @@
 	</perk>
 
 		<!-- *** MINER69R -->
-	<perk name="perkMiner69r" base_skill_point_cost="3" parent="skillStrengthGeneral" name_key="perkMiner69rNamePS" desc_key="perkMiner69rDesc" icon="ui_game_symbol_mining">
+	<perk name="perkMiner69r" base_skill_point_cost="4" parent="skillStrengthGeneral" name_key="perkMiner69rNamePS" desc_key="perkMiner69rDesc" icon="ui_game_symbol_mining">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="4" desc_key="reqStrengthLevel04"/></level_requirements>
@@ -1941,7 +1942,7 @@
 
 	<!-- Fortitude -->	
 		<!-- *** SALVAGE_OPERATIONS -->
-	<perk name="perkSalvageOperations" base_skill_point_cost="1" parent="skillFortitudeSurvival" name_key="perkSalvageOperationsName" desc_key="perkSalvageOperationsDesc" icon="ui_game_symbol_scrap">
+	<perk name="perkSalvageOperations" base_skill_point_cost="2" parent="skillFortitudeSurvival" name_key="perkSalvageOperationsName" desc_key="perkSalvageOperationsDesc" icon="ui_game_symbol_scrap">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="2" desc_key="reqFortitudeLevel02"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="4" desc_key="reqFortitudeLevel04"/></level_requirements>
@@ -2084,7 +2085,7 @@
 	</perk>
 	
 		<!-- *** ADAMANTIUM SKELETON -->
-	<perk name="perkAdamantiumSkeleton" base_skill_point_cost="3" max_level="1" parent="skillFortitudeSurvival" name_key="perkAdamantiumSkeletonName" desc_key="perkAdamantiumSkeletonDesc" icon="ui_game_symbol_character">
+	<perk name="perkAdamantiumSkeleton" base_skill_point_cost="5" max_level="1" parent="skillFortitudeSurvival" name_key="perkAdamantiumSkeletonName" desc_key="perkAdamantiumSkeletonDesc" icon="ui_game_symbol_character">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPainTolerance" operation="GTE" value="5" desc_key="reqPainToleranceLevel05"/></level_requirements>
 
 		<effect_group>
@@ -2122,7 +2123,7 @@
 	</perk>
 
 		<!-- *** SLOW_METABOLISM -->
-	<perk name="perkSlowMetabolism" base_skill_point_cost="1" max_level="3" parent="skillFortitudeRecovery" name_key="perkSlowMetabolismName" desc_key="perkSlowMetabolismDesc" icon="ui_game_symbol_stomach">
+	<perk name="perkSlowMetabolism" base_skill_point_cost="2" max_level="3" parent="skillFortitudeRecovery" name_key="perkSlowMetabolismName" desc_key="perkSlowMetabolismDesc" icon="ui_game_symbol_stomach">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="2" desc_key="reqFortitudeLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="4" desc_key="reqFortitudeLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="6" desc_key="reqFortitudeLevel06"/></level_requirements>
@@ -2183,7 +2184,7 @@
 	</perk>
 	
 		<!-- *** FLURRY_OF_BLOWS -->
-	<perk name="perkFlurryOfBlows" max_level="3" base_skill_point_cost="1" parent="skillAgilityAthletics" name_key="perkFlurryOfBlowsName" desc_key="perkFlurryOfBlowsDescPS" icon="ui_game_symbol_knunchuck">
+	<perk name="perkFlurryOfBlows" max_level="3" base_skill_point_cost="2" parent="skillAgilityAthletics" name_key="perkFlurryOfBlowsName" desc_key="perkFlurryOfBlowsDescPS" icon="ui_game_symbol_knunchuck">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="reqAgilityLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
@@ -2199,7 +2200,7 @@
 	</perk>
 
 		<!-- *** LIGHT_ARMOR -->
-	<perk name="perkLightArmor" base_skill_point_cost="1" max_level="4" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
+	<perk name="perkLightArmor" base_skill_point_cost="2" max_level="4" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="reqAgilityLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
@@ -2262,7 +2263,7 @@
 	</perk>
 	
 		<!-- *** MARATHON_RUNNER -->
-	<perk name="perkMarathonRunner" base_skill_point_cost="1" max_level="5" parent="skillAgilityAthletics" name_key="perkMarathonRunnerName" desc_key="perkMarathonRunnerDesc" icon="ui_game_symbol_cardio">
+	<perk name="perkMarathonRunner" base_skill_point_cost="2" max_level="5" parent="skillAgilityAthletics" name_key="perkMarathonRunnerName" desc_key="perkMarathonRunnerDesc" icon="ui_game_symbol_cardio">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="reqAgilityLevel08"/></level_requirements>
@@ -2281,7 +2282,7 @@
 	</perk>	
 	
 		<!-- *** QUICK_HANDS -->
-	<perk name="perkQuickHands" base_skill_point_cost="1" parent="skillAgilityAthletics" name_key="perkQuickHandsName" desc_key="perkQuickHandsDesc" icon="ui_game_symbol_knunchuck">
+	<perk name="perkQuickHands" base_skill_point_cost="2" parent="skillAgilityAthletics" name_key="perkQuickHandsName" desc_key="perkQuickHandsDesc" icon="ui_game_symbol_knunchuck">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="reqAgilityLevel08"/></level_requirements>
@@ -2301,7 +2302,7 @@
 
 <!-- *** AGILITY:STEALTH_PERKS -->
 		<!-- *** HIDDEN_STRIKE -->
-	<perk name="perkHiddenStrike" base_skill_point_cost="1" parent="skillAgilityStealth" name_key="perkHiddenStrikeName" desc_key="perkHiddenStrikeDesc" icon="ui_game_symbol_sneak_attack">
+	<perk name="perkHiddenStrike" base_skill_point_cost="2" parent="skillAgilityStealth" name_key="perkHiddenStrikeName" desc_key="perkHiddenStrikeDesc" icon="ui_game_symbol_sneak_attack">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="reqAgilityLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
@@ -2336,7 +2337,7 @@
 	</perk>
 
 		<!-- *** FROM_THE_SHADOWS -->
-	<perk name="perkFromTheShadows" base_skill_point_cost="1" parent="skillAgilityStealth" name_key="perkFromTheShadowsName" desc_key="perkFromTheShadowsDesc" icon="ui_game_symbol_bat">
+	<perk name="perkFromTheShadows" base_skill_point_cost="2" parent="skillAgilityStealth" name_key="perkFromTheShadowsName" desc_key="perkFromTheShadowsDesc" icon="ui_game_symbol_bat">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="reqAgilityLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="reqAgilityLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="reqAgilityLevel06"/></level_requirements>
@@ -2414,7 +2415,7 @@
 	</perk>
 
 		<!-- *** THE_HUNTSMAN -->
-	<perk name="perkTheHuntsman" base_skill_point_cost="1" parent="skillIntellectCombat" name_key="perkTheHuntsmanName" desc_key="perkTheHuntsmanDesc" icon="ui_game_symbol_archery">
+	<perk name="perkTheHuntsman" base_skill_point_cost="2" parent="skillIntellectCombat" name_key="perkTheHuntsmanName" desc_key="perkTheHuntsmanDesc" icon="ui_game_symbol_archery">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="2" desc_key="reqIntellectLevel02"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
@@ -2434,7 +2435,7 @@
 	</perk>		
 
 		<!-- *** MASTER_CHEF -->
-	<perk name="perkMasterChef" base_skill_point_cost="1" max_level="3" parent="skillIntellectCraftsmanship" name_key="perkMasterChefName" desc_key="perkMasterChefDesc" icon="ui_game_symbol_spatula">
+	<perk name="perkMasterChef" base_skill_point_cost="2" max_level="3" parent="skillIntellectCraftsmanship" name_key="perkMasterChefName" desc_key="perkMasterChefDesc" icon="ui_game_symbol_spatula">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
@@ -2510,7 +2511,7 @@
 		
 	</perk>
 	
-	<perk name="perkSlowAbsorption" max_level="4" base_skill_point_cost="1" parent="skillIntellectCraftsmanship" name_key="perkSlowAbsorptionName" desc_key="perkSlowAbsorptionDesc" icon="ui_game_symbol_stomach">
+	<perk name="perkSlowAbsorption" max_level="4" base_skill_point_cost="2" parent="skillIntellectCraftsmanship" name_key="perkSlowAbsorptionName" desc_key="perkSlowAbsorptionDesc" icon="ui_game_symbol_stomach">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
@@ -2529,7 +2530,7 @@
 	</perk>
 
 		<!-- *** ADVANCED_ENGINEERING -->
-	<perk name="perkAdvancedEngineering" base_skill_point_cost="1" max_level="3" parent="skillIntellectCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
+	<perk name="perkAdvancedEngineering" base_skill_point_cost="2" max_level="3" parent="skillIntellectCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
