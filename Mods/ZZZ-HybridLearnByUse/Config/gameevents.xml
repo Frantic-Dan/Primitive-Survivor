@@ -5,8 +5,21 @@
 			<action class="AddSkillPoints">
 				<property name="skill_points" value="2"/>
 			</action>
+			<action class="PlaySound">
+				<property name="sound" value="quest_restore_power_complete" />
+			</action>
 			<action class="BeltTooltip">
-				<property name="text" value="[FF4F00]Max Skill Level - free Skill Point![-]"/>
+				<property name="text" value="[FF4F00]Maxed Action Skill Level - You Gained Two Skill Points![-]"/>
+			</action>
+		</action_sequence>
+		
+		<!--same as lbu_action_give_points above but doesnt give skill point, just message and sound.-->
+		<action_sequence name="lbu_action_max_level">
+			<action class="PlaySound">
+				<property name="sound" value="quest_restore_power_complete" />
+			</action>
+			<action class="BeltTooltip">
+				<property name="text" value="[FF4F00]Max Skill Level![-]" />
 			</action>
 		</action_sequence>
 	</append>
