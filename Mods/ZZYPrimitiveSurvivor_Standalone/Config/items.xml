@@ -345,6 +345,7 @@
 	<property name="CustomIcon" value="resourceRockSmall"/>
 	<property name="RepairTools" value="resourceRockSmall"/>
 	<property name="DescriptionKey" value="meleeToolSmallStoneDesc"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="TraderStageTemplate" value="baseTier0"/>
@@ -723,6 +724,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.5" tags="oreWoodHarvest"/>
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="base_add" value="8" tags="secondary"/>
@@ -1305,7 +1307,7 @@
 </item>
 
 <item name="meleeToolTorchWeapon">
-	<property name="Tags" value="grunting,blunt,melee,tool,weapon,meleeWeapon,perkFlurryOfStrength,attStrength,heldTorch,noMods"/>
+	<property name="Tags" value="grunting,blunt,melee,tool,weapon,meleeWeapon,perkFlurryOfStrength,canHaveCosmetic,attStrength,heldTorch,noMods"/>
 	<property name="DisplayType" value="meleeTorch"/>
 	<!-- <property name="Class" value="ItemClassTorch"/> -->
 	<property name="HoldType" value="12"/>
@@ -2262,10 +2264,10 @@
 	</effect_group>
 	<effect_group tiered="false">
 				<requirement name="ProgressionLevel" progression_name="lbu_Boomstick" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="18">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="16">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="26"/>
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Boomstick_XP" operation="add" value="24"/>
 	</effect_group>
 
 	<effect_group name="perkPenetrator" tiered="false">
