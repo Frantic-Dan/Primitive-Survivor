@@ -2,7 +2,7 @@
 
 
 	
-	<set xpath="/windows/window[@name='toolTipPopups']/@pos">0,160</set>
+	<set xpath="/windows/window[@name='toolTipPopups']/@pos">0,180</set>
 	<set xpath="/windows/window[@name='windowCompass']/@pos">-240,509</set>
 	<set xpath="/windows/window[@name='windowEntering']/rect/@pos">-150,545</set>
 	<set xpath="/windows/window[@name='windowLocation']/@pos">-259, 1060</set>
@@ -15,8 +15,14 @@
 	<!-- <set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/@width">0</set>
 	<set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/@height">0</set> -->
 	
+	<set xpath="/windows/window[@name='windowBackpack']/@width">604</set>
+    <set xpath="/windows/window[@name='windowBackpack']/@height">373</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@rows">5</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@cols">10</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_height">60</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_width">60</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">601</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">303</set>
 	
 	<append xpath="/windows">
 	
