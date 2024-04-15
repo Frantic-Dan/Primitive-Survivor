@@ -1,0 +1,24 @@
+<configs>
+
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[1]/@width">63</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[1]/@height">63</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[2]/@width">58</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[2]/@height">58</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[3]/@width">57</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[3]/@height">57</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']/texture[@depth='3']/@size">58,58</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[4]/@width">55</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[4]/@height">55</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[4]/@pos">30,-25</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[5]/@width">17</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[5]/@height">17</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[7]/@width">56</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[7]/@pos">1, -50</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']/filledsprite[@depth='4']/@width">56</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']/filledsprite[@depth='4']/@pos">1, -48</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[8]/@width">57</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[8]/@height">57</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//label[1]/@pos">-2,-36</set>
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//label[1]/@width">55</set>
+
+</configs>
