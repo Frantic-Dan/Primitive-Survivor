@@ -32,6 +32,10 @@ lbu_GunslingerDesc,progression,Perk,,,"Learn by Use: [Perception] Use a Handgun 
 lbu_SalvageName,progression,Perk,,,"Salvage Operation Skills"
 lbu_SalvageDesc,progression,Perk,,,"Learn by Use: [Fortitude] Use the Wrench to upgrade the Salvage skill points. Increases are applied cumulatively per Level."
 
+lbu_HiddenStrikeName,progression,Perk,,,"Hidden Strike Skills"
+lbu_HiddenStrikeDesc,progression,Perk,,,"Learn by Use: [Agility] While sneaking, kill or wound any enemies when they are unaware to level your Hidden Strike skills. Increases are applied cumulatively per Level. Applies to the same weapons as the Hidden Strike Perk"
+
+
 lbu_DemolitionsExpertName,progression,Perk,,,"Demolitions Expert Skills"
 lbu_DemolitionsExpertDesc,progression,Perk,,,"Learn by Use: [Intellect] Use explosives to upgrade Demolitions Expert skill points. Increases are applied cumulatively per Level.\n\nIncreases explosion radius by 0.5% at each level."
 
