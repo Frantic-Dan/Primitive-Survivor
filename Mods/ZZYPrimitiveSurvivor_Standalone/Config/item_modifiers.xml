@@ -99,6 +99,7 @@
 	<item_modifier name="modGunForegrip" installable_tags="bottomAttachments,turretRanged" modifier_tags="grips" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
 		<property name="UnlockedBy" value="modGunForegripSchematic"/>
+		<property name="ShowQuality" value="true"/>
 		<property name="TraderStageTemplate" value="modsTier1"/>
 		
 		<effect_group name="modGunForegrip">
