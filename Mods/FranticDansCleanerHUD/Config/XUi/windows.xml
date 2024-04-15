@@ -1,7 +1,5 @@
 <configs>
 
-		
-
 
 	
 	<set xpath="/windows/window[@name='toolTipPopups']/@pos">0,160</set>
@@ -16,6 +14,9 @@
 	<set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/texture[@depth='2']/@material">Materials/Transparent Colored</set>
 	<!-- <set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/@width">0</set>
 	<set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/@height">0</set> -->
+	
+	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@rows">5</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@cols">10</set>
 	
 	<append xpath="/windows">
 	
