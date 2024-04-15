@@ -909,13 +909,13 @@
 	<ingredient name="drugVitamins" count="1"/>
 </recipe>
 
-<!-- <recipe name="drinkJarGrandpasForgettingElixir" count="1" craft_time="3600" craft_area="campfire" craft_tool="toolCookingPot" >
-	<ingredient name="drinkJarGrandpasLearningElixir" count="2"/>
-	<ingredient name="drinkJarGrandpasMoonshine" count="2"/>
-	<ingredient name="drugRecog" count="2"/>
-	<ingredient name="drugSteroids" count="2"/>
-	<ingredient name="drugFortBites" count="2"/>
-</recipe> -->
+<recipe name="drinkJarGrandpasForgettingElixir" count="1" craft_time="3600" craft_area="chemistryStation" >
+	<ingredient name="drinkJarGrandpasLearningElixir" count="5"/>
+	<ingredient name="drinkJarGrandpasMoonshine" count="5"/>
+	<ingredient name="drugRecog" count="5"/>
+	<ingredient name="drugSteroids" count="5"/>
+	<ingredient name="drugFortBites" count="5"/>
+</recipe>
 
 <recipe name="farmPlotBlockVariantHelper" count="1" tags="perkLivingOffTheLandCrafting" craft_time="20">
 	<ingredient name="resourceWood" count="100"/>
