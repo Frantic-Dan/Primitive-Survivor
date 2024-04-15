@@ -358,9 +358,9 @@
 
 	</append>
 	
-	<!-- <set xpath="/item_modifiers/item_modifier[@name]/property[@name='CreativeMode']/@value">None</set>
+	<set xpath="/item_modifiers/item_modifier[@name]/property[@name='CreativeMode']/@value">None</set>
 	<insertafter xpath="/item_modifiers/item_modifier[@name]/property[1]">
 	<property name="CreativeMode" value="None"/>
-	</insertafter> -->
+	</insertafter>
 	
 </FranticDan>
