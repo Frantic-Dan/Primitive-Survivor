@@ -803,7 +803,7 @@
 	<ingredient name="resourceAcid" count="5"/>
 </recipe>
 
-<recipe name="cntSecureStorageChest" count="1">
+<recipe name="cntSecureStorageChest" count="1" craft_time="5">
 	<ingredient name="resourceWood" count="50"/>
 	<ingredient name="resourceNail" count="10"/>
 </recipe>
@@ -842,9 +842,9 @@
 	<ingredient name="resourceDuctTape" count="5"/>
 </recipe>
 
-<recipe name="drinkJarEmpty" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" is_trackable="false" tags="learnable,perkAdvancedEngineering">
-	<ingredient name="unit_glass" count="100"/>
-	<ingredient name="unit_clay" count="25"/>
+<recipe name="drinkJarEmpty" count="1" craft_time="149" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" is_trackable="false" tags="learnable,perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="120"/>
+	<ingredient name="unit_clay" count="40"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_glass"/>
 	</effect_group>
@@ -1609,7 +1609,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="resourceGunPowder" count="50" craft_area="chemistryStation" tags="chemStationCrafting,perkAdvancedEngineering">
+<recipe name="resourceGunPowder" count="50" craft_time="5" craft_area="chemistryStation" tags="chemStationCrafting,perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="10"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="10"/>
 	<effect_group>
@@ -1617,7 +1617,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="resourceGunPowder" count="50" tags="perkAdvancedEngineering">
+<recipe name="resourceGunPowder" count="50" craft_time="10" tags="perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="20"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="20"/>
 	<effect_group>
@@ -1625,7 +1625,7 @@
 	</effect_group>	
 </recipe>
 
-<recipe name="resourceGunPowderBundle" count="5" craft_time="1800" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
+<recipe name="resourceGunPowderBundle" count="5" craft_time="1200" craft_area="chemistryStation" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
 	<ingredient name="resourceCoal" count="800"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
 	<effect_group>
@@ -1771,20 +1771,20 @@
 	</effect_group>
 </recipe>
 
-<recipe name="toolForgeCrucible" count="1" craft_time="900" craft_area="workbench" tags="learnable,workbenchCrafting">
+<recipe name="toolForgeCrucible" count="1" craft_time="1800" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="200"/>
-	<ingredient name="resourceMechanicalParts" count="50"/>
-	<ingredient name="resourceRockSmall" count="2000"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceRockSmall" count="3000"/>
 	<ingredient name="resourceOil" count="50"/>
 	<ingredient name="resourceClayLump" count="1500"/>
 </recipe>
 
 <recipe name="toolBellows" count="1" tags="learnable">
-	<ingredient name="resourceWood" count="30"/>
-	<ingredient name="resourceLeather" count="20"/>
-	<ingredient name="resourceMetalPipe" count="10"/>
-	<ingredient name="resourceDuctTape" count="5"/>
-	<ingredient name="resourceNail" count="20"/>
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceLeather" count="30"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceNail" count="50"/>
 </recipe>
 
 <recipe name="toolCookingGrill" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
@@ -1827,51 +1827,51 @@
 	<ingredient name="resourceForgedIron" count="4"/>
 </recipe>
 
-<recipe name="vehicleBicycleChassis" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="20"/>
-	<ingredient name="resourceMechanicalParts" count="12"/>
-	<ingredient name="resourceDuctTape" count="12"/>
-	<ingredient name="resourceLeather" count="12"/>
-	<ingredient name="resourceSpring" count="12"/>
+<recipe name="vehicleBicycleChassis" count="1" craft_time="300" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="40"/>
+	<ingredient name="resourceMechanicalParts" count="24"/>
+	<ingredient name="resourceDuctTape" count="18"/>
+	<ingredient name="resourceLeather" count="40"/>
+	<ingredient name="resourceSpring" count="24"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceSpring"/>
 	</effect_group>
 </recipe>
 
-<recipe name="vehicleBicycleHandlebars" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+<recipe name="vehicleBicycleHandlebars" count="1" craft_time="300" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
 	<ingredient name="resourceDuctTape" count="12"/>
-	<ingredient name="resourceLeather" count="12"/>
-	<ingredient name="resourceMechanicalParts" count="8"/>
-	<ingredient name="resourceMetalPipe" count="24"/>
-	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceLeather" count="24"/>
+	<ingredient name="resourceMechanicalParts" count="16"/>
+	<ingredient name="resourceMetalPipe" count="36"/>
+	<ingredient name="resourceSpring" count="16"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceDuctTape,resourceLeather,resourceMechanicalParts,resourceSpring,resourceMetalPipe"/>
 	</effect_group>
 </recipe>
 
-<recipe name="vehicleMinibikeChassis" count="1" craft_time="180" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="24"/>
-	<ingredient name="resourceDuctTape" count="24"/>
-	<ingredient name="resourceLeather" count="24"/>
-	<ingredient name="resourceElectricParts" count="12"/>
+<recipe name="vehicleMinibikeChassis" count="1" craft_time="600" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="48"/>
+	<ingredient name="resourceDuctTape" count="36"/>
+	<ingredient name="resourceLeather" count="60"/>
+	<ingredient name="resourceElectricParts" count="30"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
 	</effect_group>
 </recipe>
 
-<recipe name="vehicleMinibikeHandlebars" count="1" craft_time="180" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
-	<ingredient name="resourceMechanicalParts" count="24"/>
-	<ingredient name="resourceSpring" count="12"/>
-	<ingredient name="resourceHeadlight" count="2"/>
-	<ingredient name="resourceElectricParts" count="20"/>
-	<ingredient name="resourceMetalPipe" count="36"/>
+<recipe name="vehicleMinibikeHandlebars" count="1" craft_time="600" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceMechanicalParts" count="36"/>
+	<ingredient name="resourceSpring" count="24"/>
+	<ingredient name="resourceHeadlight" count="3"/>
+	<ingredient name="resourceElectricParts" count="30"/>
+	<ingredient name="resourceMetalPipe" count="50"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricParts,resourceMetalPipe"/>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceMechanicalParts,resourceSpring,resourceElectricParts,resourceMetalPipe"/>
 	</effect_group>
 </recipe>
 
-<recipe name="vehicleWheels" count="1" craft_area="workbench" tags="workbenchCrafting,perkGreaseMonkey,learnable">
+<!-- <recipe name="vehicleWheels" count="1" craft_area="workbench" tags="workbenchCrafting,perkGreaseMonkey,learnable">
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="80"/>
 	<ingredient name="resourceOil" count="10"/>
@@ -1880,7 +1880,7 @@
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceScrapPolymers,resourceForgedIron,resourceCoal,resourceOil"/>
 	</effect_group>
-</recipe>
+</recipe> -->
 
 <recipe name="woodHatch" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceWood" count="15"/>
