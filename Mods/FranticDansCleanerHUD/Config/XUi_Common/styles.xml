@@ -1,0 +1,6 @@
+<configs>
+	
+	<set xpath="/styles/style[17]//style_entry[7]/@value">55</set>
+	<set xpath="/styles/style[17]//style_entry[8]/@value">55</set>
+	
+</configs>
