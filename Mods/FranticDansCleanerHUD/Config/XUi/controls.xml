@@ -1,5 +1,6 @@
 <configs>
 
+	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']/@style">backpackItemStack, hover</set>
 	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[1]/@width">63</set>
 	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[1]/@height">63</set>
 	<set xpath="/controls/backpack_item_stack[@controller='ItemStack']/rect[@controller='${controller}']//sprite[2]/@width">58</set>
