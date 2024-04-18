@@ -16,7 +16,7 @@
 	<set xpath="/windows/window[@name='mapArea']/panel[2]/panel[@name='mapView']/@height">0</set> -->
 	
 	<set xpath="/windows/window[@name='windowBackpack']/@width">604</set>
-    <set xpath="/windows/window[@name='windowBackpack']/@height">373</set>
+    <set xpath="/windows/window[@name='windowBackpack']/@height">313</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@rows">5</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[2]/grid[@depth='10']/@cols">10</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_height">60</set>
