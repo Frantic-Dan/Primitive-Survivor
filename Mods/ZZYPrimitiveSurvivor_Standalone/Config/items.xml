@@ -362,7 +362,7 @@
 	
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="axe_stone_swing"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4"/><!-- damage vs entity corpses -->
 		<property name="GrazeStart" value=".15"/>
@@ -380,7 +380,7 @@
 	</property>
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="axe_stone_swing"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4"/><!-- damage vs entity corpses -->
 		<property name="GrazeStart" value=".15"/>
@@ -451,7 +451,7 @@
 	
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="axe_stone_swing"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4"/><!-- damage vs entity corpses -->
 		<property name="GrazeStart" value=".15"/>
@@ -468,7 +468,7 @@
 	</property>
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="axe_stone_swing"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4"/><!-- damage vs entity corpses -->
 		<property name="GrazeStart" value=".15"/>
@@ -757,7 +757,7 @@
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Piercing"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="knife_bone_swinglight"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 			<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present on the block -->
@@ -779,7 +779,7 @@
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Piercing"/>
-		<property name="Sphere" value=".05"/>
+		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="knife_bone_swingheavy"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4.5"/>
@@ -1045,7 +1045,7 @@
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Range" value="2.6"/>
 		<property name="Hitmask_override" value="Melee"/>
-		<property name="Sphere" value=".05"/> <!-- limit to 0.15, else the sphere cast can overlap the target already -->
+		<property name="Sphere" value=".1"/> <!-- limit to 0.15, else the sphere cast can overlap the target already -->
 		<property name="Sound_start" value="spear_fire"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 		<property name="UseGrazingHits" value="true"/>
@@ -1080,7 +1080,7 @@
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Range" value="3.6"/>
-		<property name="Sphere" value=".1"/>   <!-- limit to 0.15, else the sphere cast can overlap the target already -->
+		<property name="Sphere" value=".15"/>   <!-- limit to 0.15, else the sphere cast can overlap the target already -->
 		<property name="Sound_start" value="spear_fire"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
