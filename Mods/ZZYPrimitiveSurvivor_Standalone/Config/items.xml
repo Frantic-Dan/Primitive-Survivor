@@ -4399,7 +4399,7 @@
 <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group[1]//display_value[2]/@name">dHyperthermalResist</set>
 
 <set xpath="/items/item[@name='foodHoney']/effect_group[@tiered='false']/display_value[@name='dCureInfection']/@value">.04</set>
-<set xpath="/items/item[@name='foodHoney']/effect_group[@tiered='false']//triggered_effect[4]/@value">3</set>
+<set xpath="/items/item[@name='foodHoney']/effect_group[@tiered='false']//triggered_effect[4]/@value">4</set>
 
 <set xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group[@tiered='false']/display_value[@name='dCureInfection']/@value">.08</set>
 <set xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group[@tiered='false']/triggered_effect[1]/@value">7</set>
