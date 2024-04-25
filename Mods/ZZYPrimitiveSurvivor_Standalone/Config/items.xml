@@ -4402,10 +4402,10 @@
 <set xpath="/items/item[@name='foodHoney']/effect_group[@tiered='false']//triggered_effect[4]/@value">4</set>
 
 <set xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group[@tiered='false']/display_value[@name='dCureInfection']/@value">.08</set>
-<set xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group[@tiered='false']/triggered_effect[1]/@value">7</set>
+<set xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group[@tiered='false']/triggered_effect[1]/@value">8</set>
 
 <set xpath="/items/item[@name='drugAntibiotics']/effect_group[@tiered='false']/display_value[@name='dCureInfection']/@value">.16</set>
-<set xpath="/items/item[@name='drugAntibiotics']/effect_group[@tiered='false']/triggered_effect[1]/@value">15</set>
+<set xpath="/items/item[@name='drugAntibiotics']/effect_group[@tiered='false']/triggered_effect[1]/@value">16</set>
 
 <insertafter xpath="//item[@name='foodHoney']/effect_group[@tiered='false']//triggered_effect[5]">
 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionProtectionDuration" operation="add" value="483"/>
