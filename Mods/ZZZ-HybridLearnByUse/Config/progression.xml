@@ -43,7 +43,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkDeadEye"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".002,0.2" level="1,100" tags="perkDeadEye"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.005,0.5" level="1,100" tags="perkDeadEye"/>
 				<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.002,-.2" level="1,100" tags="perkDeadEye"/>
@@ -103,7 +103,7 @@
 				<passive_effect name="DismemberChance" operation="base_add" level="1,100" value=".002,.2" tags="perkDemolitionsExpert"/>
 				<passive_effect name="BlockDamage" operation="perc_add" level="1,100" value="0.005,.5" tags="perkDemolitionsExpert"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="ExplosionRadius" operation="perc_add" level=".005,.5" value="1,100" tags="perkDemolitionsExpert"/>
 			</effect_group>
@@ -154,7 +154,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkJavelinMaster"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkJavelinMaster"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>	
@@ -207,7 +207,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkSalvageOperations"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="HarvestCount" operation="perc_add" value=".004,.4" level="1,100" tags="salvageHarvest"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkSalvageOperations"/>
@@ -258,7 +258,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkBoomstick"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".002,0.2" level="1,100" tags="perkBoomstick"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.005,0.5" level="1,100" tags="perkBoomstick"/>
 				<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.002,-.2" level="1,100" tags="perkBoomstick"/>
@@ -316,7 +316,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkPummelPete"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkPummelPete"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>
@@ -369,7 +369,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkSkullCrusher"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkSkullCrusher"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>
@@ -422,7 +422,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkMiner69r,perkMotherLode"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="HarvestCount" operation="perc_add" value="0.004,.4" level="1,100" tags="oreWoodHarvest"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkMiner69r,perkMotherLode"/>
@@ -482,7 +482,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkBrawler"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkBrawler"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>
@@ -535,7 +535,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkMachineGunner"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".002,0.2" level="1,100" tags="perkMachineGunner"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.005,0.5" level="1,100" tags="perkMachineGunner"/>
 				<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.002,-.2" level="1,100" tags="perkMachineGunner"/>
@@ -594,7 +594,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkArchery"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".002,0.2" level="1,100" tags="perkArchery"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.005,0.5" level="1,100" tags="perkArchery"/>
 				<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,100" value=".005,.5" tags="bowDrawPenalty"/>
@@ -653,7 +653,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkGunslinger"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".002,0.2" level="1,100" tags="perkGunslinger"/>
 				<passive_effect name="RoundsPerMinute" operation="perc_add" value="0.002,0.2" level="1,100" tags="perkGunslinger"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.005,0.5" level="1,100" tags="perkGunslinger"/>
@@ -713,7 +713,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkDeepCuts"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkDeepCuts"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>
@@ -796,7 +796,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkElectrocutioner"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".002,.2" level="1,100" tags="perkElectrocutioner"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.001,-.1" level="1,100" tags="secondary"/>
