@@ -1,0 +1,32 @@
+<xml>
+	<append xpath="//environment">
+
+		<!-- ##################### -->
+		<!-- PathSmoothing Options -->
+		<!-- ##################### -->
+	
+		<!-- Use command "ps reload" in-game to reload worldglobal.xml and cause
+			these values to be reloaded and take immediate effect in-game. -->
+	
+		<!-- This determines at what proportion of an attacker's melee range they
+			should stop trying to move toward their target. The primary purpose of this
+			is to stop attackers from trying to move directly onto the target's
+			position regardless of their target's presence. When they do this, they
+			typically "push" their target and also appear to be constantly running
+			into the target despite being in range.
+	
+			By using a proportion of their melee range as a distance at which the
+			attacker should stop moving, the attacker will simply stop when in range,
+			which looks much better and prevents pushing. -->
+		<property name="PathSmoothing_StopRange" value=".8"/> <!-- Default: .8 -->
+	
+		<!-- This determines how much of a target's movement (per tick) is added
+			to the destination of an entity's path. For example, if the target is
+			moving directly away from the attacking entity, the attacking entity will
+			actually be trying to move slightly in front of their target (although
+			still respecting the Stop Range), making it more likely for them to be in
+			range for a melee attack. -->
+		<property name="PathSmoothing_MotionOffset" value=".04"/> <!-- Default: .05 -->
+
+	</append>
+</xml>
