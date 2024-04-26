@@ -128,6 +128,13 @@
 <set xpath="/blocks/block[@name='treeStumpPOI']//drop[2]/@prob">.8</set>
 <set xpath="/blocks/block[@name='treeStump']//drop[2]/@prob">.8</set>
 
+<insertafter xpath="/blocks/block[@name='treeStumpPOI']//drop[1]">
+	<drop event="Destroy" name="resourceResin" count="1" />
+</insertafter>
+<insertafter xpath="/blocks/block[@name='treeStump']//drop[1]">
+	<drop event="Destroy" name="resourceResin" count="1" />
+</insertafter>
+
 <!-- Lower lockpick break chance slightly -->
 <set xpath="/blocks/block[@name]/property[@name='LockPickBreakChance']/@value">0.7</set>
 
