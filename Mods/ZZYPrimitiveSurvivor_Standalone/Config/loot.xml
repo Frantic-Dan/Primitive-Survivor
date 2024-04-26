@@ -208,6 +208,11 @@
 	<set xpath="//lootgroup//item[@name='gunBowT1IronCrossbow']/@name">gunBowT0PrimitiveBow</set>
 	<set xpath="//lootgroup//item[@name='gunBowT3CompoundCrossbow']/@name">gunBowT0PrimitiveBow</set>
 	
+	<set xpath="//lootgroup[@name='groupCraftingUncommon']/item[@name='resourceGunPowder']/@count">20,100</set>
+	<set xpath="//lootgroup[@name='groupResourceGunPowderSmall']/item[@name='resourceGunPowder']/@count">110,200</set>
+	<set xpath="//lootgroup[@name='groupResourceGunPowderMedium']/item[@name='resourceGunPowder']/@count">210,300</set>
+	<set xpath="//lootgroup[@name='groupResourceGunPowderLarge']/item[@name='resourceGunPowder']/@count">310,400</set>
+	<set xpath="//lootgroup[@name='groupChemistryStationLoot01']/item[@name='resourceGunPowder']/@count">250,500</set>
 	<set xpath="//lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']/@count">3,4</set>
 	<set xpath="//lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']/@count">5,10</set>
 	<set xpath="//lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']/@count">13,18</set>
@@ -264,8 +269,14 @@
 	<set xpath="//lootgroup//item[@name='resourceCement']/@name">resourceCobblestones</set>
 	<set xpath="//lootgroup//item[@name='resourceConcreteMix']/@name">resourceCobblestones</set>
 	
-	<set xpath="//lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@count">3</set>
+	<set xpath="//lootgroup[@name='groupBirdNest01']/@count">all</set>
+	<set xpath="//lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@count">5</set>
 	<set xpath="//lootgroup[@name='groupBirdNest02']//item[2]/@count">2,6</set>
+	
+	<insertafter xpath="//lootgroup[@name='groupBirdNest01']//item[@name='resourceFeather']">
+		<item name="resourceCloth" loot_prob_template="medLow" force_prob="true" />
+		<item name="resourceYuccaFibers" count="3,8" />
+	</insertafter>
 	
 	<set xpath="//lootcontainer[@name='airDrop']/@count">0</set>
 	
