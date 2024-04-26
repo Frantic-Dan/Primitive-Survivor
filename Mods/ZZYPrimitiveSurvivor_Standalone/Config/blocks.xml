@@ -96,7 +96,10 @@
 	<drop event="Destroy" name="resourceNail" count="2" />
 </insertbefore>
 
-
+<set xpath="/blocks/block[@name='cntBirdnest']//drop[1]/@count">0</set>
+<set xpath="/blocks/block[@name='cntBirdnest']//drop[2]/@count">0</set>
+<set xpath="/blocks/block[@name='cntBirdnest']//drop[3]/@count">0</set>
+<set xpath="/blocks/block[@name='cntBirdnest']//drop[4]/@count">0</set>
 
 <insertafter xpath="/blocks/block[@name='palletBrownBoxesBase']//property[1]">
 	<property name="Class" value="Loot"/>
@@ -121,9 +124,9 @@
 <set xpath="/blocks/block[@name='cntCoffinWildWestRandomHelper']//drop[3]/@prob">0.06</set>
 
 
-<!-- 75% honey from stumps -->
-<set xpath="/blocks/block[@name='treeStumpPOI']//drop[2]/@prob">.75</set>
-<set xpath="/blocks/block[@name='treeStump']//drop[2]/@prob">.75</set>
+<!-- 80% honey from stumps -->
+<set xpath="/blocks/block[@name='treeStumpPOI']//drop[2]/@prob">.8</set>
+<set xpath="/blocks/block[@name='treeStump']//drop[2]/@prob">.8</set>
 
 <!-- Lower lockpick break chance slightly -->
 <set xpath="/blocks/block[@name]/property[@name='LockPickBreakChance']/@value">0.7</set>
