@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml>
+	<Name value="PathSmoothing" />
+	<DisplayName value="Path Smoothing"/>
+	<Description value="It makes pathing smooooooooooooooooooooth." />
+	<Author value="redbeardt" />
+	<Version value="1.8.11.0" />
+	<Website value="https://www.nexusmods.com/users/102102433" />
+</xml>
