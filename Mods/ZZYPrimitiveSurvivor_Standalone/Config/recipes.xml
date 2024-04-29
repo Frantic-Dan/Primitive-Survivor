@@ -1568,7 +1568,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="resourceForgedSteel" count="1" material_based="false" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+<recipe name="resourceForgedSteel" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
 	<ingredient name="unit_iron" count="40"/>
 	<ingredient name="unit_brass" count="10"/>
 	<ingredient name="unit_clay" count="20"/>
