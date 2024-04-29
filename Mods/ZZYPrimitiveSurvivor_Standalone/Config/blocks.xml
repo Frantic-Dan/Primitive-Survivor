@@ -96,6 +96,14 @@
 	<drop event="Destroy" name="resourceNail" count="2" />
 </insertbefore>
 
+<insertafter xpath="/blocks/block[@name='palletEmpty']//property[6]">
+	<drop event="Destroy" name="resourceNail" count="2" />
+</insertafter>
+
+<insertafter xpath="/blocks/block[@name='palletEmptyStack']//property[6]">
+	<drop event="Destroy" name="resourceNail" count="4" />
+</insertafter>
+
 <set xpath="/blocks/block[@name='cntBirdnest']//drop[1]/@count">0</set>
 <set xpath="/blocks/block[@name='cntBirdnest']//drop[2]/@count">0</set>
 <set xpath="/blocks/block[@name='cntBirdnest']//drop[3]/@count">0</set>
@@ -151,7 +159,20 @@
 <set xpath="/blocks/block[@name='plantedCornDeadMedium']/drop[@event='Destroy']/@count">5,10</set>
 <set xpath="/blocks/block[@name='plantedCornDead']/drop[@event='Destroy']/@count">7,14</set>
 
-
+<set xpath="/blocks/block[@name='palletBagCowFeedBaseFull']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedBaseFull']//drop[1]/@count">3</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedTile']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedTile']//drop[1]/@count">3</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedBaseMed']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedBaseMed']//drop[1]/@count">2</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedCapMed']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedCapMed']//drop[1]/@count">2</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedCapSml']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedCapSml']//drop[1]/@count">1</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedSingleBent']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedSingleBent']//drop[1]/@count">1</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedSingleFlat']//drop[1]/@name">foodCornMeal</set>
+<set xpath="/blocks/block[@name='palletBagCowFeedSingleFlat']//drop[1]/@count">1</set>
 
 <insertafter xpath="/blocks/block[@name='treePlainsTree2']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
@@ -358,6 +379,8 @@
 	<drop event="Harvest" name="resourceWood" count="0" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceNail" count="0" tag="oreWoodHarvest"/>
 </insertafter>
+
+
 
 <!-- <remove xpath="/blocks/block[@name='cntVendingMachine2']//property[@name='Class']"/>
 <remove xpath="/blocks/block[@name='cntVendingMachine2']//property[@name='TraderID']"/>
