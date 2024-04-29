@@ -441,7 +441,7 @@
 			<unlock_entry item="mineHubcap" unlock_tier="2" />
 		</display_entry>
 		<display_entry icon="thrownDynamite,mineAirFilter,resourceGunPowder" name_key="explosivesT2-1,explosivesT3-1,explosivesT3-2" has_quality="false" unlock_level="35,42,50" >
-			<unlock_entry item="thrownDynamite," unlock_tier="1" />
+			<unlock_entry item="thrownDynamite" unlock_tier="1" />
 			<unlock_entry item="mineAirFilter" unlock_tier="2" />
 			<unlock_entry item="resourceGunPowderBundle" unlock_tier="3" />			
 		</display_entry>
@@ -646,7 +646,7 @@
 	<crafting_skill name="craftingWorkstations" min_level="0" max_level="100" parent="attCrafting" name_key="craftingWorkstationsName" desc_key="craftingWorkstationsDesc" long_desc_key="craftingWorkstationsLongDesc" icon="ui_game_symbol_workbench">
 
 		<display_entry icon="cntDewCollector,forge" name_key="workstationsT1-1,workstationsT1-2" has_quality="false" unlock_level="5,10" >
-			<unlock_entry item="cntDewCollector,cntDewCollectorCan" unlock_tier="1" />
+			<unlock_entry item="cntDewCollector" unlock_tier="1" />
 			<unlock_entry item="forge" unlock_tier="2" />
 		</display_entry>
 		<display_entry icon="workbench,resourceLockPick,toolBellows,toolAnvil" name_key="workstationsT2-2,workstationsT2-1,workstationsT3-3,workstationsT3-4" has_quality="false" unlock_level="15,20,30,40" >
