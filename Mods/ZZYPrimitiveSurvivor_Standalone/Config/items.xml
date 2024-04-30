@@ -2099,6 +2099,7 @@
 	<property name="CustomIcon" value="ammo556mmBulletBall"/>
 	<property name="Stacknumber" value="300"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="0"/>
+	<property name="DescriptionKey" value="ammo556mmBulletBallDesc"/>
 	<property name="TraderStageTemplate" value="ammoTier1"/>
 	
 	<effect_group name="ammo556mmBulletBall" tiered="false">
@@ -2117,7 +2118,7 @@
 	<property name="DisplayType" value="ammoBulletAP"/>
 	<property name="EconomicValue" value="0"/>
 	<property name="TraderStageTemplate" value="ammoTier2"/>
-	<property name="DescriptionKey" value="ammoHiPowerGroupDesc"/>
+	<property name="DescriptionKey" value="ammo556mmBulletHPBallDesc"/>
 	<property name="UnlockedBy" value="perkSniperHPAmmo"/> <!-- BOOK_PERK -->
 	
 	<effect_group name="ammo556mmBulletHP" tiered="false">
@@ -2137,7 +2138,7 @@
 	<property name="DisplayType" value="ammoBulletAP"/>
 	<property name="EconomicValue" value="0"/>
 	<property name="TraderStageTemplate" value="ammoTier3"/>
-	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="DescriptionKey" value="ammo556mmBulletAPBallDesc"/>
 	<property name="UnlockedBy" value="perkSniperAPAmmo"/> <!-- BOOK_PERK -->
 	
 	<effect_group name="ammo556mmBulletAP" tiered="false">
