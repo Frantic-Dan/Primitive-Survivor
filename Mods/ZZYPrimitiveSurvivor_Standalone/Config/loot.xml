@@ -292,6 +292,11 @@
 		<item name="plantedGraceCorn1" count="1" loot_prob_template="low" />
 	</insertafter>
 
+	<set xpath="//lootgroup[@name='groupShamwayProduce01']//item[1]/@loot_prob_template">med</set>
+	<set xpath="//lootgroup[@name='groupPigTrough01']//item[1]/@loot_prob_template">med</set>
+	<set xpath="//lootgroup[@name='groupJunk01']//item[5]/@loot_prob_template">veryLow</set>
+	<set xpath="//lootgroup[@name='groupJunkNoBMats01']//item[4]/@loot_prob_template">veryLow</set>
+	<set xpath="//lootgroup[@name='groupFarmTruck01']//item[4]/@loot_prob_template">med</set>
 	
 	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='resourceWaterFilter']" />
 	<insertbefore xpath="//lootgroup[@name='groupDewCollector']//item[1]">
