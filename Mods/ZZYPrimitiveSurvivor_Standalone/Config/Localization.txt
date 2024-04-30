@@ -210,8 +210,11 @@ drinkCanRiverWaterDesc,"A can filled with non-potable water. Drink at your own r
 drinkCanBoiledWater,Boiled Canned Water
 drinkCanBoiledWaterDesc,"Even though this water is boiled, it isn't 100% safe, but won't make you sick."
 ammo556mmBulletBall,5.56mm Ammo
+ammo556mmBulletBallDesc,Used for the Pipe Machine Gun
 ammo556mmBulletHP,HiPower 5.56mm Ammo
+ammo556mmBulletHPBallDesc,Used for the Pipe Machine Gun
 ammo556mmBulletAP,AP 5.56mm Ammo
+ammo556mmBulletAPBallDesc,Used for the Pipe Machine Gun
 ammoBundle556mmBulletBall,Box of 5.56mm Ammo (100)
 ammoBundle556mmBulletHP,Box of HiPower 5.56mm Ammo (100)
 ammoBundle556mmBulletAP,Box of AP 5.56mm Ammo (100)
