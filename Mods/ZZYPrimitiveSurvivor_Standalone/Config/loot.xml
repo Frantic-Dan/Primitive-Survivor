@@ -51,6 +51,9 @@
 	<remove xpath="//lootgroup[@name='groupWeaponsRangedScaledTPlus']//item[@group='groupWeapons_RangedParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsRangedScaledNoStone']//item[@group='groupWeapons_RangedParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeapons_RangedParts']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT1_Ranged']//item[7]"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT2_Ranged']//item[7]"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT3_Ranged']//item[7]"/>
 	
 	<remove xpath="//lootgroup[@name='groupWeaponsLowHighMed']//item[@group='weaponParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsLowMedHigh']//item[@group='weaponParts']"/>
