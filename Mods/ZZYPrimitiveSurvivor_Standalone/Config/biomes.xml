@@ -1,0 +1,10 @@
+﻿<worldgeneration>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']//weather[1]/@prob">88</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']//weather[3]/@prob">2</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']//weather[1]/@prob">96</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']//weather[2]/@prob">2</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']//weather[3]/@prob">2</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']//weather[1]/@prob">90</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']//weather[2]/@prob">5</set>
+
+</worldgeneration>
