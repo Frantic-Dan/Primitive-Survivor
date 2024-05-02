@@ -1856,7 +1856,7 @@
 	<ingredient name="resourceLeather" count="60"/>
 	<ingredient name="resourceElectricParts" count="30"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1" value=".5,.5" tags="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
 	</effect_group>
 </recipe>
 
