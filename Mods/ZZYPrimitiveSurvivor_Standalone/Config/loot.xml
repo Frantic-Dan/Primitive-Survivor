@@ -294,6 +294,12 @@
 	<insertafter xpath="//lootgroup[@name='seeds']//item[11]">
 		<item name="plantedGraceCorn1" count="1" loot_prob_template="low" />
 	</insertafter>
+	
+	<remove xpath="//lootgroup[@name='groupCookingTools']//item[1]"/>
+	
+	<insertafter xpath="//lootgroup[@name='groupCookingTools']//item[1]">
+		<item name="toolCookingPot" count="1" loot_prob_template="veryLow" />
+	</insertafter>
 
 	<set xpath="//lootgroup[@name='groupShamwayProduce01']//item[1]/@loot_prob_template">med</set>
 	<set xpath="//lootgroup[@name='groupPigTrough01']//item[1]/@loot_prob_template">med</set>
