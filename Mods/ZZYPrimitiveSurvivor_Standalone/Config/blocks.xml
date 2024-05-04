@@ -173,6 +173,13 @@
 <set xpath="/blocks/block[@name='palletBagCowFeedSingleBent']//drop[1]/@count">1</set>
 <set xpath="/blocks/block[@name='palletBagCowFeedSingleFlat']//drop[1]/@name">foodCornMeal</set>
 <set xpath="/blocks/block[@name='palletBagCowFeedSingleFlat']//drop[1]/@count">1</set>
+<set xpath="/blocks/block[@name='palletBagBlankBaseFullBlack']//drop[1]/@count">50,80</set>
+<set xpath="/blocks/block[@name='palletBagBlankTileBlack']//drop[1]/@count">50,80</set>
+<set xpath="/blocks/block[@name='palletBagBlankBaseMedBlack']//drop[1]/@count">35,60</set>
+<set xpath="/blocks/block[@name='palletBagBlankCapMedBlack']//drop[1]/@count">35,60</set>
+<set xpath="/blocks/block[@name='palletBagBlankCapSmlBlack']//drop[1]/@count">25,40</set>
+<set xpath="/blocks/block[@name='palletBagBlankSingleBentBlack']//drop[1]/@count">12,20</set>
+<set xpath="/blocks/block[@name='palletBagBlankSingleFlatBlack']//drop[1]/@count">12,20</set>
 
 <insertafter xpath="/blocks/block[@name='treePlainsTree2']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
