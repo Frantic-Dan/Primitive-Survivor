@@ -32,7 +32,25 @@
 		
 
 		<reward type="SkillPoints" value="22" chainreward="true"/>
+		<reward type="Quest" id="PrimitiveSurvivorArmourQuest"/>
+	</quest>
+	
+	<quest id="PrimitiveSurvivorArmourQuest">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival3"/>
+		<property name="subtitle_key" value="quest_BasicSurvival3_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival3_description"/>
+		<property name="icon" value="ui_game_symbol_tailoring"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		<property name="quest_hints" value="quest_BasicSurvival3_hint1,quest_BasicSurvival3_hint2" />
 		
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="20" phase="1"/>
+		<objective type="FetchKeep" id="resourceResin" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceCloth" value="7" phase="1"/>
+		<objective type="Craft" id="apparelPlantFiberPants" value="1" phase="2"/>
+		<reward type="Exp" value="50"/>
 	</quest>
 	
 
