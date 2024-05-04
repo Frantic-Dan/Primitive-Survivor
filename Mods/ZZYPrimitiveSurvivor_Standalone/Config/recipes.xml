@@ -1795,8 +1795,8 @@
 	</effect_group>
 </recipe>
 
-<recipe name="toolCookingPot" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" is_trackable="false" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="250"/>
+<recipe name="toolCookingPot" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="200"/>
 	<ingredient name="unit_clay" count="50"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2" value=".25,.25,.25" tags="unit_clay,unit_iron"/>
