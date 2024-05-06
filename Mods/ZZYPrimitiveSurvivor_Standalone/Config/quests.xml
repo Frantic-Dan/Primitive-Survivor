@@ -38,7 +38,7 @@
 	<quest id="PrimitiveSurvivorArmourQuest">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
 		<property name="name_key" value="quest_BasicSurvival3"/>
-		<property name="subtitle_key" value="quest_BasicSurvival3_subtitle"/>
+		<property name="subtitle_key" value="Craft Primitive Armour"/>
 		<property name="description_key" value="quest_BasicSurvival3_description"/>
 		<property name="icon" value="ui_game_symbol_tailoring"/>
 		<property name="category_key" value="quest"/>
