@@ -55,6 +55,10 @@
 	<remove xpath="//lootgroup[@name='groupWeaponsT2_Ranged']//item[7]"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsT3_Ranged']//item[7]"/>
 	
+	<remove xpath="//lootgroup//item[@group='groupWeaponsT2_Demolitionist']"/>
+	<remove xpath="//lootgroup//item[@group='groupWeaponsT3_Demolitionist']"/>
+	<remove xpath="//lootgroup//item[@group='groupHardenedChestT5_08']"/>
+	
 	<remove xpath="//lootgroup[@name='groupWeaponsLowHighMed']//item[@group='weaponParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsLowMedHigh']//item[@group='weaponParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsMedMedLow']//item[@group='weaponParts']"/>
