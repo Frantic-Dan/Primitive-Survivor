@@ -278,6 +278,7 @@
 <remove xpath="/recipes/recipe[@name='resourceGunPowder']"/>
 <remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
 <remove xpath="/recipes/recipe[@name='resourceMilitaryFiber']"/>
+<remove xpath="/recipes/recipe[@name='resourceMetalPipe']"/>
 <remove xpath="/recipes/recipe[@name='resourceOil']"/>
 <remove xpath="/recipes/recipe[@name='resourcePaint']"/>
 <remove xpath="/recipes/recipe[@name='resourcePaper']"/>
