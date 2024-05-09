@@ -5,8 +5,10 @@
 <set xpath="/materials/material[@id='Mwood_shapes']//property[8]/@value">1000</set>
 
 <set xpath="/materials/material[@id='Mcobblestone_shapes']//property[8]/@value">2500</set>
+<set xpath="/materials/material[@id='Mcobblestone_shapes']//property[9]/@value">2.5</set>
 
 <set xpath="/materials/material[@id='Mbrick_shapes']//property[8]/@value">5000</set>
+<set xpath="/materials/material[@id='Mbrick_shapes']//property[9]/@value">4</set>
 <insertbefore xpath="/materials/material[@id='Mbrick_shapes']/property[@name='MaxDamage']">
 	<property name="explosionresistance" value="1.25"/>
 </insertbefore>
