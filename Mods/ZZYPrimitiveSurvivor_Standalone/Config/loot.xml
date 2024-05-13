@@ -57,7 +57,9 @@
 	
 	<remove xpath="//lootgroup//item[@group='groupWeaponsT2_Demolitionist']"/>
 	<remove xpath="//lootgroup//item[@group='groupWeaponsT3_Demolitionist']"/>
+	<remove xpath="//lootgroup//item[@name='thrownTimedCharge']"/>
 	<remove xpath="//lootgroup//item[@group='groupHardenedChestT5_08']"/>
+	
 	
 	<remove xpath="//lootgroup[@name='groupWeaponsLowHighMed']//item[@group='weaponParts']"/>
 	<remove xpath="//lootgroup[@name='groupWeaponsLowMedHigh']//item[@group='weaponParts']"/>
@@ -221,21 +223,56 @@
 	<set xpath="//lootgroup[@name='groupResourceGunPowderLarge']/item[@name='resourceGunPowder']/@count">310,400</set>
 	<set xpath="//lootgroup[@name='groupChemistryStationLoot01']/item[@name='resourceGunPowder']/@count">250,500</set>
 	<set xpath="//lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']/@count">3,4</set>
-	<set xpath="//lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']/@count">5,10</set>
-	<set xpath="//lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']/@count">13,18</set>
-	<set xpath="//lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']/@count">3,4</set>
-	<set xpath="//lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']/@count">5,8</set>
-	<set xpath="//lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']/@count">10,15</set>
+	<set xpath="//lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']/@count">5,6</set>
+	<set xpath="//lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']/@count">7,8</set>
+	<set xpath="//lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']/@count">2,3</set>
+	<set xpath="//lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']/@count">3,4</set>
+	<set xpath="//lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']/@count">4,5</set>
 	<set xpath="//lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']/@count">2,3</set>
 	<set xpath="//lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']/@count">3,4</set>
 	<set xpath="//lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']/@count">4,5</set>
+	<set xpath="//lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']/@count">3,4</set>
+	<set xpath="//lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']/@count">5,6</set>
+	<set xpath="//lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']/@count">7,8</set>
+	<set xpath="//lootgroup[@name='groupArrowIronSmall']/item[@name='ammoArrowIron']/@count">3,4</set>
+	<set xpath="//lootgroup[@name='groupArrowIronMedium']/item[@name='ammoArrowIron']/@count">5,6</set>
+	<set xpath="//lootgroup[@name='groupArrowIronLarge']/item[@name='ammoArrowIron']/@count">7,8</set>
 	
+	<set xpath="//lootgroup[@name='groupResourceBulletCasingSmall']/item[@name='resourceBulletCasing']/@count">5,10</set>
+	<set xpath="//lootgroup[@name='groupResourceBulletCasingMedium']/item[@name='resourceBulletCasing']/@count">10,15</set>
+	<set xpath="//lootgroup[@name='groupResourceBulletCasingLarge']/item[@name='resourceBulletCasing']/@count">15,20</set>
+	<set xpath="//lootgroup[@name='groupResourceBulletTipSmall']/item[@name='resourceBulletTip']/@count">5,10</set>
+	<set xpath="//lootgroup[@name='groupResourceBulletTipMedium']/item[@name='resourceBulletTip']/@count">10,15</set>
+	<set xpath="//lootgroup[@name='groupResourceBulletTipLarge']/item[@name='resourceBulletTip']/@count">15,20</set>
+	<set xpath="//lootgroup[@name='groupResourcePaperSmall']/item[@name='resourcePaper']/@count">5,10</set>
+	<set xpath="//lootgroup[@name='groupResourcePaperMedium']/item[@name='resourcePaper']/@count">10,15</set>
+	<set xpath="//lootgroup[@name='groupResourcePaperLarge']/item[@name='resourcePaper']/@count">15,20</set>
+	<set xpath="//lootgroup[@name='groupResourceBuckshotSmall']/item[@name='resourceBuckshot']/@count">5,10</set>
+	<set xpath="//lootgroup[@name='groupResourceBuckshotMedium']/item[@name='resourceBuckshot']/@count">10,15</set>
+	<set xpath="//lootgroup[@name='groupResourceBuckshotLarge']/item[@name='resourceBuckshot']/@count">15,20</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadIronSmall']/item[@name='resourceArrowHeadIron']/@count">3,5</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadIronMedium']/item[@name='resourceArrowHeadIron']/@count">6,8</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadIronLarge']/item[@name='resourceArrowHeadIron']/@count">9,11</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadSteelAPSmall']/item[@name='resourceArrowHeadSteelAP']/@count">3,5</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadSteelAPMedium']/item[@name='resourceArrowHeadSteelAP']/@count">6,8</set>
+	<set xpath="//lootgroup[@name='groupResourceArrowHeadSteelAPLarge']/item[@name='resourceArrowHeadSteelAP']/@count">9,11</set>
 	
-	<set xpath="//lootgroup[@name='groupCrossbowBoltIronSmall']/item[@name='ammoCrossbowBoltIron']/@count">6,9</set>
-	<set xpath="//lootgroup[@name='groupCrossbowBoltIronMedium']/item[@name='ammoCrossbowBoltIron']/@count">10,14</set>
-	<set xpath="//lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']/@count">3,5</set>
-	<set xpath="//lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']/@count">6,10</set>
-	<set xpath="//lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']/@count">11,16</set>
+	<set xpath="//lootgroup[@name='groupValuablesMed']/item[@name='oldCash']/@count">50,100</set>
+	<set xpath="//lootgroup[@name='groupValuablesLarge']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupValuablesExtraLarge']/item[@name='oldCash']/@count">100,200</set>
+	<set xpath="//lootgroup[@name='groupRottenChest02']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupZpackReg03']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupZpackStrong03']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupZpackBoss03']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupSmallSafeLoot03']/item[@name='oldCash']/@count">35,75</set>
+	<set xpath="//lootgroup[@name='groupHardenedChestT4_09']/item[@name='oldCash']/@count">75,150</set>
+	<set xpath="//lootgroup[@name='groupHardenedChestT5_07']/item[@name='oldCash']/@count">100,200</set>
+	<set xpath="//lootcontainer[@name='cashRegister']/item[@name='oldCash']/@count">5,15</set>
+	<set xpath="//lootcontainer[@name='atmLoot']/item[@name='oldCash']/@count">150,300</set>
+	
+	<set xpath="//lootgroup[@name='groupCrossbowBoltIronSmall']/item[@name='ammoCrossbowBoltIron']/@count">3,4</set>
+	<set xpath="//lootgroup[@name='groupCrossbowBoltIronMedium']/item[@name='ammoCrossbowBoltIron']/@count">5,6</set>
+	<set xpath="//lootgroup[@name='groupCrossbowBoltIronLarge']/item[@name='ammoCrossbowBoltIron']/@count">7,8</set>
 	<set xpath="//lootgroup//item[@name='ammo44MagnumBulletBall']/@name">ammo556mmBulletBall</set>
 	<set xpath="//lootgroup//item[@name='ammoCrossbowBoltIron']/@name">ammo556mmBulletBall</set>
 	<set xpath="//lootgroup//item[@name='ammoCrossbowBoltSteelAP']/@name">ammo556mmBulletAP</set>
