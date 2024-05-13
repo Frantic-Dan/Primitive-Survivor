@@ -2441,6 +2441,14 @@
 			<effect_description level="4" desc_key="perkDemolitionsExpertRank4Desc" long_desc_key="perkDemolitionsExpertRank4LongDescPS"/>
 			<effect_description level="5" desc_key="perkDemolitionsExpertRank5Desc" long_desc_key="perkDemolitionsExpertRank5LongDescPS"/>
 		</effect_group>
+		<effect_group>
+				<requirement name="ItemHasTags" tags="perkDemolitionsExpert"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="1,5" value=".04,.2" tags="perkDemolitionsExpert"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="1,5" value=".06,0.3"  tags="entity"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="1,5" value=".09,0.45" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="1,5" value=".06,0.3" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
+				<passive_effect name="ExplosionRadius" operation="perc_add" level="1,5" value=".1,.5" tags="perkDemolitionsExpert"/>
+			</effect_group>
 	</perk>
 
 		<!-- *** THE_HUNTSMAN -->
