@@ -2830,6 +2830,7 @@
 	<property name="CustomIcon" value="armorClothHat"/>
 	<property name="DisplayType" value="armorLight"/>
 	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="160"/>
 	<property name="RepairTools" value="resourcePrimitiveRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="HoldType" value="45"/>
@@ -4305,6 +4306,19 @@
 	<passive_effect name="ElementalDamageResist" operation="base_add" value="1.2,2"  tags="heat,electrical"/>
 </insertafter>
 
+<set xpath="/items/item[@name='resourceDuctTape']//property[@name='Weight']/@value">0</set>
+<set xpath="/items/item[@name='apparelBallCap']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelSkullCap']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelBandana']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelDenimPants']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelLongShirt']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelSweatshirt']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelTShirtPlain']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelTankTop']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelHoodySweatshirt']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelCoatPufferCoat']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelCoatJacketGeneric']//property[@name='Weight']/@value">160</set>
+<set xpath="/items/item[@name='apparelSuitPants']//property[@name='Weight']/@value">160</set>
 
 <set xpath="/items/item[@name='resourceRepairKit']//property[8]/@value">5</set>
 <set xpath="/items/item[@name='resourceRockSmall']//property[@name='RepairAmount']/@value">60</set>
