@@ -57,10 +57,10 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkDeadEye"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_DeadEye" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_DeadEye_XP" operation="add" value="15">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_DeadEye_XP" operation="add" value="16">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_DeadEye_XP" operation="add" value="30"/>
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_DeadEye_XP" operation="add" value="32"/>
 			</effect_group>
 			<!--Increase ProgressLevel if xp greater than value for next level-->
 			<effect_group>
@@ -98,15 +98,15 @@
 					<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" buff="buffVerifyLBU_ProgressLevels"/>	
 			</effect_group>
 			<!--apply current effect as per level-->
-			<effect_group>
+			<!-- <effect_group>
 				<requirement name="ItemHasTags" tags="perkDemolitionsExpert"/>
 				<passive_effect name="DismemberChance" operation="base_add" level="1,100" value=".002,.2" tags="perkDemolitionsExpert"/>
 				<passive_effect name="BlockDamage" operation="perc_add" level="1,100" value="0.005,.5" tags="perkDemolitionsExpert"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="entity"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".0045,0.45" level="1,100" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".003,0.3" level="1,100" tags="Glass,Stone,Cloth,Concrete,Boulder,Metal,Wood,Earth,Snow,Plants,Leaves"/>
-				<passive_effect name="ExplosionRadius" operation="perc_add" level=".005,.5" value="1,100" tags="perkDemolitionsExpert"/>
-			</effect_group>
+				<passive_effect name="ExplosionRadius" operation="perc_add" level="1,100" value=".005,.5" tags="perkDemolitionsExpert"/>
+			</effect_group> -->
 			<!--apply any level xp gain for damage or kill triggers-->
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkDemolitionsExpert"/>
@@ -131,9 +131,9 @@
 				<triggered_effect trigger="onSelfExplosionDamagedOther" action="ModifyCVar" cvar="lbu_Demolition_Lvl" operation="add" value="1"/> 
 				<triggered_effect trigger="onSelfExplosionDamagedOther" action="ShowToolbeltMessage" message="[4FC3F7]Demolitions Expert Skill Increased![-]"/>
 				<!--if max level then give free Skill Point-->
-				<triggered_effect trigger="onSelfExplosionDamagedOther" action="CallGameEvent" event="lbu_action_give_points">
+				<!-- <triggered_effect trigger="onSelfExplosionDamagedOther" action="CallGameEvent" event="lbu_action_give_points">
 					<requirement name="ProgressionLevel" progression_name="lbu_DemolitionsExpert" operation="EQ" value="100"/>
-				</triggered_effect>
+				</triggered_effect> -->
 			</effect_group>
 		</perk>
 		<!-- begin Spear Master Learn By Use (lbu)-->
@@ -163,7 +163,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkJavelinMaster"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_SpearMaster" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_SpearMaster_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_SpearMaster_XP" operation="add" value="8">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_SpearMaster_XP" operation="add" value="18"/>
@@ -325,7 +325,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkPummelPete"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_PummelPete" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_PummelPete_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_PummelPete_XP" operation="add" value="8">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_PummelPete_XP" operation="add" value="18"/>
@@ -378,10 +378,10 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkSkullCrusher"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_SkullCrusher" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_SkullCrusher_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_SkullCrusher_XP" operation="add" value="9">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_SkullCrusher_XP" operation="add" value="18"/>
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_SkullCrusher_XP" operation="add" value="20"/>
 			</effect_group>
 			<!--Increase ProgressLevel if xp greater than value for next level-->
 			<effect_group>
@@ -491,7 +491,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkBrawler"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_Brawler" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Brawler_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Brawler_XP" operation="add" value="7">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Brawler_XP" operation="add" value="18"/>
@@ -722,7 +722,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkDeepCuts"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_DeepCuts" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_DeepCuts_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_DeepCuts_XP" operation="add" value="8">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_DeepCuts_XP" operation="add" value="18"/>
@@ -805,7 +805,7 @@
 			<effect_group>
 				<requirement name="ItemHasTags" tags="perkElectrocutioner"/>
 				<requirement name="ProgressionLevel" progression_name="lbu_Electrocutioner" operation="LT" value="100"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Electrocutioner_XP" operation="add" value="6">
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="lbu_Electrocutioner_XP" operation="add" value="8">
 					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="lbu_Electrocutioner_XP" operation="add" value="18"/>
