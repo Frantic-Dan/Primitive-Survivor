@@ -136,7 +136,7 @@
 		<property name="TraderStageTemplate" value="modsTier1"/>
 		
 		<effect_group name="modGunMagazineExtender">
-			<passive_effect name="MagazineSize" operation="perc_add" value=".25,.78" tier="1,600"/>
+			<passive_effect name="MagazineSize" operation="perc_add" value=".25,1.02" tier="1,600"/>
 		</effect_group>
 	</item_modifier>
 	
