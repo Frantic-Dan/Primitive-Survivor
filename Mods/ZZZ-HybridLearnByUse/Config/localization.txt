@@ -37,7 +37,7 @@ lbu_HiddenStrikeDesc,progression,Perk,,,"Learn by Use: [Agility] While sneaking,
 
 
 lbu_DemolitionsExpertName,progression,Perk,,,"Demolitions Expert Skills"
-lbu_DemolitionsExpertDesc,progression,Perk,,,"Learn by Use: [Intellect] Use explosives to upgrade Demolitions Expert skill points. Increases are applied cumulatively per Level.\n\nIncreases explosion radius by 0.5% at each level."
+lbu_DemolitionsExpertDesc,progression,Perk,,,"This skill is bugged and all effects have been moved into the main perk."
 
 
 
