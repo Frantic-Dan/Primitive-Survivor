@@ -114,6 +114,8 @@
 	<property name="LootList" value="junkBox"/>
 </insertafter>
 
+<set xpath="/blocks/block[@name='awningShapes']//drop[1]/@count">1</set>
+
 <!-- remove military fiber -->
 <remove xpath="/blocks/block[@name='cntTrashPile01']//drop[3]"/>
 <remove xpath="/blocks/block[@name='garbage_decor1']//drop[2]"/>
