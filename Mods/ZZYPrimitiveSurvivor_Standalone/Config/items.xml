@@ -815,7 +815,9 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".6" tags="organic"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="tree"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="perkDeepCuts"/>
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="base_add" value="5" tags="secondary"/>
