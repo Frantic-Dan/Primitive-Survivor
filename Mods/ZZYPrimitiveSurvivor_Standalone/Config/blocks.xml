@@ -183,14 +183,18 @@
 <set xpath="/blocks/block[@name='palletBagBlankSingleBentBlack']//drop[1]/@count">12,20</set>
 <set xpath="/blocks/block[@name='palletBagBlankSingleFlatBlack']//drop[1]/@count">12,20</set>
 
+<set xpath="/blocks//block[@name='treeMaster']//property[24]/@value">wood,tree</set>
+
 <insertafter xpath="/blocks/block[@name='treePlainsTree2']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPineDry21m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
@@ -198,168 +202,196 @@
 
 <insertafter xpath="/blocks/block[@name='treeOakSml01']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeOakMed01']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeOakMed02']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeOakLrg01']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedOak08m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedOak16m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedOak27m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedOak41m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeJuniper4m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine12m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine19m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine27m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine31m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine41m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeMountainPine48m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeFirLrg01']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedMountainPine12m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedMountainPine19m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedMountainPine27m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedMountainPine41m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeWinterEverGreen']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeWinterPine13m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeWinterPine19m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treeWinterPine28m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedWinterPine6m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="2" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="2" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="3" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedWinterPine13m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="4" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="2" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="7" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedWinterPine19m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="7" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="3" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="11" tag="oreWoodHarvest"/>
 </insertafter>
 
 <insertafter xpath="/blocks/block[@name='treePlantedWinterPine28m']//drop[1]">
 	<drop event="Harvest" name="resourceResin" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceResin" count="10" tag="perkDeepCuts"/>
 	<drop event="Harvest" name="resourceResin" count="4" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" name="resourceYuccaFibers" count="15" tag="oreWoodHarvest"/>
 </insertafter>
